@@ -14,3 +14,8 @@
 section[class*="chatContent-"] form [class*="container-"] {
   display: none;
 }
+// Various nitro cleanups
+[class*="userPopoutInner-"] > [class*="wrapper-"],
+[class^="premiumTier0Badge-"] {
+  display: none;
+}
