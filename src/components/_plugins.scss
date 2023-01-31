@@ -1,3 +1,5 @@
-#vc-spotify-album-image:hover {
-  filter: none;
+#vc-spotify-album-image {
+  &:hover {
+    filter: none;
+  }
 }
