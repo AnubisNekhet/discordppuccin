@@ -9,3 +9,8 @@
   line-height: 1;
   text-transform: lowercase;
 }
+// Remove sticker suggestion popup (why discord why)
+[class*="container-"][class*="stickerIconOffset-"],
+section[class*="chatContent-"] form [class*="container-"] {
+  display: none;
+}
