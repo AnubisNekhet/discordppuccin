@@ -6,6 +6,7 @@ const sourceFiles = [
   "src/catppuccin-latte.theme.scss",
   "src/catppuccin-macchiato.theme.scss",
   "src/catppuccin-mocha.theme.scss",
+  "src/catppuccin-cappuccino.theme.scss",
 ];
 
 const accents = [
