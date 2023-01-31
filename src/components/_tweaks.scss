@@ -19,3 +19,32 @@ section[class*="chatContent-"] form [class*="container-"] {
 [class^="premiumTier0Badge-"] {
   display: none;
 }
+//vencord update hide
+.notice-2HEN-u.colorDefault-1e8tQv {
+    transform: translateX(-50%) translateY(-60px);
+    transition-delay: 150ms;
+    transition-duration: 300ms;
+    position: absolute;
+    left: 50%;
+    top: 15px;
+    border-radius: 7px;
+    padding: 0 30px 0 10px;
+    &:hover {
+      transform: translateX(-50%);
+      transition-delay: 150ms;
+      transition-duration: 300ms;
+      transition: 300ms;
+    }
+    &::after {
+      display: block;
+      position: absolute;
+      content: ' ';
+      width: calc(100% + 60px);
+      height: 40px;
+      transform: translateX(-40px);
+    }
+    & > .closeButton-30b1gR {
+      right: 7px;
+      width: min-content;
+    }
+}
