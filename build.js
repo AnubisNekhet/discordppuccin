@@ -10,6 +10,11 @@ const sourceFiles = [
   "src/catppuccin-rosepine-lt.theme.scss",
   "src/catppuccin-rosepine-dt.theme.scss",
   "src/catppuccin-rosebox.theme.scss",
+  "src/catppuccin-coffee.theme.scss",
+  "src/catppuccin-kanagawa.theme.scss",
+  "src/catppuccin-nord-2-dt.theme.scss",
+  "src/catppuccin-nord-dt.theme.scss",
+  "src/catppuccin-solarized-dt.theme.scss",
 ];
 
 const accents = [
