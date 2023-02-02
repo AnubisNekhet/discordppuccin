@@ -19,7 +19,8 @@ section[class*="chatContent-"] form [class*="container-"] {
 }
 // Various nitro cleanups
 [class*="userPopoutInner-"] > [class*="wrapper-"],
-[class^="premiumTier0Badge-"] {
+[class^="premiumTier0Badge-"],
+[aria-label="Send a gift"] { //Gift nitro button
   display: none;
 }
 //vencord update hide
@@ -50,4 +51,23 @@ section[class*="chatContent-"] form [class*="container-"] {
       right: 7px;
       width: min-content;
     }
+}
+
+//remove vencord anime (haram)
+.vc-settings-card::after {
+    content: ' ';
+    width: 250px;
+    background: url('https://media.tenor.com/bU7TCU-uk_cAAAAC/i-swear-to-bro-bro.gif');
+    height: auto;
+    display: flex;
+    aspect-ratio: 392/498;
+    margin-right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+img[role="presentation"] {
+  display: none;
+}
+.vc-settings-card.vc-settings-donate {
+  display: none;
 }
