@@ -41,12 +41,29 @@ $roleColors: (
   "rgb(201, 203, 255)" (
     color: $lavender,
   ),
+  "rgb(135, 162, 233)" ( //ash ketchum
+    color: $blue,
+  ),
+  "rgb(249, 226, 175)" ( //bot
+    color: $yellow,
+  ),
+  "rgb(220, 138, 120)" ( //clown of the day
+    color: $maroon,
+  ),
+  "rgb(148, 226, 213)" ( //core
+    color: $teal,
+  ),
+  "rgb(198, 160, 246)" ( //staff
+    color: $mauve,
+  ),
 );
 
 @each $colorVal, $colorDec in $roleColors {
+  //role colors in chat and sidebar
   [class*="username-"][style*="#{$colorVal}"] {
     color: #{map-get($colorDec, color)} !important;
   }
+  //role color circles
   [class*='roleCircle-'][style*="#{$colorVal}"] {
     background-color: #{map-get($colorDec, color)} !important;
   }
