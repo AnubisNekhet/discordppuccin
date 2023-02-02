@@ -1,86 +1,86 @@
 $roleColors: (
-  "rosewater": (
-	  selector: "rgb(245, 224, 220)",
+  "rgb(245, 224, 220)" (
+    color: $rosewater,
   ),
-  "flamingo": (
-	  selector: "rgb(242, 205, 205)",
+  "rgb(242, 205, 205)" (
+    color: $flamingo,
   ),
-  "pink": (
-	  selector: "rgb(245, 194, 231)",
+  "rgb(245, 194, 231)" (
+    color: $pink,
   ),
-  "mauve": (
-	  selector: "rgb(203, 166, 247)",
+  "rgb(203, 166, 247)" (
+    color: $mauve,
   ),
-  "red": (
-	  selector: "rgb(243, 139, 168)",
+  "rgb(243, 139, 168)" (
+    color: $red,
   ),
-  "maroon": (
-	  selector: "rgb(235, 160, 172)",
+  "rgb(235, 160, 172)" (
+    color: $maroon,
   ),
-  "peach": (
-	  selector: "rgb(250, 179, 135)",
+  "rgb(250, 179, 135)" (
+    color: $peach,
   ),
-  "yellow": (
-	  selector: "rgb(249, 226, 175)",
+  "rgb(249, 226, 175)" (
+    color: $yellow,
   ),
-  "green": (
-	  selector: "rgb(166, 227, 161)",
+  "rgb(166, 227, 161)" (
+    color: $green,
   ),
-  "teal": (
-	  selector: "rgb(148, 226, 213)",
+  "rgb(148, 226, 213)" (
+    color: $teal,
   ),
-  "sky": (
-	  selector: "rgb(137, 220, 235)",
+  "rgb(137, 220, 235)" (
+    color: $sky,
   ),
-  "sapphire": (
-	  selector: "rgb(116, 199, 236)",
+  "rgb(116, 199, 236)" (
+    color: $sapphire,
   ),
-  "blue": (
-	  selector: "rgb(137, 180, 250)",
+  "rgb(137, 180, 250)" (
+    color: $blue,
   ),
-  "lavender": (
-	  selector: "rgb(180, 190, 254)",
+  "rgb(180, 190, 254)" (
+    color: $lavender,
   ),
-  "text": (
-	  selector: "rgb(205, 214, 244)",
+  "rgb(205, 214, 244)" (
+    color: $text,
   ),
-  "subtext1": (
-	  selector: "rgb(186, 194, 222)",
+  "rgb(186, 194, 222)" (
+    color: $subtext1,
   ),
-  "subtext0": (
-	  selector: "rgb(166, 173, 200)",
+  "rgb(166, 173, 200)" (
+    color: $subtext0,
   ),
-  "overlay2": (
-	  selector: "rgb(147, 153, 178)",
+  "rgb(147, 153, 178)" (
+    color: $overlay2,
   ),
-  "overlay1": (
-	  selector: "rgb(127, 132, 156)",
+  "rgb(127, 132, 156)" (
+    color: $overlay1,
   ),
-  "overlay0": (
-	  selector: "rgb(108, 112, 134)",
+  "rgb(108, 112, 134)" (
+    color: $overlay0,
   ),
-  "surface2": (
-	  selector: "rgb(88, 91, 112)",
+  "rgb(88, 91, 112)" (
+    color: $surface2,
   ),
-  "surface1": (
-	  selector: "rgb(69, 71, 90)",
+  "rgb(69, 71, 90)" (
+    color: $surface1,
   ),
-  "surface0": (
-	  selector: "rgb(49, 50, 68)",
+  "rgb(49, 50, 68)" (
+    color: $surface0,
   ),
-  "base": (
-	  selector: "rgb(30, 30, 46)",
+  "rgb(30, 30, 46)" (
+    color: $base,
   ),
-  "mantle": (
-	  selector: "rgb(24, 24, 37)",
+  "rgb(24, 24, 37)" (
+    color: $mantle,
   ),
-  "crust": (
-	  selector: "rgb(17, 17, 27)",
+  "rgb(17, 17, 27)" (
+    color: $crust,
   ),
 );
 
-@each $colorName, $selector in $roleColors {
-  [class*="username-"][style*="color: #{$selector}"] {
-    color: $colorName;
+@each $colorVal, $colorDec in $roleColors {
+  [class*="username-"][style*="#{$colorVal}"] {
+    color: #{map-get($colorDec, color)};
   }
 }
