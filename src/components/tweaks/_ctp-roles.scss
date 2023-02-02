@@ -1,0 +1,86 @@
+$roleColors: (
+  "rosewater": (
+	  selector: "rgb(245, 224, 220)",
+  ),
+  "flamingo": (
+	  selector: "rgb(242, 205, 205)",
+  ),
+  "pink": (
+	  selector: "rgb(245, 194, 231)",
+  ),
+  "mauve": (
+	  selector: "rgb(203, 166, 247)",
+  ),
+  "red": (
+	  selector: "rgb(243, 139, 168)",
+  ),
+  "maroon": (
+	  selector: "rgb(235, 160, 172)",
+  ),
+  "peach": (
+	  selector: "rgb(250, 179, 135)",
+  ),
+  "yellow": (
+	  selector: "rgb(249, 226, 175)",
+  ),
+  "green": (
+	  selector: "rgb(166, 227, 161)",
+  ),
+  "teal": (
+	  selector: "rgb(148, 226, 213)",
+  ),
+  "sky": (
+	  selector: "rgb(137, 220, 235)",
+  ),
+  "sapphire": (
+	  selector: "rgb(116, 199, 236)",
+  ),
+  "blue": (
+	  selector: "rgb(137, 180, 250)",
+  ),
+  "lavender": (
+	  selector: "rgb(180, 190, 254)",
+  ),
+  "text": (
+	  selector: "rgb(205, 214, 244)",
+  ),
+  "subtext1": (
+	  selector: "rgb(186, 194, 222)",
+  ),
+  "subtext0": (
+	  selector: "rgb(166, 173, 200)",
+  ),
+  "overlay2": (
+	  selector: "rgb(147, 153, 178)",
+  ),
+  "overlay1": (
+	  selector: "rgb(127, 132, 156)",
+  ),
+  "overlay0": (
+	  selector: "rgb(108, 112, 134)",
+  ),
+  "surface2": (
+	  selector: "rgb(88, 91, 112)",
+  ),
+  "surface1": (
+	  selector: "rgb(69, 71, 90)",
+  ),
+  "surface0": (
+	  selector: "rgb(49, 50, 68)",
+  ),
+  "base": (
+	  selector: "rgb(30, 30, 46)",
+  ),
+  "mantle": (
+	  selector: "rgb(24, 24, 37)",
+  ),
+  "crust": (
+	  selector: "rgb(17, 17, 27)",
+  ),
+);
+
+@each $colorName, $selector in $roleColors {
+  [class*="username-"][style*="color: #{$selector}"] {
+    color: $colorName;
+  }
+}
