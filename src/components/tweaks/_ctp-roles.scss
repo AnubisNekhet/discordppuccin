@@ -45,9 +45,9 @@ $roleColors: (
 
 @each $colorVal, $colorDec in $roleColors {
   [class*="username-"][style*="#{$colorVal}"] {
-    color: #{map-get($colorDec, color)};
+    color: #{map-get($colorDec, color)} !important;
   }
   [class*='roleCircle-'][style*="#{$colorVal}"] {
-    background-color: #{map-get($colorDec, color)};
+    background-color: #{map-get($colorDec, color)} !important;
   }
 }
