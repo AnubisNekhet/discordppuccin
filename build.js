@@ -15,6 +15,14 @@ const sourceFiles = [
   "src/catppuccin-nord-2-dt.theme.scss",
   "src/catppuccin-nord-dt.theme.scss",
   "src/catppuccin-solarized-dt.theme.scss",
+  "src/catppuccin-atom-lt.theme.scss",
+  "src/catppuccin-atom-dt.theme.scss",
+  "src/catppuccin-dracula.theme.scss",
+  "src/catppuccin-everforest-lt.theme.scss",
+  "src/catppuccin-everforest-dt.theme.scss",
+  "src/catppuccin-sandy-beaches.theme.scss",
+  "src/catppuccin-gruvbox-lt.theme.scss",
+  "src/catppuccin-gruvbox-dt.theme.scss",
 ];
 
 const accents = [
