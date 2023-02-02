@@ -59,14 +59,12 @@ $roleColors: (
 );
 
 @each $colorVal, $colorDec in $roleColors {
-  [data-list-id="members-919570286754529330"] {
-    //role colors in chat and sidebar
-    [class*="username-"][style*="#{$colorVal}"] {
-      color: #{map-get($colorDec, color)} !important;
-    }
-    //role color circles
-    [class*='roleCircle-'][style*="#{$colorVal}"] {
-      background-color: #{map-get($colorDec, color)} !important;
-    }
+  //role colors in chat and sidebar
+  [class*="username-"][style*="#{$colorVal}"] {
+    color: #{map-get($colorDec, color)} !important;
+  }
+  //role color circles
+  [class*='roleCircle-'][style*="#{$colorVal}"] {
+    background-color: #{map-get($colorDec, color)} !important;
   }
 }
