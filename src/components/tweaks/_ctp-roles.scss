@@ -1,5 +1,5 @@
 $roleColors: (
-  "rgb(245, 224, 220)" (
+  "rgb(244, 219, 214)" (
     color: $rosewater,
   ),
   "rgb(242, 205, 205)" (
@@ -8,79 +8,46 @@ $roleColors: (
   "rgb(245, 194, 231)" (
     color: $pink,
   ),
-  "rgb(203, 166, 247)" (
+  "rgb(221, 182, 242)" (
     color: $mauve,
   ),
-  "rgb(243, 139, 168)" (
+  "rgb(242, 143, 173)" (
     color: $red,
   ),
-  "rgb(235, 160, 172)" (
+  "rgb(228, 156, 179)" (
     color: $maroon,
   ),
-  "rgb(250, 179, 135)" (
+  "rgb(248, 189, 150)" (
     color: $peach,
   ),
-  "rgb(249, 226, 175)" (
+  "rgb(250, 227, 176)" (
     color: $yellow,
   ),
-  "rgb(166, 227, 161)" (
+  "rgb(171, 233, 179)" (
     color: $green,
   ),
-  "rgb(148, 226, 213)" (
+  "rgb(181, 232, 224)" (
     color: $teal,
   ),
   "rgb(137, 220, 235)" (
     color: $sky,
   ),
-  "rgb(116, 199, 236)" (
+  "rgb(125, 196, 228)" (
     color: $sapphire,
   ),
-  "rgb(137, 180, 250)" (
+  "rgb(150, 205, 251)" (
     color: $blue,
   ),
-  "rgb(180, 190, 254)" (
+  "rgb(201, 203, 255)" (
     color: $lavender,
-  ),
-  "rgb(205, 214, 244)" (
-    color: $text,
-  ),
-  "rgb(186, 194, 222)" (
-    color: $subtext1,
-  ),
-  "rgb(166, 173, 200)" (
-    color: $subtext0,
-  ),
-  "rgb(147, 153, 178)" (
-    color: $overlay2,
-  ),
-  "rgb(127, 132, 156)" (
-    color: $overlay1,
-  ),
-  "rgb(108, 112, 134)" (
-    color: $overlay0,
-  ),
-  "rgb(88, 91, 112)" (
-    color: $surface2,
-  ),
-  "rgb(69, 71, 90)" (
-    color: $surface1,
-  ),
-  "rgb(49, 50, 68)" (
-    color: $surface0,
-  ),
-  "rgb(30, 30, 46)" (
-    color: $base,
-  ),
-  "rgb(24, 24, 37)" (
-    color: $mantle,
-  ),
-  "rgb(17, 17, 27)" (
-    color: $crust,
   ),
 );
 
 @each $colorVal, $colorDec in $roleColors {
   [class*="username-"][style*="#{$colorVal}"] {
     color: #{map-get($colorDec, color)};
+  }
+  [class*='roleCircle-'][style*="#{$colorVal}"] {
+    background-color: #{map-get($colorDec, color)};
   }
 }
