@@ -1,7 +1,22 @@
 .theme-#{$theme} {
 #vc-spotify-album-image {
+  border-radius: 50%;
   &:hover {
     filter: none;
+    border-radius: 3px;
+    -webkit-animation: album-rotate;
+    transition: -webkit-animation 300s 150ms, border-radius 300ms 150ms;
+  }
+  -webkit-animation: album-rotate;
+  transition: -webkit-animation 300s 150ms, border-radius 300ms 150ms;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes album-rotate {
+  from {
+    -webkit-transform: rotate(0)
+  }
+  to {
+    -webkit-transform: rotate(360deg)
   }
 }
 }
