@@ -4,19 +4,26 @@
   &:hover {
     filter: none;
     border-radius: 3px;
-    -webkit-animation: album-rotate;
+    -webkit-animation: none;
     transition: -webkit-animation 300s 150ms, border-radius 300ms 150ms;
   }
-  -webkit-animation: album-rotate;
+  -webkit-animation: rotating 2s linear infinite;
   transition: -webkit-animation 300s 150ms, border-radius 300ms 150ms;
-  -webkit-animation-iteration-count: infinite;
 }
-@-webkit-keyframes album-rotate {
+}
+@keyframes rotating {
   from {
-    -webkit-transform: rotate(0)
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(360deg)
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
-}
 }
