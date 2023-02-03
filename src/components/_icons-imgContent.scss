@@ -1,3 +1,4 @@
+.theme-#{$theme} {
 $imgContent: (
   "lockIcon": (
     icon:
@@ -9,4 +10,5 @@ $imgContent: (
   [class*="#{$class}-"] {
     content: url("#{map-get($icon, icon)}") !important;
   }
+}
 }

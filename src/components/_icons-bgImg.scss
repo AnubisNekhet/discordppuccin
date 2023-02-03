@@ -1,3 +1,4 @@
+.theme-#{$theme} {
 $bgImg: (
   "staffBadge": (
     icon:
@@ -25,4 +26,5 @@ $bgImg: (
   [class*="#{$class}-"] {
     background-image: url("#{map-get($icon, icon)}") !important;
   }
+}
 }

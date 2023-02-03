@@ -1,3 +1,4 @@
+.theme-#{$theme} {
 // settings
 div[class^="sidebarRegion-"] {
   div[class^="serverBoostTabItem-"] {
@@ -637,4 +638,5 @@ div[class^="tierPreviews-"] {
   button[class^="button-"] {
     background: linear-gradient(90deg, $teal, $blue);
   }
+}
 }

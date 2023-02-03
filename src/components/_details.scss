@@ -1,3 +1,4 @@
+.theme-#{$theme} {
 // online
 rect[fill="#3ba55c"],
 foreignObject[mask="url(#svg-mask-status-online)"] > div,
@@ -133,8 +134,7 @@ svg[class^="uploadIcon"] {
 }
 
 // empty states. why is it colored like this
-.theme-dark,
-.theme-light {
+& {
   h2[class^="emptyStateHeader-"] {
     color: $text;
   }
@@ -206,4 +206,5 @@ div[class*="newBadge-"] {
 span[class*="channelMention"]:hover,
 [class*="mention"]:not([class*="mentionButton-"], [class*="mentionIcon-"]):hover {
   color: $crust;
+}
 }

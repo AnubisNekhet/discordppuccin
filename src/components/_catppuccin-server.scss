@@ -1,3 +1,4 @@
+.theme-#{$theme} {
 $channelicons: (
   // role assignments
   "1016344897969733652":
@@ -274,4 +275,5 @@ $roleColors: (
   [class*='roleCircle-'][style*="#{$colorVal}"] {
     background-color: #{map-get($colorDec, color)} !important;
   }
+}
 }

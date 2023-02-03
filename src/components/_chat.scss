@@ -1,3 +1,4 @@
+.theme-#{$theme} {
 [class^="chatContent"] {
   div[class*="wrapperAudio-"],
   div[class*="imageWrapper-"] {
@@ -97,8 +98,7 @@ main[class^="chatContent"] div[id^="message-content-"] svg[class^="icon-"] {
 }
 
 // spoiler messages
-.theme-dark,
-.theme-light {
+& {
   span[class^="spoilerText"],
   div[class^="spoilerText"] {
     background-color: $surface0;
@@ -460,4 +460,4 @@ div[class*="chat-"] {
   [class*='partyStatus-'] {
     color: $text;
   }
-}
+}}

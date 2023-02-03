@@ -1,3 +1,4 @@
+.theme-#{$theme} {
 .hljs-bullet,
 .hljs-link,
 .hljs-meta,
@@ -47,4 +48,5 @@
 .hljs-selector-id,
 .hljs-title {
   color: #{$blue};
+}
 }
