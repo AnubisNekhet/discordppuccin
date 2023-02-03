@@ -4,7 +4,7 @@
   &:hover {
     filter: none;
     border-radius: 3px;
-    -webkit-animation: none;
+    -webkit-animation: rotating 2s linear 2;
     transition: -webkit-animation 300s 150ms, border-radius 300ms 150ms;
   }
   -webkit-animation: rotating 2s linear infinite;
