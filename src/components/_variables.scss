@@ -1,6 +1,5 @@
-.theme-#{$theme} {
-[data-popout-root],
-& {
+
+.theme-#{$theme}, .theme-#{$theme}[data-popout-root] {
   // weighted brand colors
   --brand-experiment: #{$brand};
   --brand-experiment-100: #{lighten($brand, math.div(90%, 2))};
@@ -50,7 +49,7 @@
   --brand-experiment-95a: #{adjust-color($brand, $alpha: -0.05)};
 }
 
-& {
+.theme-#{$theme} {
   --header-primary: #{$text};
   --header-secondary: #{$subtext0};
 
