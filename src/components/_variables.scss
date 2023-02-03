@@ -56,8 +56,8 @@
 
   --text-normal: #{$text};
   --text-muted: #{$subtext0};
-  --text-link: #{$blue};
-  --text-link-low-saturation: #{$sapphire};
+  --text-link: #{$brand};
+  --text-link-low-saturation: #{adjust-color($brand, $saturation: -20%)};
   --text-positive: #{$green};
   --text-warning: #{$yellow};
   --text-danger: #{$red};
