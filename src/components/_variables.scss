@@ -50,6 +50,7 @@
 }
 
 .theme-#{$theme} {
+  & {
   --header-primary: #{$text};
   --header-secondary: #{$subtext0};
 
