@@ -87,8 +87,6 @@ ul[aria-label$=" threads"] > li:nth-child(n) {
 }
 }
 //hide scrollbars
-[class*="scroller-"]:not(.scroller-kQBbkU) *::-webkit-scrollbar,
-[class*="scroller-"]:not(.scroller-kQBbkU)::-webkit-scrollbar,
-[class*="contentRegionScroller-"]::-webkit-scrollbar {
+*::-webkit-scrollbar {
   display: none;
 }
