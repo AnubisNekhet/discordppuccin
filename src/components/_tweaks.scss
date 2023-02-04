@@ -21,6 +21,7 @@ section[class*="chatContent-"] form [class*="container-"] {
 // Various nitro cleanups
 [class*="userPopoutInner-"] > [class*="wrapper-"],
 [class^="premiumTier0Badge-"],
+[class*="premiumFeatureBorder-"],
 [aria-label="Send a gift"] { //Gift nitro button
   display: none;
 }
@@ -84,4 +85,9 @@ ul[aria-label$=" threads"] > li:nth-child(n) {
     --interactive-hover: inherit;
     --interactive-active: inherit;
 }
+}
+//hide scrollbars
+[class*="scroller-"] *::-webkit-scrollbar,
+[class*="scroller-"]::-webkit-scrollbar {
+  display: none;
 }
