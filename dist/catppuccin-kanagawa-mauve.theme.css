@@ -221,6 +221,12 @@ button[class*=emojiButtonNormal] > div > div {
   --interactive-muted: rgba(220, 215, 186, 0.3);
   --interactive-hover: #DCD7BA;
   --interactive-active: #DCD7BA;
+  --rs-online-color: #98BB6C;
+  --rs-idle-color: #E6C384;
+  --rs-dnd-color: #FF5D62;
+  --rs-offline-color: #2A2A37;
+  --rs-streaming-color: #957FB8;
+  --rs-invisible-color: #2A2A37;
 }
 .theme-dark [class*=disabledPointerEvents], .theme-dark[data-popout-root] [class*=disabledPointerEvents] {
   --background-floating: #2A2A37;

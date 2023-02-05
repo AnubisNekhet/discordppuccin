@@ -977,6 +977,12 @@ nav[class*=guilds-].theme-dark div[class^=upperBadge] div[class*=participating-]
   --interactive-muted: rgba(40, 40, 40, 0.3);
   --interactive-hover: #282828;
   --interactive-active: #282828;
+  --rs-online-color: #98971A;
+  --rs-idle-color: #D79921;
+  --rs-dnd-color: #CC241D;
+  --rs-offline-color: #F2E5BC;
+  --rs-streaming-color: #B16286;
+  --rs-invisible-color: #F2E5BC;
 }
 .theme-light [class*=disabledPointerEvents], .theme-light[data-popout-root] [class*=disabledPointerEvents] {
   --background-floating: #F2E5BC;
