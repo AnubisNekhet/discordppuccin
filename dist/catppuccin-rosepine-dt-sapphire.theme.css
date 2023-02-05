@@ -1760,6 +1760,7 @@ button[class*=emojiButtonNormal] > div > div {
 .theme-dark [class*=userPopoutInner-] > [class*=wrapper-],
 .theme-dark [class^=premiumTier0Badge-],
 .theme-dark [class*=premiumFeatureBorder-],
+.theme-dark [class*=emojiSection-] > [class*=shinyButton-],
 .theme-dark [aria-label="Send a gift"] {
   display: none;
 }
