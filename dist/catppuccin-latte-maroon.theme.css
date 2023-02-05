@@ -2111,7 +2111,7 @@ nav[class*=guilds-].theme-dark div[class^=upperBadge] div[class*=participating-]
   --text-normal: #dce0e8;
   --interactive-active: #dce0e8;
   --interactive-hover: #dce0e8;
-  color: unset !important;
+  color: #4c4f69;
 }
 .theme-light div[class^=layerContainer] #guild-header-popout,
 .theme-light div[class^=layerContainer] #guild-context,

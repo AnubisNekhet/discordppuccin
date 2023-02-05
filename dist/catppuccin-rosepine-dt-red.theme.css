@@ -1356,7 +1356,7 @@ button[class*=emojiButtonNormal] > div > div {
   --text-normal: #0B0A10;
   --interactive-active: #0B0A10;
   --interactive-hover: #0B0A10;
-  color: unset !important;
+  color: #E0DEF4;
 }
 .theme-dark div[class^=layerContainer] #guild-header-popout,
 .theme-dark div[class^=layerContainer] #guild-context,
