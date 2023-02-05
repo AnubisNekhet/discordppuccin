@@ -248,7 +248,7 @@ section[class^="positionContainer-"] {
       --text-normal: #{$crust};
       --interactive-active: #{$crust};
       --interactive-hover: #{$crust};
-      color: unset !important;
+      color: $text;
     }
   }
 }
