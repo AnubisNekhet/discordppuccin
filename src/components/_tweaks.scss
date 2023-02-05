@@ -90,3 +90,12 @@ ul[aria-label$=" threads"] > li:nth-child(n) {
 *::-webkit-scrollbar {
   display: none;
 }
+//variable avatar radius
+img[class*="avatar-"] {
+    border-radius: 10%;
+}
+[class*="avatar-"] > [class*="wrapper-"] {
+  foreignObject {
+    mask: none;
+  }
+}
