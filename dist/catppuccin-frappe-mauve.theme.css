@@ -1818,6 +1818,10 @@ button[class*=emojiButtonNormal] > div > div {
   display: none;
 }
 
+.messagelogger-red-text.messagelogger-red-text.messagelogger-red-text.messagelogger-red-text .messagelogger-deleted div {
+  color: #e78284;
+}
+
 .theme-dark div[class*=unread-],
 .theme-dark div[class^=jumpToPresentBar-] > button,
 .theme-dark div[class^=newMessagesBar-] > button {

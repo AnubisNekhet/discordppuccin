@@ -2573,6 +2573,10 @@ nav[class*=guilds-].theme-dark div[class^=upperBadge] div[class*=participating-]
   display: none;
 }
 
+.messagelogger-red-text.messagelogger-red-text.messagelogger-red-text.messagelogger-red-text .messagelogger-deleted div {
+  color: #B4637A;
+}
+
 .theme-light div[class*=unread-],
 .theme-light div[class^=jumpToPresentBar-] > button,
 .theme-light div[class^=newMessagesBar-] > button {
