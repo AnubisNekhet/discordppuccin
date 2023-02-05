@@ -22,6 +22,7 @@ section[class*="chatContent-"] form [class*="container-"] {
 [class*="userPopoutInner-"] > [class*="wrapper-"],
 [class^="premiumTier0Badge-"],
 [class*="premiumFeatureBorder-"],
+[class*="emojiSection-"] > [class*="shinyButton-"],
 [aria-label="Send a gift"] { //Gift nitro button
   display: none;
 }
