@@ -244,11 +244,10 @@ section[class^="positionContainer-"] {
     [class*="section-"],
     [class*="additionalActionsIcon-"],
     [class*="overlayBackground-"] * {
-      --interactive-normal: #{$crust};
-      --text-normal: #{$crust};
-      --interactive-active: #{$crust};
-      --interactive-hover: #{$crust};
-      color: $text;
+      --interactive-normal: #{$text};
+      --text-normal: #{$text};
+      --interactive-active: #{$text};
+      --interactive-hover: #{$text};
     }
   }
 }
