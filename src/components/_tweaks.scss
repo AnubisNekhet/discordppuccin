@@ -98,7 +98,7 @@ ul[aria-label$=" threads"] > li:nth-child(n) {
   font-size: 70%;
   padding: 1px 5px;
   background: linear-gradient(to right, #{$brand}, #{darken($brand, 20%)});
-  color: black;
+  color: #{$crust};
   margin-left: 3px;
   border-radius: 3px;
   vertical-align: text-bottom;
