@@ -9,7 +9,7 @@
 **/
 
 @use "sass:math";
-@import "_colors/latte";
+@import "@catppuccin/palette/scss/latte";
 
 $brand: $blue;
 
@@ -20,3 +20,6 @@ button[class*="emojiButtonNormal"] > div > div {
 
 
 @import "theme";
+.theme-light {
+  @import "@catppuccin/highlightjs/sass/catppuccin-latte";
+}
