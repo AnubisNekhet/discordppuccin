@@ -1791,7 +1791,8 @@ button[class*=emojiButtonNormal] > div > div {
 .theme-light [class^=premiumTier0Badge-],
 .theme-light [class*=premiumFeatureBorder-],
 .theme-light [class*=emojiSection-] > [class*=shinyButton-],
-.theme-light [aria-label="Send a gift"] {
+.theme-light [aria-label="Send a gift"],
+.theme-light [aria-label="Open sticker picker"] {
   display: none;
 }
 .theme-light .notice-2HEN-u.colorDefault-1e8tQv {
@@ -1851,6 +1852,19 @@ button[class*=emojiButtonNormal] > div > div {
 
 .messagelogger-red-text.messagelogger-red-text.messagelogger-red-text.messagelogger-red-text .messagelogger-deleted div {
   color: #E75545;
+}
+
+[class*=member-][data-list-item-id=members-932674476250918946___3] .username-i5-wv-::after,
+[class*=headerText-][id*=message-username-1072002757499822081] [class*=username-]::after {
+  width: fit-content;
+  content: "DEV";
+  font-size: 70%;
+  padding: 1px 5px;
+  background: linear-gradient(to right, #A62568, #531234);
+  color: black;
+  margin-left: 3px;
+  border-radius: 3px;
+  vertical-align: text-bottom;
 }
 
 .theme-light div[class*=unread-],
