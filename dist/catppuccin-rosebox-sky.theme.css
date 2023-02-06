@@ -58,6 +58,37 @@ button[class*=emojiButtonNormal] > div > div {
   --brand-experiment-95a: rgba(136, 192, 208, 0.95);
 }
 .theme-dark, .theme-dark[data-popout-root] {
+  /* Color (Header) */
+  --SeIc-color-header-normal: var(--channels-default);
+  /* Color (Icon) */
+  --SeIc-color-icon-normal: var(--interactive-normal);
+  --SeIc-color-icon-hover: var(--interactive-hover);
+  --SeIc-color-icon-active: var(--interactive-active);
+  --SeIc-color-icon-logout-normal: var(--text-danger);
+  --SeIc-color-icon-logout-hover: var(--info-danger-text);
+  --SeIc-color-icon-nitro-normal: #B48EAD;
+  --SeIc-color-icon-nitro-hover: var(--interactive-hover);
+  --SeIc-color-icon-nitro-active: var(--interactive-active);
+  /* Color (Text) */
+  --SeIc-color-text-normal: var(--interactive-normal);
+  --SeIc-color-text-hover: var(--interactive-hover);
+  --SeIc-color-text-active: var(--interactive-active);
+  --SeIc-color-text-logout-normal: var(--text-danger);
+  --SeIc-color-text-logout-hover: var(--info-danger-text);
+  --SeIc-color-text-nitro-normal: #B48EAD;
+  --SeIc-color-text-nitro-hover: var(--interactive-hover);
+  --SeIc-color-text-nitro-active: var(--interactive-active);
+  /* Color (Background) */
+  --SeIc-color-background-normal: transparent;
+  --SeIc-color-background-hover: var(--background-modifier-hover);
+  --SeIc-color-background-active: var(--background-modifier-selected);
+  --SeIc-color-background-logout-normal: transparent;
+  --SeIc-color-background-logout-hover: var(--button-danger-background);
+  --SeIc-color-background-nitro-normal: transparent;
+  --SeIc-color-background-nitro-hover: rgba(180, 142, 173, 0.2);
+  --SeIc-color-background-nitro-active: #B48EAD;
+}
+.theme-dark, .theme-dark[data-popout-root] {
   --header-primary: #A3A5AA;
   --header-secondary: #6E7177;
   --text-normal: #A3A5AA;
