@@ -1351,11 +1351,10 @@ button[class*=emojiButtonNormal] > div > div {
 .theme-dark[class*=profileColors-] [class*=section-],
 .theme-dark[class*=profileColors-] [class*=additionalActionsIcon-],
 .theme-dark[class*=profileColors-] [class*=overlayBackground-] * {
-  --interactive-normal: #2E3440;
-  --text-normal: #2E3440;
-  --interactive-active: #2E3440;
-  --interactive-hover: #2E3440;
-  color: #ECEFF4;
+  --interactive-normal: #ECEFF4;
+  --text-normal: #ECEFF4;
+  --interactive-active: #ECEFF4;
+  --interactive-hover: #ECEFF4;
 }
 .theme-dark div[class^=layerContainer] #guild-header-popout,
 .theme-dark div[class^=layerContainer] #guild-context,
