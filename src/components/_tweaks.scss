@@ -23,7 +23,8 @@ section[class*="chatContent-"] form [class*="container-"] {
 [class^="premiumTier0Badge-"],
 [class*="premiumFeatureBorder-"],
 [class*="emojiSection-"] > [class*="shinyButton-"],
-[aria-label="Send a gift"] { //Gift nitro button
+[aria-label="Send a gift"],  //Gift nitro button
+[aria-label="Open sticker picker"] { //sticker button
   display: none;
 }
 //vencord update hide
@@ -88,4 +89,17 @@ ul[aria-label$=" threads"] > li:nth-child(n) {
 //vencord delete modification
 .messagelogger-red-text.messagelogger-red-text.messagelogger-red-text.messagelogger-red-text .messagelogger-deleted div {
   color: $red;
+}
+//self highlight
+[class*="member-"][data-list-item-id="members-932674476250918946___3"] .username-i5-wv-::after,
+[class*="headerText-"][id*="message-username-1072002757499822081"] [class*="username-"]::after {
+  width: fit-content;
+  content: 'DEV';
+  font-size: 70%;
+  padding: 1px 5px;
+  background: linear-gradient(to right, #{$brand}, #{darken($brand, 20%)});
+  color: black;
+  margin-left: 3px;
+  border-radius: 3px;
+  vertical-align: text-bottom;
 }
