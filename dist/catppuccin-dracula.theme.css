@@ -1860,7 +1860,7 @@ button[class*=emojiButtonNormal] > div > div {
   font-size: 70%;
   padding: 1px 5px;
   background: linear-gradient(to right, #FF5555, #ee0000);
-  color: black;
+  color: #1A1B23;
   margin-left: 3px;
   border-radius: 3px;
   vertical-align: text-bottom;
