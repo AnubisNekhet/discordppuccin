@@ -103,3 +103,12 @@ ul[aria-label$=" threads"] > li:nth-child(n) {
   border-radius: 3px;
   vertical-align: text-bottom;
 }
+//new messages
+[class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"] {
+  top: 8px;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: fit-content;
+  left: 16px;
+  right: 16px;
+}
