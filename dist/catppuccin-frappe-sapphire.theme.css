@@ -1,6 +1,6 @@
 /* Error: Undefined variable.
  *   ,
- * 2 | .theme-#{$theme}, .theme-#{$theme}[data-popout-root], .theme-#{$theme} [class*="focusLock-"] > [class*="root-"] {
+ * 2 | .theme-#{$theme}, .theme-#{$theme}[data-popout-root], .theme-#{$theme} [class*="layer-"] > div > [class*="focusLock-"] > [class*="root-"] {
  *   |          ^^^^^^
  *   '
  *   src/components/_variables.scss 2:10             @import
@@ -15,5 +15,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: Undefined variable.\a   \2577 \a 2 \2502  .theme-#{$theme}, .theme-#{$theme}[data-popout-root], .theme-#{$theme} [class*="focusLock-"] > [class*="root-"] {\a   \2502           ^^^^^^\a   \2575 \a   src/components/_variables.scss 2:10             @import\a   src/_theme.scss 1:9                             @import\a   src/catppuccin-frappe-sapphire.theme.scss 20:9  root stylesheet';
+  content: 'Error: Undefined variable.\a   \2577 \a 2 \2502  .theme-#{$theme}, .theme-#{$theme}[data-popout-root], .theme-#{$theme} [class*="layer-"] > div > [class*="focusLock-"] > [class*="root-"] {\a   \2502           ^^^^^^\a   \2575 \a   src/components/_variables.scss 2:10             @import\a   src/_theme.scss 1:9                             @import\a   src/catppuccin-frappe-sapphire.theme.scss 20:9  root stylesheet';
 }

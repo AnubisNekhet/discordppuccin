@@ -11,7 +11,7 @@ button[class*=emojiButtonNormal] > div > div {
   filter: grayscale(0.77) hue-rotate(185deg) brightness(0.7) opacity(100%) contrast(2) !important;
 }
 
-.theme-light, .theme-light[data-popout-root], .theme-light [class*=focusLock-] > [class*=root-] {
+.theme-light, .theme-light[data-popout-root], .theme-light [class*=layer-] > div > [class*=focusLock-] > [class*=root-] {
   --brand-experiment: #00BCB6;
   --brand-experiment-100: #a3fffc;
   --brand-experiment-130: #96fffc;
@@ -58,7 +58,7 @@ button[class*=emojiButtonNormal] > div > div {
   --brand-experiment-90a: rgba(0, 188, 182, 0.9);
   --brand-experiment-95a: rgba(0, 188, 182, 0.95);
 }
-.theme-light, .theme-light[data-popout-root], .theme-light [class*=focusLock-] > [class*=root-] {
+.theme-light, .theme-light[data-popout-root], .theme-light [class*=layer-] > div > [class*=focusLock-] > [class*=root-] {
   /* Color (Header) */
   --SeIc-color-header-normal: var(--channels-default);
   /* Color (Icon) */
@@ -89,7 +89,7 @@ button[class*=emojiButtonNormal] > div > div {
   --SeIc-color-background-nitro-hover: rgba(166, 37, 104, 0.2);
   --SeIc-color-background-nitro-active: #A62568;
 }
-.theme-light, .theme-light[data-popout-root], .theme-light [class*=focusLock-] > [class*=root-] {
+.theme-light, .theme-light[data-popout-root], .theme-light [class*=layer-] > div > [class*=focusLock-] > [class*=root-] {
   --header-primary: #383A42;
   --header-secondary: #636674;
   --text-normal: #383A42;
@@ -260,14 +260,14 @@ button[class*=emojiButtonNormal] > div > div {
   --rs-streaming-color: #A625A4;
   --rs-invisible-color: #EDEDED;
 }
-.theme-light [class*=disabledPointerEvents], .theme-light[data-popout-root] [class*=disabledPointerEvents], .theme-light [class*=focusLock-] > [class*=root-] [class*=disabledPointerEvents] {
+.theme-light [class*=disabledPointerEvents], .theme-light[data-popout-root] [class*=disabledPointerEvents], .theme-light [class*=layer-] > div > [class*=focusLock-] > [class*=root-] [class*=disabledPointerEvents] {
   --background-floating: #EDEDED;
   --background-tertiary: white;
 }
-.theme-light [class*=disabledPointerEvents] svg[class^=activityIcon-], .theme-light[data-popout-root] [class*=disabledPointerEvents] svg[class^=activityIcon-], .theme-light [class*=focusLock-] > [class*=root-] [class*=disabledPointerEvents] svg[class^=activityIcon-] {
+.theme-light [class*=disabledPointerEvents] svg[class^=activityIcon-], .theme-light[data-popout-root] [class*=disabledPointerEvents] svg[class^=activityIcon-], .theme-light [class*=layer-] > div > [class*=focusLock-] > [class*=root-] [class*=disabledPointerEvents] svg[class^=activityIcon-] {
   color: #636674;
 }
-.theme-light [class*=disabledPointerEvents] [class*=tooltipBrand-] [class*=tooltipText-], .theme-light[data-popout-root] [class*=disabledPointerEvents] [class*=tooltipBrand-] [class*=tooltipText-], .theme-light [class*=focusLock-] > [class*=root-] [class*=disabledPointerEvents] [class*=tooltipBrand-] [class*=tooltipText-] {
+.theme-light [class*=disabledPointerEvents] [class*=tooltipBrand-] [class*=tooltipText-], .theme-light[data-popout-root] [class*=disabledPointerEvents] [class*=tooltipBrand-] [class*=tooltipText-], .theme-light [class*=layer-] > div > [class*=focusLock-] > [class*=root-] [class*=disabledPointerEvents] [class*=tooltipBrand-] [class*=tooltipText-] {
   color: #DBDBDC;
 }
 
