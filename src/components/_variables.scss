@@ -1,5 +1,5 @@
 
-.theme-#{$theme}, .theme-#{$theme}[data-popout-root], .theme-#{$theme} [class*="focusLock-"] > [class*="root-"] {
+.theme-#{$theme}, .theme-#{$theme}[data-popout-root], .theme-#{$theme} [class*="layer-"] > div > [class*="focusLock-"] > [class*="root-"] {
   // weighted brand colors
   & {
   --brand-experiment: #{$brand};
