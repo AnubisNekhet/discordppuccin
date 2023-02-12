@@ -112,6 +112,6 @@ ul[aria-label$=" threads"] > li:nth-child(n) {
   left: 16px;
   right: 16px;
 }
-[class*=".pencilIcon-"][class*=".pencilIcon-"] {
+[class*=".pencilIcon-"][class*=".pencilIcon-"][class*=".pencilIcon-"] {
   color: $text;
 }
