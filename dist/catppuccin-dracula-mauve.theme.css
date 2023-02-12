@@ -10,7 +10,7 @@ button[class*=emojiButtonNormal] > div > div {
   filter: grayscale(0.77) hue-rotate(185deg) brightness(1.02) opacity(100%) !important;
 }
 
-.theme-dark, .theme-dark[data-popout-root] {
+.theme-dark, .theme-dark[data-popout-root], .theme-dark [class*=focusLock-] > [class*=root-] {
   --brand-experiment: #BD93F9;
   --brand-experiment-100: white;
   --brand-experiment-130: white;
@@ -57,7 +57,7 @@ button[class*=emojiButtonNormal] > div > div {
   --brand-experiment-90a: rgba(189, 147, 249, 0.9);
   --brand-experiment-95a: rgba(189, 147, 249, 0.95);
 }
-.theme-dark, .theme-dark[data-popout-root] {
+.theme-dark, .theme-dark[data-popout-root], .theme-dark [class*=focusLock-] > [class*=root-] {
   /* Color (Header) */
   --SeIc-color-header-normal: var(--channels-default);
   /* Color (Icon) */
@@ -88,7 +88,7 @@ button[class*=emojiButtonNormal] > div > div {
   --SeIc-color-background-nitro-hover: rgba(228, 157, 248, 0.2);
   --SeIc-color-background-nitro-active: #E49DF8;
 }
-.theme-dark, .theme-dark[data-popout-root] {
+.theme-dark, .theme-dark[data-popout-root], .theme-dark [class*=focusLock-] > [class*=root-] {
   --header-primary: #F8F8F2;
   --header-secondary: #BFBFB5;
   --text-normal: #F8F8F2;
@@ -259,14 +259,14 @@ button[class*=emojiButtonNormal] > div > div {
   --rs-streaming-color: #BD93F9;
   --rs-invisible-color: #303241;
 }
-.theme-dark [class*=disabledPointerEvents], .theme-dark[data-popout-root] [class*=disabledPointerEvents] {
+.theme-dark [class*=disabledPointerEvents], .theme-dark[data-popout-root] [class*=disabledPointerEvents], .theme-dark [class*=focusLock-] > [class*=root-] [class*=disabledPointerEvents] {
   --background-floating: #303241;
   --background-tertiary: #2f313f;
 }
-.theme-dark [class*=disabledPointerEvents] svg[class^=activityIcon-], .theme-dark[data-popout-root] [class*=disabledPointerEvents] svg[class^=activityIcon-] {
+.theme-dark [class*=disabledPointerEvents] svg[class^=activityIcon-], .theme-dark[data-popout-root] [class*=disabledPointerEvents] svg[class^=activityIcon-], .theme-dark [class*=focusLock-] > [class*=root-] [class*=disabledPointerEvents] svg[class^=activityIcon-] {
   color: #BFBFB5;
 }
-.theme-dark [class*=disabledPointerEvents] [class*=tooltipBrand-] [class*=tooltipText-], .theme-dark[data-popout-root] [class*=disabledPointerEvents] [class*=tooltipBrand-] [class*=tooltipText-] {
+.theme-dark [class*=disabledPointerEvents] [class*=tooltipBrand-] [class*=tooltipText-], .theme-dark[data-popout-root] [class*=disabledPointerEvents] [class*=tooltipBrand-] [class*=tooltipText-], .theme-dark [class*=focusLock-] > [class*=root-] [class*=disabledPointerEvents] [class*=tooltipBrand-] [class*=tooltipText-] {
   color: #1A1B23;
 }
 
@@ -451,6 +451,9 @@ button[class*=emojiButtonNormal] > div > div {
   background: linear-gradient(268.26deg, #68DBD3, #50FA7B 102.45%);
 }
 .theme-dark [class*=newlyAddedBadge-] * {
+  color: #1A1B23 !important;
+}
+.theme-dark [class*=lookFilled-] [class*=premiumSubscribeButton-] > [class*=premiumIcon-] {
   color: #1A1B23 !important;
 }
 
@@ -1494,6 +1497,9 @@ button[class*=emojiButtonNormal] > div > div {
 .theme-dark div[class*=userInfoSection-] div[class^=connectedAccountContainer-] {
   background-color: rgba(48, 50, 65, 0.45) !important;
 }
+.theme-dark div[class*=cardWarning-] div[class*=warning-] {
+  color: #1A1B23;
+}
 .theme-dark #emoji-picker-tab-panel,
 .theme-dark #sticker-picker-tab-panel {
   /* --background-floating: #303241;
@@ -1584,52 +1590,6 @@ button[class*=emojiButtonNormal] > div > div {
 }
 .theme-dark [class*=layerContainer-] div[id=sort-and-view] div[id=sort-and-view-reset-all] [style="color: var(--text-normal);"]:hover {
   color: #1A1B23 !important;
-}
-
-.theme-dark .hljs-bullet,
-.theme-dark .hljs-link,
-.theme-dark .hljs-meta,
-.theme-dark .hljs-meta.hljs-keyword,
-.theme-dark .hljs-meta .hljs-keyword,
-.theme-dark .hljs-selector-attr,
-.theme-dark .hljs-selector-pseudo,
-.theme-dark .hljs-subst,
-.theme-dark .hljs-symbol {
-  color: #FFB86C;
-}
-.theme-dark .hljs-attr,
-.theme-dark .hljs-attribute,
-.theme-dark .hljs-class.hljs-title,
-.theme-dark .hljs-class .hljs-title,
-.theme-dark .hljs-template-variable,
-.theme-dark .hljs-type,
-.theme-dark .hljs-variable {
-  color: #F1FA8C;
-}
-.theme-dark .hljs-built_in,
-.theme-dark .hljs-deletion {
-  color: #E66666;
-}
-.theme-dark .hljs-doctag,
-.theme-dark .hljs-literal,
-.theme-dark .hljs-meta.hljs-meta-string,
-.theme-dark .hljs-meta .hljs-meta-string,
-.theme-dark .hljs-number,
-.theme-dark .hljs-regexp,
-.theme-dark .hljs-string {
-  color: #68DBD3;
-}
-.theme-dark .hljs-addition,
-.theme-dark .hljs-keyword,
-.theme-dark .hljs-selector-tag {
-  color: #50FA7B;
-}
-.theme-dark .hljs-name,
-.theme-dark .hljs-section,
-.theme-dark .hljs-selector-class,
-.theme-dark .hljs-selector-id,
-.theme-dark .hljs-title {
-  color: #5F7EDE;
 }
 
 .theme-dark rect[fill="#3ba55c"],
@@ -1759,11 +1719,13 @@ button[class*=emojiButtonNormal] > div > div {
 .theme-dark div[class*=profileBadges-] div[aria-label="Supports Commands"] img {
   content: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2350FA7B'%3E%3Cpath d='m8.1176653 16.0847263 4.8330812-8.1694527h2.9315882l-4.8330812 8.1694527z'/%3E%3Cpath d='m20.4189453 9.4038086v-2.4311524c0-1.9775391-1.0825195-3.1118164-2.9697266-3.1118164h-1.5581055v1.7802734l.9594727-.0014648c.8540039 0 1.34375.5683594 1.34375 1.5585938v2.3969727c0 .8300781.1806641 1.8422852 1.5893555 2.3100586l.2856445.0947265-.2856445.0947266c-1.4086914.4677734-1.5893555 1.4799804-1.5893555 2.3100586v2.3964844c0 .9907227-.4897461 1.559082-1.34375 1.559082l-.9594727-.0014648v1.7802734h1.5581055c1.887207 0 2.9697266-1.1342773 2.9697266-3.1118164v-2.4316406c0-1.2583008.3432617-1.6264648 1.5810547-1.6445312v-1.9023438c-1.237793-.0180665-1.5810547-.3862305-1.5810547-1.6450196z'/%3E%3Cpath d='m5.8061523 7.1982422c0-.9760742.5024414-1.5585938 1.3432617-1.5585938l.9594727.0014648v-1.7802734h-1.5576172c-1.887207 0-2.9697266 1.1342773-2.9697266 3.1118164v2.4311523c0 1.2587891-.3432617 1.6269531-1.581543 1.6450195v1.9023438c1.2382812.0180664 1.581543.3862305 1.581543 1.6445312v2.4316406c0 1.9775391 1.0825195 3.1118164 2.9697266 3.1118164h1.5576172v-1.7802734l-.9594727.0014648c-.8408203 0-1.3432617-.5830078-1.3432617-1.559082v-2.3964844c0-.8300781-.1806641-1.8422852-1.5898438-2.3100586l-.2856444-.0947264.2856445-.0947266c1.4091797-.4677734 1.5898437-1.4799804 1.5898437-2.3100586z'/%3E%3C/g%3E%3C/svg%3E");
 }
-.theme-dark div[class*=newBadge-] {
+.theme-dark div[class*=newBadge-],
+.theme-dark div[class*=tryItOutBadge-] {
   color: #1A1B23;
 }
 .theme-dark span[class*=channelMention]:hover,
-.theme-dark [class*=mention]:not([class*=mentionButton-], [class*=mentionIcon-]):hover {
+.theme-dark [class*=mention]:not([class*=mentionButton-],
+[class*=mentionIcon-]):hover {
   color: #1A1B23;
 }
 
@@ -1864,6 +1826,19 @@ button[class*=emojiButtonNormal] > div > div {
   margin-left: 3px;
   border-radius: 3px;
   vertical-align: text-bottom;
+}
+
+[class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"] {
+  top: 8px;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: fit-content;
+  left: 16px;
+  right: 16px;
+}
+
+[class*=".pencilIcon-"][class*=".pencilIcon-"][class*=".pencilIcon-"] {
+  color: #F8F8F2;
 }
 
 .theme-dark div[class*=unread-],
