@@ -1,19 +1,12 @@
-/* Error: Undefined variable.
- *   ,
- * 2 | .theme-#{$theme}, .theme-#{$theme}[data-popout-root], .theme-#{$theme} [class*="layer-"] > div > [class*="focusLock-"] > [class*="root-"] {
- *   |          ^^^^^^
- *   '
- *   src/components/_variables.scss 2:10                @import
- *   src/_theme.scss 1:9                                @import
- *   src/catppuccin-macchiato-lavender.theme.scss 20:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: Undefined variable.\a   \2577 \a 2 \2502  .theme-#{$theme}, .theme-#{$theme}[data-popout-root], .theme-#{$theme} [class*="layer-"] > div > [class*="focusLock-"] > [class*="root-"] {\a   \2502           ^^^^^^\a   \2575 \a   src/components/_variables.scss 2:10                @import\a   src/_theme.scss 1:9                                @import\a   src/catppuccin-macchiato-lavender.theme.scss 20:9  root stylesheet';
+/**
+ * @name Catppuccin Macchiato
+ * @author winston#0001
+ * @authorId 505490445468696576
+ * @version 0.2.0
+ * @description 🎮 Soothing pastel theme for Discord
+ * @website https://github.com/catppuccin/discord
+ * @invite r6Mdz5dpFc
+**/
+button[class*=emojiButtonNormal] > div > div {
+  filter: grayscale(0.77) hue-rotate(185deg) brightness(1.03) opacity(100%) !important;
 }
