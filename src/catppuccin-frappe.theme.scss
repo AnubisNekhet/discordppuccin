@@ -9,7 +9,7 @@
 **/
 
 @use "sass:math";
-@use "@catppuccin/palette/scss/frappe" as *;
+@import "_colors/mocha";
 
 $brand: $blue;
 
@@ -18,6 +18,3 @@ button[class*="emojiButtonNormal"] > div > div {
 }
 
 @import "theme";
-.theme-dark {
-  @import "@catppuccin/highlightjs/sass/catppuccin-frappe";
-}
