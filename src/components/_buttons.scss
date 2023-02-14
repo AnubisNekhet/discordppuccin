@@ -1,3 +1,4 @@
+.theme-#{$theme} {
 // filled buttons and badges should have crust text
 [class*="lookFilled-"] {
   &[class*="colorBrand-"],
@@ -61,8 +62,7 @@ div[class^="actionButtons-"] {
 }
 
 // lookLink + colorPrimary should be themed
-.theme-dark,
-.theme-light {
+& {
   [class*="lookLink-"][class*="colorPrimary-"] {
     color: $text;
   }
@@ -122,4 +122,6 @@ div[role="radio"][class*="selected"] {
   [class*="premiumSubscribeButton-"]
   > [class*="premiumIcon-"] {
   color: $crust !important;
+}
+
 }

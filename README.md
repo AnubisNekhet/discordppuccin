@@ -5,32 +5,22 @@
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
-<p align="center">
-    <a href="https://github.com/catppuccin/discord/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/discord?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/discord/issues"><img src="https://img.shields.io/github/issues/catppuccin/discord?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/discord/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/discord?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
-</p>
+Catppuccin Discord but with like a lot of other themes
 
-![Discord Theme Preview](assets/preview.webp)
-
-## Previews
-
-<details>
-<summary>🌻 Latte</summary>
-<img src="assets/latte.webp"/>
-</details>
-<details>
-<summary>🪴 Frappé</summary>
-<img src="assets/frappe.webp"/>
-</details>
-<details>
-<summary>🌺 Macchiato</summary>
-<img src="assets/macchiato.webp"/>
-</details>
-<details>
-<summary>🌿 Mocha</summary>
-<img src="assets/mocha.webp"/>
-</details>
+| Theme | Code (`lt` is Light Mode, `dt` is Dark Mode) |
+| ----- | ----- |
+| Atom | `atom-lt`, `atom-dt` |
+| Catppuccin | `latte`, `frappe`, `macchiato`, `mocha`, `cappuccino` |
+| Coffee (Dark) | `coffee` |
+| Everforest | `everforest-lt`, `everforest-dt` |
+| Gruvbox (dark) | `gruvbox-lt`, `gruvbox-dt` |
+| Kangawa (Dark) | `kangawa` |
+| Nord | `nord-dt`, `nord-2-dt` |
+| Gruvbox | `gruvbox-lt`, `gruvbox-dt` |
+| Rosebox (Dark) | `rosebox` |
+| Rosé Pine | `rosepine-lt`, `rosepine-dt` |
+| Sandy Beaches (Light) | `sandy-beaches` |
+| Solarized | `solarized-dt` |
 
 ## Usage
 

@@ -1,0 +1,117 @@
+.theme-#{$theme} {
+//Credits: ToxicAven
+// Show edit timestamps in the edited message
+[class*="timestamp-"]:not([class*="timestampInline-"], [class*="timestampVisibleOnHover-"])
+  time::after {
+  content: " (" attr(aria-label) ")";
+  color: var(--text-muted);
+  font-size: 0.625rem;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: capitalize;
+}
+[class*="edited-"] {
+  display: none;
+}
+// Remove sticker suggestion popup (why discord why)
+[class*="container-"][class*="stickerIconOffset-"],
+section[class*="chatContent-"] form [class*="container-"] {
+  display: none;
+}
+// Various nitro cleanups
+[class*="userPopoutInner-"] > [class*="wrapper-"],
+[class^="premiumTier0Badge-"],
+[class*="premiumFeatureBorder-"],
+[class*="emojiSection-"] > [class*="shinyButton-"],
+[aria-label="Send a gift"],  //Gift nitro button
+[aria-label="Open sticker picker"] { //sticker button
+  display: none;
+}
+//vencord update hide
+.notice-2HEN-u.colorDefault-1e8tQv {
+    transform: translateX(-50%) translateY(-60px);
+    transition-delay: 150ms;
+    transition-duration: 300ms;
+    position: absolute;
+    left: 50%;
+    top: 15px;
+    border-radius: 7px;
+    padding: 0 30px 0 10px;
+    &:hover {
+      transform: translateX(-50%);
+      transition-delay: 150ms;
+      transition-duration: 300ms;
+      transition: 300ms;
+    }
+    &::after {
+      display: block;
+      position: absolute;
+      content: ' ';
+      width: calc(100% + 60px);
+      height: 40px;
+      transform: translateX(-40px);
+    }
+    & > .closeButton-30b1gR {
+      right: 7px;
+      width: min-content;
+    }
+}
+
+//remove vencord anime (haram)
+.vc-settings-card::after {
+    content: ' ';
+    width: 250px;
+    background: url('https://media.tenor.com/bU7TCU-uk_cAAAAC/i-swear-to-bro-bro.gif');
+    height: auto;
+    display: flex;
+    aspect-ratio: 392/498;
+    margin-right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+img[role="presentation"] {
+  display: none;
+}
+.vc-settings-card.vc-settings-donate {
+  display: none;
+}
+
+ul[aria-label$=" threads"] > li:nth-child(n) {
+    --channels-default: inherit;
+    --interactive-hover: inherit;
+    --interactive-active: inherit;
+}
+}
+//hide scrollbars
+*::-webkit-scrollbar {
+  display: none;
+}
+//vencord delete modification
+.messagelogger-red-text.messagelogger-red-text.messagelogger-red-text.messagelogger-red-text .messagelogger-deleted div {
+  color: $red;
+}
+//self highlight
+[class*="member-"][data-list-item-id="members-932674476250918946___3"] .username-i5-wv-::after,
+[class*="headerText-"][id*="message-username-1072002757499822081"] [class*="username-"]::after {
+  width: fit-content;
+  content: 'DEV';
+  font-size: 70%;
+  padding: 1px 5px;
+  background: linear-gradient(to right, #{$brand}, #{darken($brand, 20%)});
+  color: #{$crust};
+  margin-left: 3px;
+  border-radius: 3px;
+  vertical-align: text-bottom;
+}
+//new messages
+[class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"] {
+  top: 8px;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: fit-content;
+  left: 16px;
+  right: 16px;
+}
+[class*=".pencilIcon-"][class*=".pencilIcon-"][class*=".pencilIcon-"] {
+  color: $text;
+}

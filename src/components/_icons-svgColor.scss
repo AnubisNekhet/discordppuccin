@@ -1,3 +1,4 @@
+.theme-#{$theme} {
 $svgColor: (
   "tier1ProfilePerk": (
     color: $blue,
@@ -74,4 +75,5 @@ $svgColor: (
       color: #{map-get($color, color)} !important;
     }
   }
+}
 }

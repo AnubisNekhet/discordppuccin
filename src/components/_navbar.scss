@@ -1,3 +1,4 @@
+.theme-#{$theme} {
 nav[class*="guilds-"] {
   // server icons
   foreignObject > div[data-list-item-id^="guildsnav_"] {
@@ -45,4 +46,5 @@ div[class^="upperBadge"] {
 
 div[class^="lowerBadge"] div[class^="iconBadge"] path {
   color: $crust;
+}
 }

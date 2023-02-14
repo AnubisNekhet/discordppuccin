@@ -1,3 +1,4 @@
+.theme-#{$theme} {
 div[class^="layerContainer"] [role="menu"] {
   // make menu items readable when hovered
   --brand-experiment-560: var(--brand-experiment-25a);
@@ -70,8 +71,7 @@ div[class^="layerContainer"] [role="menu"] {
   }
 }
 
-.theme-dark,
-.theme-light {
+& {
   div[class^="layerContainer"] div[id^="popout_"] > div[class*="didRender-"] {
     &:not([class^="animatorBottom-"]) > div {
       div[class*="flowerStarContainer-"] {
@@ -221,7 +221,7 @@ section[class^="positionContainer-"] {
   background-color: var(--brand-experiment-25a);
 }
 
-.theme-light {
+& {
   //   color: $text;
 
   > div[class^="focusLock"]
@@ -255,11 +255,10 @@ section[class^="positionContainer-"] {
     [class*="section-"],
     [class*="additionalActionsIcon-"],
     [class*="overlayBackground-"] * {
-      --interactive-normal: #{$crust};
-      --text-normal: #{$crust};
-      --interactive-active: #{$crust};
-      --interactive-hover: #{$crust};
-      color: unset !important;
+      --interactive-normal: #{$text};
+      --text-normal: #{$text};
+      --interactive-active: #{$text};
+      --interactive-hover: #{$text};
     }
   }
 }
@@ -557,4 +556,5 @@ div[class*="userProfileOuter-"] {
   div[id="sort-and-view-reset-all"] [style="color: var(--text-normal);"]:hover {
     color: $crust !important;
   }
+}
 }

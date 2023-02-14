@@ -1,3 +1,4 @@
+.theme-#{$theme} {
 $channelicons: (
   // role assignments
   "1016344897969733652":
@@ -387,4 +388,5 @@ $roleColors: (
   [class*="typing-"] strong[style*="#{$colorVal}"] {
     color: #{map-get($colorDec, color)} !important;
   }
+}
 }

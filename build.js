@@ -6,6 +6,23 @@ const sourceFiles = [
   "src/catppuccin-latte.theme.scss",
   "src/catppuccin-macchiato.theme.scss",
   "src/catppuccin-mocha.theme.scss",
+  "src/catppuccin-cappuccino.theme.scss",
+  "src/catppuccin-rosepine-lt.theme.scss",
+  "src/catppuccin-rosepine-dt.theme.scss",
+  "src/catppuccin-rosebox.theme.scss",
+  "src/catppuccin-coffee.theme.scss",
+  "src/catppuccin-kanagawa.theme.scss",
+  "src/catppuccin-nord-2-dt.theme.scss",
+  "src/catppuccin-nord-dt.theme.scss",
+  "src/catppuccin-solarized-dt.theme.scss",
+  "src/catppuccin-atom-lt.theme.scss",
+  "src/catppuccin-atom-dt.theme.scss",
+  "src/catppuccin-dracula.theme.scss",
+  "src/catppuccin-everforest-lt.theme.scss",
+  "src/catppuccin-everforest-dt.theme.scss",
+  "src/catppuccin-sandy-beaches.theme.scss",
+  "src/catppuccin-gruvbox-lt.theme.scss",
+  "src/catppuccin-gruvbox-dt.theme.scss",
 ];
 
 const accents = [

@@ -1,6 +1,7 @@
-[data-popout-root],
-html {
+
+.theme-#{$theme}, .theme-#{$theme}[data-popout-root], .theme-#{$theme} [class*="layer-"] > div > [class*="focusLock-"] > [class*="root-"] {
   // weighted brand colors
+  & {
   --brand-experiment: #{$brand};
   --brand-experiment-100: #{lighten($brand, math.div(90%, 2))};
   --brand-experiment-130: #{lighten($brand, math.div(85%, 2))};
@@ -48,16 +49,54 @@ html {
   --brand-experiment-90a: #{adjust-color($brand, $alpha: -0.1)};
   --brand-experiment-95a: #{adjust-color($brand, $alpha: -0.05)};
 }
+& {
+  /* Color (Header) */
+  --SeIc-color-header-normal: var(--channels-default);
 
-.theme-dark,
-.theme-light {
+  /* Color (Icon) */
+  --SeIc-color-icon-normal: var(--interactive-normal);
+  --SeIc-color-icon-hover: var(--interactive-hover);
+  --SeIc-color-icon-active: var(--interactive-active);
+
+  --SeIc-color-icon-logout-normal: var(--text-danger);
+  --SeIc-color-icon-logout-hover: var(--info-danger-text);
+
+  --SeIc-color-icon-nitro-normal: #{$pink};
+  --SeIc-color-icon-nitro-hover: var(--interactive-hover);
+  --SeIc-color-icon-nitro-active: var(--interactive-active);
+
+  /* Color (Text) */
+  --SeIc-color-text-normal: var(--interactive-normal);
+  --SeIc-color-text-hover: var(--interactive-hover);
+  --SeIc-color-text-active: var(--interactive-active);
+
+  --SeIc-color-text-logout-normal: var(--text-danger);
+  --SeIc-color-text-logout-hover: var(--info-danger-text);
+
+  --SeIc-color-text-nitro-normal: #{$pink};
+  --SeIc-color-text-nitro-hover: var(--interactive-hover);
+  --SeIc-color-text-nitro-active: var(--interactive-active);
+
+  /* Color (Background) */
+  --SeIc-color-background-normal: transparent;
+  --SeIc-color-background-hover: var(--background-modifier-hover);
+  --SeIc-color-background-active: var(--background-modifier-selected);
+
+  --SeIc-color-background-logout-normal: transparent;
+  --SeIc-color-background-logout-hover: var(--button-danger-background);
+
+  --SeIc-color-background-nitro-normal: transparent;
+  --SeIc-color-background-nitro-hover: #{rgba($pink, 0.2)};
+  --SeIc-color-background-nitro-active: #{$pink};
+}
+  & {
   --header-primary: #{$text};
   --header-secondary: #{$subtext0};
 
   --text-normal: #{$text};
   --text-muted: #{$subtext0};
-  --text-link: #{$blue};
-  --text-link-low-saturation: #{$sapphire};
+  --text-link: #{$brand};
+  --text-link-low-saturation: #{adjust-color($brand, $saturation: -20%)};
   --text-positive: #{$green};
   --text-warning: #{$yellow};
   --text-danger: #{$red};
@@ -278,6 +317,14 @@ html {
   --interactive-hover: #{$text};
   --interactive-active: #{$text};
 
+  //RadialStatus Variables
+  --rs-online-color: #{$green}; 
+  --rs-idle-color: #{$yellow}; 
+  --rs-dnd-color: #{$red}; 
+  --rs-offline-color: #{$surface0}; 
+  --rs-streaming-color: #{$mauve}; 
+  --rs-invisible-color: #{$surface0}; 
+
   // make tooltips that you can't hover surface0
   [class*="disabledPointerEvents"] {
     --background-floating: #{$surface0};
@@ -293,4 +340,5 @@ html {
       }
     }
   }
+}
 }

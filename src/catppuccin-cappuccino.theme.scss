@@ -1,0 +1,19 @@
+/**
+ * @name Catppuccin Mocha
+ * @author Anubis
+ * @version 0.2.0
+ * @description 🎮 Soothing pastel theme for Discord
+ * @website https://github.com/catppuccin/discord
+ * @invite r6Mdz5dpFc
+**/
+
+@use "sass:math";
+@import "_colors/cappuccino";
+
+$brand: $red;
+
+button[class*="emojiButtonNormal"] > div > div {
+  filter: grayscale(0.77) hue-rotate(185deg) brightness(1.02) opacity(100%) !important;
+}
+
+@import "theme";
