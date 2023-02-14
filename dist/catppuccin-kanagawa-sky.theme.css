@@ -393,6 +393,9 @@ button[class*=emojiButtonNormal] > div > div {
 .theme-dark [class*=lookFilled-][class*=colorBrand-] [class*=spinnerItem-], .theme-dark [class*=lookFilled-][class*=colorBrandNew-] [class*=spinnerItem-], .theme-dark [class*=lookFilled-][class*=colorLink-] [class*=spinnerItem-], .theme-dark [class*=lookFilled-][class*=colorYellow-] [class*=spinnerItem-], .theme-dark [class*=lookFilled-][class*=colorRed-] [class*=spinnerItem-], .theme-dark [class*=lookFilled-][class*=colorGreen-] [class*=spinnerItem-] {
   background-color: #0B0B0F;
 }
+.theme-dark [class*=lookFilled-][class*=colorBrand-] [class*=defaultColor-], .theme-dark [class*=lookFilled-][class*=colorBrandNew-] [class*=defaultColor-], .theme-dark [class*=lookFilled-][class*=colorLink-] [class*=defaultColor-], .theme-dark [class*=lookFilled-][class*=colorYellow-] [class*=defaultColor-], .theme-dark [class*=lookFilled-][class*=colorRed-] [class*=defaultColor-], .theme-dark [class*=lookFilled-][class*=colorGreen-] [class*=defaultColor-] {
+  color: #0B0B0F;
+}
 .theme-dark [class*=lookFilled-][class*=colorPrimary-] {
   color: #DCD7BA;
 }
@@ -1335,18 +1338,24 @@ button[class*=emojiButtonNormal] > div > div {
 .theme-dark div[class*=rolesList] div[class^=role-] span[class^=roleCircle-][style*="background-color: rgb(54, 57, 62)"], .theme-dark div[class*=rolesList] div[class^=role-] span[class^=roleCircle-][style*="background-color: rgb(53, 57, 64)"] {
   background-color: #1F1F28 !important;
 }
-.theme-dark div[class^=layerContainer] > div[class^=layer] div[class^=reactors] {
+.theme-dark div[class*=layerContainer] > div[class*=layer] div[class^=reactors] {
   background-color: var(--background-primary);
 }
-.theme-dark div[class^=layerContainer] > div[class^=layer] div[class^=scroller] {
+.theme-dark div[class*=layerContainer] > div[class*=layer] div[class^=scroller] {
   background-color: var(--background-secondary);
 }
-.theme-dark div[class^=layerContainer] > div[class^=layer] div[class*=reactorDefault] {
+.theme-dark div[class*=layerContainer] > div[class*=layer] div[class*=reactorDefault] {
   -webkit-box-shadow: inset 0 -1px 0 var(--background-modifier-accent);
   box-shadow: inset 0 -1px 0 var(--background-modifier-accent);
 }
-.theme-dark div[class^=layerContainer] > div[class^=layer] div[class*=reactionSelected] {
+.theme-dark div[class*=layerContainer] > div[class*=layer] div[class*=reactionSelected] {
   background-color: var(--background-modifier-selected);
+}
+.theme-dark div[class*=layerContainer] > div[class*=layer] div[class*=friendSelected] {
+  background: #2A2A37 !important;
+}
+.theme-dark div[class*=layerContainer] > div[class*=layer] div[class*=header] {
+  background: #16161D;
 }
 .theme-dark section[class^=positionContainer-] button[class*=navButtonActive] {
   background-color: #A3D4D5;
@@ -1432,6 +1441,9 @@ button[class*=emojiButtonNormal] > div > div {
 }
 .theme-dark div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class*=footer] button[type=submit] span {
   color: #0B0B0F;
+}
+.theme-dark div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class*=footer] [class*=footerText-] {
+  color: #D4CEAA;
 }
 .theme-dark div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] h1[class^=fixed-],
 .theme-dark div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] h2[class^=fixed-],
@@ -1616,6 +1628,9 @@ button[class*=emojiButtonNormal] > div > div {
 .theme-dark i[class^=statusOffline-] {
   fill: #C8C093 !important;
   background-color: #C8C093 !important;
+}
+.theme-dark rect[fill="#593695"] {
+  fill: #957FB8 !important;
 }
 .theme-dark .vc-platform-indicator svg[fill*="--status-green"] {
   fill: #98BB6C;
@@ -2303,6 +2318,60 @@ button[class*=emojiButtonNormal] > div > div {
 .theme-dark [class*=typing-] strong[style*="rgb(201, 203, 255)"] {
   color: #938AA9 !important;
 }
+.theme-dark [class*=username-][style*="rgb(252, 176, 129)"] {
+  color: #FFA066 !important;
+}
+.theme-dark [class*=roleCircle-][style*="rgb(252, 176, 129)"] {
+  background-color: #FFA066 !important;
+}
+.theme-dark [class*=typing-] strong[style*="rgb(252, 176, 129)"] {
+  color: #FFA066 !important;
+}
+.theme-dark [class*=username-][style*="rgb(191, 183, 218)"] {
+  color: #9d89bd !important;
+}
+.theme-dark [class*=roleCircle-][style*="rgb(191, 183, 218)"] {
+  background-color: #9d89bd !important;
+}
+.theme-dark [class*=typing-] strong[style*="rgb(191, 183, 218)"] {
+  color: #9d89bd !important;
+}
+.theme-dark [class*=username-][style*="rgb(253, 245, 146)"] {
+  color: #E6C384 !important;
+}
+.theme-dark [class*=roleCircle-][style*="rgb(253, 245, 146)"] {
+  background-color: #E6C384 !important;
+}
+.theme-dark [class*=typing-] strong[style*="rgb(253, 245, 146)"] {
+  color: #E6C384 !important;
+}
+.theme-dark [class*=username-][style*="rgb(237, 135, 150)"] {
+  color: #FF5D62 !important;
+}
+.theme-dark [class*=roleCircle-][style*="rgb(237, 135, 150)"] {
+  background-color: #FF5D62 !important;
+}
+.theme-dark [class*=typing-] strong[style*="rgb(237, 135, 150)"] {
+  color: #FF5D62 !important;
+}
+.theme-dark [class*=username-][style*="rgb(138, 173, 244)"] {
+  color: #7E9CD8 !important;
+}
+.theme-dark [class*=roleCircle-][style*="rgb(138, 173, 244)"] {
+  background-color: #7E9CD8 !important;
+}
+.theme-dark [class*=typing-] strong[style*="rgb(138, 173, 244)"] {
+  color: #7E9CD8 !important;
+}
+.theme-dark [class*=username-][style*="rgb(183, 189, 248)"] {
+  color: #938AA9 !important;
+}
+.theme-dark [class*=roleCircle-][style*="rgb(183, 189, 248)"] {
+  background-color: #938AA9 !important;
+}
+.theme-dark [class*=typing-] strong[style*="rgb(183, 189, 248)"] {
+  color: #938AA9 !important;
+}
 .theme-dark [class*=username-][style*="rgb(135, 162, 233)"] {
   color: #7E9CD8 !important;
 }
@@ -2347,6 +2416,78 @@ button[class*=emojiButtonNormal] > div > div {
 }
 .theme-dark [class*=typing-] strong[style*="rgb(198, 160, 246)"] {
   color: #957FB8 !important;
+}
+.theme-dark [class*=username-][style*="rgb(245, 223, 218)"] {
+  color: #FFC894 !important;
+}
+.theme-dark [class*=roleCircle-][style*="rgb(245, 223, 218)"] {
+  background-color: #FFC894 !important;
+}
+.theme-dark [class*=typing-] strong[style*="rgb(245, 223, 218)"] {
+  color: #FFC894 !important;
+}
+.theme-dark [class*=username-][style*="rgb(169, 228, 163)"] {
+  color: #98BB6C !important;
+}
+.theme-dark [class*=roleCircle-][style*="rgb(169, 228, 163)"] {
+  background-color: #98BB6C !important;
+}
+.theme-dark [class*=typing-] strong[style*="rgb(169, 228, 163)"] {
+  color: #98BB6C !important;
+}
+.theme-dark [class*=username-][style*="rgb(140, 179, 250)"] {
+  color: #7E9CD8 !important;
+}
+.theme-dark [class*=roleCircle-][style*="rgb(140, 179, 250)"] {
+  background-color: #7E9CD8 !important;
+}
+.theme-dark [class*=typing-] strong[style*="rgb(140, 179, 250)"] {
+  color: #7E9CD8 !important;
+}
+.theme-dark [class*=username-][style*="rgb(180, 190, 254)"] {
+  color: #938AA9 !important;
+}
+.theme-dark [class*=roleCircle-][style*="rgb(180, 190, 254)"] {
+  background-color: #938AA9 !important;
+}
+.theme-dark [class*=typing-] strong[style*="rgb(180, 190, 254)"] {
+  color: #938AA9 !important;
+}
+.theme-dark [class*=username-][style*="rgb(114, 135, 253)"] {
+  color: #938AA9 !important;
+}
+.theme-dark [class*=roleCircle-][style*="rgb(114, 135, 253)"] {
+  background-color: #938AA9 !important;
+}
+.theme-dark [class*=typing-] strong[style*="rgb(114, 135, 253)"] {
+  color: #938AA9 !important;
+}
+.theme-dark [class*=username-][style*="rgb(202, 158, 230)"] {
+  color: #957FB8 !important;
+}
+.theme-dark [class*=roleCircle-][style*="rgb(202, 158, 230)"] {
+  background-color: #957FB8 !important;
+}
+.theme-dark [class*=typing-] strong[style*="rgb(202, 158, 230)"] {
+  color: #957FB8 !important;
+}
+.theme-dark [class*=username-][style*="rgb(250, 179, 135)"] {
+  color: #FFA066 !important;
+}
+.theme-dark [class*=roleCircle-][style*="rgb(250, 179, 135)"] {
+  background-color: #FFA066 !important;
+}
+.theme-dark [class*=typing-] strong[style*="rgb(250, 179, 135)"] {
+  color: #FFA066 !important;
+}
+.theme-dark [class*=username-][style*="rgb(136, 223, 210)"] {
+  color: #7AA89F !important;
+}
+.theme-dark [class*=roleCircle-][style*="rgb(136, 223, 210)"] {
+  background-color: #7AA89F !important;
+}
+.theme-dark [class*=typing-] strong[style*="rgb(136, 223, 210)"] {
+  color: #7AA89F !important;
 }
 
 .theme-dark div[class^=notice-] div[class*=header-] {
