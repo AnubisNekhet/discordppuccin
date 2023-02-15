@@ -989,6 +989,9 @@ button[class*=emojiButtonNormal] > div > div {
   background-color: var(--brand-experiment-20a);
   border-color: var(--brand-experiment-30a);
 }
+.theme-light [class^=chatContent] div[class^=messagesErrorBar-] div[class*=barButtonBase-] {
+  color: #DBDBDC;
+}
 .theme-light [class^=chatContent] [class*=inlineCode-] {
   background: #EDEDED;
 }
@@ -1342,7 +1345,7 @@ button[class*=emojiButtonNormal] > div > div {
 .theme-light div[class*=layerContainer] > div[class*=layer] div[class^=reactors] {
   background-color: var(--background-primary);
 }
-.theme-light div[class*=layerContainer] > div[class*=layer] div[class^=scroller] {
+.theme-light div[class*=layerContainer] > div[class*=layer] div[class^=scroller]:not([style*="padding-right: 4px;"]) {
   background-color: var(--background-secondary);
 }
 .theme-light div[class*=layerContainer] > div[class*=layer] div[class*=reactorDefault] {
@@ -1612,15 +1615,24 @@ button[class*=emojiButtonNormal] > div > div {
   fill: #4EA24C !important;
   background-color: #4EA24C !important;
 }
+.theme-light rect[fill="rgba(59, 165, 92, 1)"] {
+  fill: #4EA24C !important;
+}
 .theme-light rect[fill="#faa61a"],
 .theme-light foreignObject[mask="url(#svg-mask-status-idle)"] > div {
   fill: #986800 !important;
   background-color: #986800 !important;
 }
+.theme-light rect[fill="rgba(250, 166, 26, 1)"] {
+  fill: #986800 !important;
+}
 .theme-light rect[fill="#ed4245"],
 .theme-light foreignObject[mask="url(#svg-mask-status-dnd)"] > div {
   fill: #E75545 !important;
   background-color: #E75545 !important;
+}
+.theme-light rect[fill="rgba(237, 66, 69, 1)"] {
+  fill: #E75545 !important;
 }
 .theme-light rect[fill^="hsl(214"],
 .theme-light foreignObject[mask="url(#svg-mask-status-offline)"] > div,
@@ -1629,6 +1641,9 @@ button[class*=emojiButtonNormal] > div > div {
 .theme-light i[class^=statusOffline-] {
   fill: #636674 !important;
   background-color: #636674 !important;
+}
+.theme-light rect[fill="rgba(116, 127, 141, 1)"] {
+  fill: #636674 !important;
 }
 .theme-light rect[fill="#593695"] {
   fill: #A625A4 !important;
@@ -1740,8 +1755,7 @@ button[class*=emojiButtonNormal] > div > div {
   color: #DBDBDC;
 }
 .theme-light span[class*=channelMention]:hover,
-.theme-light [class*=mention]:not([class*=mentionButton-],
-[class*=mentionIcon-]):hover {
+.theme-light [class*=mention]:not([class*=mentionButton-], [class*=mentionIcon-]):hover {
   color: #DBDBDC;
 }
 

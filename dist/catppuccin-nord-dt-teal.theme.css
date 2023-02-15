@@ -988,6 +988,9 @@ button[class*=emojiButtonNormal] > div > div {
   background-color: var(--brand-experiment-20a);
   border-color: var(--brand-experiment-30a);
 }
+.theme-dark [class^=chatContent] div[class^=messagesErrorBar-] div[class*=barButtonBase-] {
+  color: #2E3440;
+}
 .theme-dark [class^=chatContent] [class*=inlineCode-] {
   background: #4D576A;
 }
@@ -1341,7 +1344,7 @@ button[class*=emojiButtonNormal] > div > div {
 .theme-dark div[class*=layerContainer] > div[class*=layer] div[class^=reactors] {
   background-color: var(--background-primary);
 }
-.theme-dark div[class*=layerContainer] > div[class*=layer] div[class^=scroller] {
+.theme-dark div[class*=layerContainer] > div[class*=layer] div[class^=scroller]:not([style*="padding-right: 4px;"]) {
   background-color: var(--background-secondary);
 }
 .theme-dark div[class*=layerContainer] > div[class*=layer] div[class*=reactorDefault] {
@@ -1611,15 +1614,24 @@ button[class*=emojiButtonNormal] > div > div {
   fill: #A3BE8C !important;
   background-color: #A3BE8C !important;
 }
+.theme-dark rect[fill="rgba(59, 165, 92, 1)"] {
+  fill: #A3BE8C !important;
+}
 .theme-dark rect[fill="#faa61a"],
 .theme-dark foreignObject[mask="url(#svg-mask-status-idle)"] > div {
   fill: #EBCB8B !important;
   background-color: #EBCB8B !important;
 }
+.theme-dark rect[fill="rgba(250, 166, 26, 1)"] {
+  fill: #EBCB8B !important;
+}
 .theme-dark rect[fill="#ed4245"],
 .theme-dark foreignObject[mask="url(#svg-mask-status-dnd)"] > div {
   fill: #BF616A !important;
   background-color: #BF616A !important;
+}
+.theme-dark rect[fill="rgba(237, 66, 69, 1)"] {
+  fill: #BF616A !important;
 }
 .theme-dark rect[fill^="hsl(214"],
 .theme-dark foreignObject[mask="url(#svg-mask-status-offline)"] > div,
@@ -1628,6 +1640,9 @@ button[class*=emojiButtonNormal] > div > div {
 .theme-dark i[class^=statusOffline-] {
   fill: #D9DEE8 !important;
   background-color: #D9DEE8 !important;
+}
+.theme-dark rect[fill="rgba(116, 127, 141, 1)"] {
+  fill: #D9DEE8 !important;
 }
 .theme-dark rect[fill="#593695"] {
   fill: #B48EAD !important;
@@ -1739,8 +1754,7 @@ button[class*=emojiButtonNormal] > div > div {
   color: #2E3440;
 }
 .theme-dark span[class*=channelMention]:hover,
-.theme-dark [class*=mention]:not([class*=mentionButton-],
-[class*=mentionIcon-]):hover {
+.theme-dark [class*=mention]:not([class*=mentionButton-], [class*=mentionIcon-]):hover {
   color: #2E3440;
 }
 
