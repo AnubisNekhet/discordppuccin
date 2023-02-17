@@ -1652,13 +1652,13 @@ button[class*=emojiButtonNormal] > div > div {
 .theme-light rect[fill="#593695"] {
   fill: #907AA9 !important;
 }
-.theme-light .vc-platform-indicator svg[fill*="--status-green"] {
+.theme-light .vc-platform-indicator svg[fill*="--green-"] {
   fill: #56949F;
 }
-.theme-light .vc-platform-indicator svg[fill*="--status-yellow"] {
+.theme-light .vc-platform-indicator svg[fill*="--yellow-"] {
   fill: #EA9D34;
 }
-.theme-light .vc-platform-indicator svg[fill*="--status-red"] {
+.theme-light .vc-platform-indicator svg[fill*="--red-"] {
   fill: #B4637A;
 }
 .theme-light svg[class^=cursorDefault-] svg[class^=dots-] circle {
