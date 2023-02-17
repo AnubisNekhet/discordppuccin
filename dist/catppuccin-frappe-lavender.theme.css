@@ -1875,6 +1875,10 @@ button[class*=emojiButtonNormal] > div > div {
   color: #cdd6f4;
 }
 
+[class*=searchBar-] {
+  transition: width 300ms;
+}
+
 .theme-dark div[class*=unread-],
 .theme-dark div[class^=jumpToPresentBar-] > button,
 .theme-dark div[class^=newMessagesBar-] > button {
