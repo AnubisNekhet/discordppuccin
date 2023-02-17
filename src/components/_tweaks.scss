@@ -115,3 +115,6 @@ ul[aria-label$=" threads"] > li:nth-child(n) {
 [class*=".pencilIcon-"][class*=".pencilIcon-"][class*=".pencilIcon-"] {
   color: $text;
 }
+[class*="searchBar-"] {
+  transition: width 300ms;
+}
