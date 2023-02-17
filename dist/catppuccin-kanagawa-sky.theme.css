@@ -438,6 +438,12 @@ button[class*=emojiButtonNormal] > div > div {
 .theme-dark div[role=radio][class*=selected][class*=allow] {
   background-color: #98BB6C;
 }
+.theme-dark [class*=container-][style*="background-color: var(--green-360)"] {
+  --green-360: $green;
+}
+.theme-dark [class*=container-][style*="background-color: var(--primary-400)"], .theme-dark [class*=container-][style*="background-color: rgb(130, 133, 143)"] {
+  background-color: #0B0B0F !important;
+}
 .theme-dark .vc-spotify-button-row .vc-spotify-button.vc-spotify-shuffle-on, .theme-dark .vc-spotify-button-row .vc-spotify-button.vc-spotify-repeat-context, .theme-dark .vc-spotify-button-row .vc-spotify-button.vc-spotify-repeat-track {
   color: var(--interactive-normal);
 }
@@ -1357,9 +1363,6 @@ button[class*=emojiButtonNormal] > div > div {
 .theme-dark div[class*=layerContainer] > div[class*=layer] div[class*=friendSelected] {
   background: #2A2A37 !important;
 }
-.theme-dark div[class*=layerContainer] > div[class*=layer] div[class*=header] {
-  background: #16161D;
-}
 .theme-dark section[class^=positionContainer-] button[class*=navButtonActive] {
   background-color: #A3D4D5;
   color: #0B0B0F;
@@ -1607,33 +1610,33 @@ button[class*=emojiButtonNormal] > div > div {
   color: #0B0B0F !important;
 }
 
-.theme-dark rect[fill="#3ba55c"],
+.theme-dark rect[fill="#23a55a"],
 .theme-dark foreignObject[mask="url(#svg-mask-status-online)"] > div,
 .theme-dark div[class^=dotOnline],
 .theme-dark i[class^=statusOnline-] {
   fill: #98BB6C !important;
   background-color: #98BB6C !important;
 }
-.theme-dark rect[fill="rgba(59, 165, 92, 1)"] {
+.theme-dark rect[fill="rgba(35, 165, 90, 1)"] {
   fill: #98BB6C !important;
 }
-.theme-dark rect[fill="#faa61a"],
+.theme-dark rect[fill="#f0b232"],
 .theme-dark foreignObject[mask="url(#svg-mask-status-idle)"] > div {
   fill: #E6C384 !important;
   background-color: #E6C384 !important;
 }
-.theme-dark rect[fill="rgba(250, 166, 26, 1)"] {
+.theme-dark rect[fill="rgba(240, 178, 50, 1)"] {
   fill: #E6C384 !important;
 }
-.theme-dark rect[fill="#ed4245"],
+.theme-dark rect[fill="#f23f43"],
 .theme-dark foreignObject[mask="url(#svg-mask-status-dnd)"] > div {
   fill: #FF5D62 !important;
   background-color: #FF5D62 !important;
 }
-.theme-dark rect[fill="rgba(237, 66, 69, 1)"] {
+.theme-dark rect[fill="rgba(242, 63, 67, 1)"] {
   fill: #FF5D62 !important;
 }
-.theme-dark rect[fill^="hsl(214"],
+.theme-dark rect[fill="#82858f"],
 .theme-dark foreignObject[mask="url(#svg-mask-status-offline)"] > div,
 .theme-dark foreignObject[mask="url(#svg-mask-status-offline)"] > rect,
 .theme-dark div[class^=dotOffline],
@@ -1641,7 +1644,7 @@ button[class*=emojiButtonNormal] > div > div {
   fill: #C8C093 !important;
   background-color: #C8C093 !important;
 }
-.theme-dark rect[fill="rgba(116, 127, 141, 1)"] {
+.theme-dark rect[fill="rgba(130, 133, 143, 1)"] {
   fill: #C8C093 !important;
 }
 .theme-dark rect[fill="#593695"] {
