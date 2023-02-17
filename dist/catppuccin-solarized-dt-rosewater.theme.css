@@ -440,6 +440,7 @@ button[class*=emojiButtonNormal] > div > div {
 }
 .theme-dark [class*=container-][style*="background-color: var(--green-360)"] {
   --green-360: #859900;
+  background-color: #859900 !important;
 }
 .theme-dark [class*=container-][style*="background-color: var(--primary-400)"], .theme-dark [class*=container-][style*="background-color: rgb(130, 133, 143)"] {
   background-color: #002129 !important;
