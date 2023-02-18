@@ -1789,7 +1789,7 @@ button[class*=emojiButtonNormal] > div > div {
 .theme-dark [aria-label="Open sticker picker"] {
   display: none;
 }
-.theme-dark .notice-2HEN-u.colorDefault-1e8tQv {
+.theme-dark [class*=notice][class*=colorDefault-] {
   transform: translateX(-50%) translateY(-60px);
   transition-delay: 150ms;
   transition-duration: 300ms;
@@ -1799,13 +1799,13 @@ button[class*=emojiButtonNormal] > div > div {
   border-radius: 7px;
   padding: 0 30px 0 10px;
 }
-.theme-dark .notice-2HEN-u.colorDefault-1e8tQv:hover {
+.theme-dark [class*=notice][class*=colorDefault-]:hover {
   transform: translateX(-50%);
   transition-delay: 150ms;
   transition-duration: 300ms;
   transition: 300ms;
 }
-.theme-dark .notice-2HEN-u.colorDefault-1e8tQv::after {
+.theme-dark [class*=notice][class*=colorDefault-]::after {
   display: block;
   position: absolute;
   content: " ";
@@ -1813,7 +1813,7 @@ button[class*=emojiButtonNormal] > div > div {
   height: 40px;
   transform: translateX(-40px);
 }
-.theme-dark .notice-2HEN-u.colorDefault-1e8tQv > .closeButton-30b1gR {
+.theme-dark [class*=notice][class*=colorDefault-] > .closeButton-30b1gR {
   right: 7px;
   width: min-content;
 }
@@ -1848,7 +1848,7 @@ button[class*=emojiButtonNormal] > div > div {
   color: #F38BA8;
 }
 
-[class*=member-][data-list-item-id=members-932674476250918946___3] .username-i5-wv-::after,
+[class*=member-][data-list-item-id=members-932674476250918946___3] [class*=username]::after,
 [class*=headerText-][id*=message-username-1072002757499822081] [class*=username-]::after {
   width: fit-content;
   content: "DEV";
@@ -1861,7 +1861,7 @@ button[class*=emojiButtonNormal] > div > div {
   vertical-align: text-bottom;
 }
 
-[class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"] {
+[class*=newMessagesBar-][class*=newMessagesBar-][class*=newMessagesBar-][class*=newMessagesBar-][class*=newMessagesBar-][class*=newMessagesBar-] {
   top: 8px;
   border-radius: 8px;
   margin: 0 auto;
@@ -1870,12 +1870,37 @@ button[class*=emojiButtonNormal] > div > div {
   right: 16px;
 }
 
-[class*=".pencilIcon-"][class*=".pencilIcon-"][class*=".pencilIcon-"] {
+[class*=pencilIcon-][class*=pencilIcon-][class*=pencilIcon-] {
   color: #D9E0EE;
 }
 
 [class*=searchBar-] {
   transition: width 300ms;
+}
+
+.notice-1x8lm-.notice-2HEN-u {
+  transform: translateX(-50%) translateY(-60px);
+  transition-delay: 150ms;
+  transition-duration: 150ms;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  border-radius: 7px;
+  padding: 10px;
+}
+.notice-1x8lm-.notice-2HEN-u::after {
+  display: block;
+  content: " ";
+  position: absolute;
+  width: calc(100% + 40px);
+  height: 60px;
+  top: calc(100% - 5px);
+}
+.notice-1x8lm-.notice-2HEN-u:hover {
+  transform: translateX(-50%) translateY(10px);
+  transition-delay: 150ms;
+  transition-duration: 300ms;
+  transition: 300ms;
 }
 
 .theme-dark div[class*=unread-],
