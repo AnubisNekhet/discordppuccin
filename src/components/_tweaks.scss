@@ -28,7 +28,7 @@ section[class*="chatContent-"] form [class*="container-"] {
   display: none;
 }
 //vencord update hide
-.notice-2HEN-u.colorDefault-1e8tQv {
+[class*="notice"][class*="colorDefault-"] {
     transform: translateX(-50%) translateY(-60px);
     transition-delay: 150ms;
     transition-duration: 300ms;
@@ -91,7 +91,7 @@ ul[aria-label$=" threads"] > li:nth-child(n) {
   color: $red;
 }
 //self highlight
-[class*="member-"][data-list-item-id="members-932674476250918946___3"] .username-i5-wv-::after,
+[class*="member-"][data-list-item-id="members-932674476250918946___3"] [class*="username"]::after,
 [class*="headerText-"][id*="message-username-1072002757499822081"] [class*="username-"]::after {
   width: fit-content;
   content: 'DEV';
@@ -104,7 +104,7 @@ ul[aria-label$=" threads"] > li:nth-child(n) {
   vertical-align: text-bottom;
 }
 //new messages
-[class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"][class*=".newMessagesBar-"] {
+[class*="newMessagesBar-"][class*="newMessagesBar-"][class*="newMessagesBar-"][class*="newMessagesBar-"][class*="newMessagesBar-"][class*="newMessagesBar-"] {
   top: 8px;
   border-radius: 8px;
   margin: 0 auto;
@@ -112,9 +112,35 @@ ul[aria-label$=" threads"] > li:nth-child(n) {
   left: 16px;
   right: 16px;
 }
-[class*=".pencilIcon-"][class*=".pencilIcon-"][class*=".pencilIcon-"] {
+[class*="pencilIcon-"][class*="pencilIcon-"][class*="pencilIcon-"] {
   color: $text;
 }
 [class*="searchBar-"] {
   transition: width 300ms;
+}
+
+//join this server notice
+.notice-1x8lm-.notice-2HEN-u {
+  transform: translateX(-50%) translateY(-60px);
+  transition-delay: 150ms;
+  transition-duration: 150ms;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  border-radius: 7px;
+  padding: 10px;
+  &::after {
+    display: block;
+    content: " ";
+    position: absolute;
+    width: calc(100% + 40px);
+    height: 60px;
+    top: calc(100% - 5px);
+  }
+  &:hover {
+    transform: translateX(-50%) translateY(10px);
+    transition-delay: 150ms;
+    transition-duration: 300ms;
+    transition: 300ms;
+  }
 }
