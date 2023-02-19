@@ -249,6 +249,7 @@
 .highlighted-1TaRLI.highlighted-1TaRLI.highlighted-1TaRLI.highlighted-1TaRLI.highlighted-1TaRLI.highlighted-1TaRLI, .replying-eZ7p5z.replying-eZ7p5z.replying-eZ7p5z.replying-eZ7p5z.replying-eZ7p5z.replying-eZ7p5z.replying-eZ7p5z {
   background-color: var(--background-message-highlight) !important;
 }
+/*
 @keyframes message-pop {
   from {
     opacity: 0;
@@ -263,3 +264,4 @@
 [id*="message-content-"]:not([class*="isSending-"]) {
   animation: 0.25s ease-in-out message-pop;
 }
+*/
