@@ -2210,6 +2210,10 @@ button[class*=emojiButtonNormal] > div > div {
   animation: 0.25s ease-in-out message-pop;
 }
 */
+.mentioned-Tre-dv {
+  background-color: var(--background-mentioned) !important;
+}
+
 .theme-dark div[class*=unread-],
 .theme-dark div[class^=jumpToPresentBar-] > button,
 .theme-dark div[class^=newMessagesBar-] > button {
