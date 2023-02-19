@@ -1956,7 +1956,7 @@ button[class*=emojiButtonNormal] > div > div {
   overflow: hidden !important;
 }
 
-.message-2CShn3 .imageWrapper-oMkQl4:not(.imageZoom-3yLCXY) {
+.message-2CShn3 :not([class*=embedVideo-]) > .imageWrapper-oMkQl4:not(.imageZoom-3yLCXY) {
   max-width: 100% !important;
 }
 
