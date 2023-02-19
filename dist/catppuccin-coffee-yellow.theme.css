@@ -2194,20 +2194,22 @@ button[class*=emojiButtonNormal] > div > div {
   background-color: var(--background-message-highlight) !important;
 }
 
+/*
 @keyframes message-pop {
   from {
     opacity: 0;
     transform: translateY(100%);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
-[id*=message-content-]:not([class*=isSending-]) {
+[id*="message-content-"]:not([class*="isSending-"]) {
   animation: 0.25s ease-in-out message-pop;
 }
-
+*/
 .theme-dark div[class*=unread-],
 .theme-dark div[class^=jumpToPresentBar-] > button,
 .theme-dark div[class^=newMessagesBar-] > button {
