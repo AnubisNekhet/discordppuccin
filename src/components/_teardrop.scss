@@ -260,6 +260,6 @@
     transform: translateY(0);
   }
 }
-[class*="message-content-"]:not([class*="isSending-"]) {
+[id*="message-content-"]:not([class*="isSending-"]) {
   animation: 0.25s ease-in-out message-pop;
 }
