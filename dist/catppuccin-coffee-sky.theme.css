@@ -2180,6 +2180,7 @@ button[class*=emojiButtonNormal] > div > div {
   border-radius: 16px;
   border-top-left-radius: 0 !important;
   width: max-content;
+  max-width: 100%;
   box-shadow: var(--elevation-low);
   overflow: visible !important;
   box-sizing: border-box;
