@@ -2205,7 +2205,7 @@ button[class*=emojiButtonNormal] > div > div {
     transform: translateY(0);
   }
 }
-[class*=message-] {
+[class*=message-]:not([class*=isSending-]) {
   animation: 0.25s ease-in-out message-pop;
 }
 
