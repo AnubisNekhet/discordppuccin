@@ -2170,6 +2170,26 @@ button[class*=emojiButtonNormal] > div > div {
   border-top-left-radius: 0;
 }
 
+[class*=imageContent-] {
+  background-color: var(--background-secondary);
+  font-weight: 500;
+  margin-left: 0 !important;
+  margin-top: 4px !important;
+  padding-left: 0 !important;
+  padding: 8px 12px !important;
+  border-radius: 16px;
+  border-top-left-radius: 0 !important;
+  width: max-content;
+  max-width: 80%;
+  box-shadow: var(--elevation-low);
+  overflow: visible !important;
+  box-sizing: border-box;
+}
+
+[class*=imageContent-] [class*=imageWrapper-] {
+  box-shadow: none !important;
+}
+
 .theme-dark div[class*=unread-],
 .theme-dark div[class^=jumpToPresentBar-] > button,
 .theme-dark div[class^=newMessagesBar-] > button {
