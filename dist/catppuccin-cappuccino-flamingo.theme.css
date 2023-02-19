@@ -1848,7 +1848,7 @@ button[class*=emojiButtonNormal] > div > div {
   color: #F38BA8;
 }
 
-[class*=member-][data-list-item-id=members-932674476250918946___3] [class*=username]::after,
+[class*=member-][data-list-item-id=members-932674476250918946___3] [class*=name-] > [class*=username]::after,
 [class*=headerText-][id*=message-username-1072002757499822081] [class*=username-]::after {
   width: fit-content;
   content: "DEV";
