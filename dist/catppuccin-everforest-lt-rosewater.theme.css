@@ -2171,7 +2171,7 @@ button[class*=emojiButtonNormal] > div > div {
   border-top-left-radius: 0;
 }
 
-[class*=imageContent-] {
+[class*=imageContent-][class*=embedImage-] {
   background-color: var(--background-secondary);
   font-weight: 500;
   margin-left: 0 !important;
