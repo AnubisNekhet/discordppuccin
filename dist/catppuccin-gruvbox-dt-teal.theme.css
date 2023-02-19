@@ -2190,6 +2190,10 @@ button[class*=emojiButtonNormal] > div > div {
   box-shadow: none !important;
 }
 
+.highlighted-1TaRLI.highlighted-1TaRLI.highlighted-1TaRLI.highlighted-1TaRLI.highlighted-1TaRLI.highlighted-1TaRLI, .replying-eZ7p5z.replying-eZ7p5z.replying-eZ7p5z.replying-eZ7p5z.replying-eZ7p5z.replying-eZ7p5z.replying-eZ7p5z {
+  background-color: var(--background-message-highlight) !important;
+}
+
 .theme-dark div[class*=unread-],
 .theme-dark div[class^=jumpToPresentBar-] > button,
 .theme-dark div[class^=newMessagesBar-] > button {
