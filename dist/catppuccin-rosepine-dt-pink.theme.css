@@ -1737,6 +1737,9 @@ button[class*=emojiButtonNormal] > div > div {
   -webkit-box-shadow: inset 0 0 0 2px #72B69C, inset 0 0 0 3px var(--background-secondary);
   box-shadow: inset 0 0 0 2px #72B69C, inset 0 0 0 3px var(--background-secondary);
 }
+.theme-dark [class*=border-][class*=speaking-] {
+  --green-360: $green;
+}
 .theme-dark div[class*=videoLayer-] > div[class^=tileChild] > div[class^=border][class*=speaking-] {
   -webkit-box-shadow: inset 0 0 0 2px #72B69C, inset 0 0 0 3px #72B69C;
   box-shadow: inset 0 0 0 2px #72B69C, inset 0 0 0 3px #72B69C;
