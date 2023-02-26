@@ -1665,8 +1665,11 @@ button[class*=emojiButtonNormal] > div > div {
   width: 0;
   padding: 12px;
   height: 0;
-  -webkit-mask-image: url("/assets/eaeac24163b35f7526704a3d9b3c7722.svg");
+  -webkit-mask-image: url("discord.com/assets/eaeac24163b35f7526704a3d9b3c7722.svg");
   background: #a6e3a1;
+}
+.theme-dark [class*=headerIcon-] {
+  --spotify: $green;
 }
 .theme-dark svg[class^=cursorDefault-] svg[class^=dots-] circle {
   fill: #1e1e2e !important;
