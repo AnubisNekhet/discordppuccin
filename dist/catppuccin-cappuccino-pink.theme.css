@@ -1660,6 +1660,13 @@ button[class*=emojiButtonNormal] > div > div {
 .theme-dark .vc-platform-indicator svg[fill*="--red-"] {
   fill: #F38BA8;
 }
+.theme-dark [src="/assets/eaeac24163b35f7526704a3d9b3c7722.svg"] {
+  width: 0;
+  padding: 12px;
+  height: 0;
+  -webkit-mask-image: url("/assets/eaeac24163b35f7526704a3d9b3c7722.svg");
+  background: #A6E3A1;
+}
 .theme-dark svg[class^=cursorDefault-] svg[class^=dots-] circle {
   fill: #1E1E2E !important;
 }
