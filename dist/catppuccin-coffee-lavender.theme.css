@@ -1918,7 +1918,7 @@ button[class*=emojiButtonNormal] > div > div {
 .notice-1x8lm-.notice-2HEN-u div#vc-spotify-player .vc-spotify-button-row {
   margin-top: -32px;
   opacity: 0;
-  transition: opacity 0.1s 0.2s, margin-top 0.2s 0.2s;
+  transition: opacity 0.1s 0.3s, margin-top 0.2s 0.2s;
 }
 .notice-1x8lm-.notice-2HEN-u div#vc-spotify-player:hover .vc-spotify-button-row {
   margin-top: 0;
