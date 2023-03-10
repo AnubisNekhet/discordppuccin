@@ -143,14 +143,14 @@ ul[aria-label$=" threads"] > li:nth-child(n) {
     transition-duration: 300ms;
     transition: 300ms;
   }
-}
-@import "teardrop";
 div#vc-spotify-player .vc-spotify-button-row {
     margin-top: -32px;
     opacity: 0;
-    transition: opacity 0.1s 0.2s, margin-bottom 0.2s 0.2s;
+    transition: opacity 0.1s 0.2s, margin-top 0.2s 0.2s;
 }
 div#vc-spotify-player:hover .vc-spotify-button-row {
     margin-top: 0;
     opacity: 1;
 }
+}
+@import "teardrop";
