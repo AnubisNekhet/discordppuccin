@@ -2229,6 +2229,17 @@ button[class*=emojiButtonNormal] > div > div {
   background-color: var(--background-mentioned) !important;
 }
 
+div#vc-spotify-player .vc-spotify-button-row {
+  margin-top: -32px;
+  opacity: 0;
+  transition: opacity 0.1s 0.2s, margin-bottom 0.2s 0.2s;
+}
+
+div#vc-spotify-player:hover .vc-spotify-button-row {
+  margin-top: 0;
+  opacity: 1;
+}
+
 .theme-light div[class*=unread-],
 .theme-light div[class^=jumpToPresentBar-] > button,
 .theme-light div[class^=newMessagesBar-] > button {
