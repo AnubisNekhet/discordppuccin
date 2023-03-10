@@ -1916,6 +1916,15 @@ button[class*=emojiButtonNormal] > div > div {
   transition-duration: 300ms;
   transition: 300ms;
 }
+.notice-1x8lm-.notice-2HEN-u div#vc-spotify-player .vc-spotify-button-row {
+  margin-top: -32px;
+  opacity: 0;
+  transition: opacity 0.1s 0.2s, margin-top 0.2s 0.2s;
+}
+.notice-1x8lm-.notice-2HEN-u div#vc-spotify-player:hover .vc-spotify-button-row {
+  margin-top: 0;
+  opacity: 1;
+}
 
 /*-----------------
   https://github.com/Freeplayg/Discord-TeardropMessages
@@ -2227,17 +2236,6 @@ button[class*=emojiButtonNormal] > div > div {
 */
 .mentioned-Tre-dv {
   background-color: var(--background-mentioned) !important;
-}
-
-div#vc-spotify-player .vc-spotify-button-row {
-  margin-top: -32px;
-  opacity: 0;
-  transition: opacity 0.1s 0.2s, margin-bottom 0.2s 0.2s;
-}
-
-div#vc-spotify-player:hover .vc-spotify-button-row {
-  margin-top: 0;
-  opacity: 1;
 }
 
 .theme-light div[class*=unread-],
