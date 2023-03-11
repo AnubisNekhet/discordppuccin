@@ -15,7 +15,7 @@ z-index: 1;
 .textRow-1sENuL,
 .anchor-1X4H4q,
 .activityName-3YXl6e {
-  color: #{$text};
+  color: #{$crust};
 }
 
 .buttonColor-XIRMbp {
@@ -126,5 +126,10 @@ z-index: 1;
 
 .platformIcon-k3yytQ {
   display: none;
+}
+.activity-E0U09Y {
+  [class*="headerText-"] {
+    --header-primary: #{$base};
+  }
 }
 }
