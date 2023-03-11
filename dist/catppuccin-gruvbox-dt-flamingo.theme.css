@@ -2278,7 +2278,7 @@ button[class*=emojiButtonNormal] > div > div {
     }
   }
   .theme-dark .activity-E0U09Y .timeBarUserPopoutV2-32DL06 .barInner-3dHef4 {
-    background-color: #FBF1C7;
+    background-color: var(--profile-body-background-color);
   }
   .theme-dark .activity-E0U09Y .platformIcon-k3yytQ {
     display: none;
