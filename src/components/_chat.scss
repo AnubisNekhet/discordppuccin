@@ -102,7 +102,7 @@ main[class^="chatContent"] div[id^="message-content-"] svg[class^="icon-"] {
 }
 
 // spoiler messages
-& {
+.theme-#{$theme} {
   span[class^="spoilerText"],
   div[class^="spoilerText"] {
     background-color: $surface0;
@@ -464,3 +464,4 @@ div[class*="chat-"] {
   [class*="partyStatus-"] {
     color: $text;
   }
+}

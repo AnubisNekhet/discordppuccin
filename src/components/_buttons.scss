@@ -61,7 +61,7 @@ div[class^="actionButtons-"] {
 }
 
 // lookLink + colorPrimary should be themed
-& {
+.theme-#{$theme} {
   [class*="lookLink-"][class*="colorPrimary-"] {
     color: $text;
   }

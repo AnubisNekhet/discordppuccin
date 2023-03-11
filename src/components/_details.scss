@@ -167,7 +167,7 @@ svg[class^="uploadIcon"] {
 }
 
 // empty states. why is it colored like this
-& {
+.theme-#{$theme} {
   h2[class^="emptyStateHeader-"] {
     color: $text;
   }

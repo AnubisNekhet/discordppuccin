@@ -68,7 +68,7 @@ div[class^="layerContainer"] [role="menu"] {
   }
 }
 
-& {
+.theme-#{$theme} {
   div[class^="layerContainer"] div[id^="popout_"] > div[class*="didRender-"] {
     &:not([class^="animatorBottom-"]) > div {
       div[class*="flowerStarContainer-"] {
@@ -215,7 +215,7 @@ section[class^="positionContainer-"] {
   background-color: var(--brand-experiment-25a);
 }
 
-& {
+.theme-#{$theme} {
   //   color: $text;
 
   > div[class^="focusLock"]

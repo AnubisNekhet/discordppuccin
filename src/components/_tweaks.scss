@@ -80,7 +80,6 @@ ul[aria-label$=" threads"] > li:nth-child(n) {
     --interactive-hover: inherit;
     --interactive-active: inherit;
 }
-}
 //hide scrollbars
 *::-webkit-scrollbar {
   display: none;
@@ -153,3 +152,4 @@ div#vc-spotify-player:hover .vc-spotify-button-row {
 }
 }
 @import "teardrop";
+@import "comfy";
