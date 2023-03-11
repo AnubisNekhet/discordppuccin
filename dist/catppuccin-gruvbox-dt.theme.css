@@ -2171,7 +2171,7 @@ button[class*=emojiButtonNormal] > div > div {
   /*------------
   Stolen from https://github.com/Comfy-Themes/Discord
   -------------*/
-  .activity-E0U09Y {
+  .theme-dark .activity-E0U09Y {
     --listening: #98971A;
     --playing: #CC241D;
     --listening-test: #282828;
@@ -2179,21 +2179,21 @@ button[class*=emojiButtonNormal] > div > div {
     margin-top: 25px;
     z-index: 1;
   }
-  .activity-E0U09Y .text-31kWmP,
-  .activity-E0U09Y .textRow-1sENuL,
-  .activity-E0U09Y .anchor-1X4H4q,
-  .activity-E0U09Y .activityName-3YXl6e,
-  .activity-E0U09Y .textRow-1sENuL,
-  .activity-E0U09Y [class*=headerText-] {
+  .theme-dark .activity-E0U09Y .text-31kWmP,
+  .theme-dark .activity-E0U09Y .textRow-1sENuL,
+  .theme-dark .activity-E0U09Y .anchor-1X4H4q,
+  .theme-dark .activity-E0U09Y .activityName-3YXl6e,
+  .theme-dark .activity-E0U09Y .textRow-1sENuL,
+  .theme-dark .activity-E0U09Y [class*=headerText-] {
     color: var(--profile-body-background-color) !important;
   }
-  .activity-E0U09Y .buttonColor-XIRMbp {
+  .theme-dark .activity-E0U09Y .buttonColor-XIRMbp {
     border: none;
     background-color: var(--listening-test);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1294117647);
     color: #FBF1C7;
   }
-  .activity-E0U09Y .headerTextNormal-Z8we9g::before {
+  .theme-dark .activity-E0U09Y .headerTextNormal-Z8we9g::before {
     content: "";
     position: absolute;
     height: 25px;
@@ -2216,7 +2216,7 @@ button[class*=emojiButtonNormal] > div > div {
       -webkit-mask-position-x: 0;
     }
   }
-  .activity-E0U09Y::before {
+  .theme-dark .activity-E0U09Y::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -2228,7 +2228,7 @@ button[class*=emojiButtonNormal] > div > div {
     background: var(--playing);
     border-radius: 0 0 10px 10px;
   }
-  .activity-E0U09Y::after {
+  .theme-dark .activity-E0U09Y::after {
     content: "";
     position: absolute;
     height: 25px;
@@ -2243,7 +2243,7 @@ button[class*=emojiButtonNormal] > div > div {
     animation-delay: 0s;
     opacity: 1;
   }
-  .activity-E0U09Y .timeBarUserPopoutV2-32DL06::before {
+  .theme-dark .activity-E0U09Y .timeBarUserPopoutV2-32DL06::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -2255,7 +2255,7 @@ button[class*=emojiButtonNormal] > div > div {
     background: var(--listening);
     border-radius: 0 0 10px 10px;
   }
-  .activity-E0U09Y .timeBarUserPopoutV2-32DL06::after {
+  .theme-dark .activity-E0U09Y .timeBarUserPopoutV2-32DL06::after {
     content: "";
     position: absolute;
     height: 25px;
@@ -2277,13 +2277,13 @@ button[class*=emojiButtonNormal] > div > div {
       -webkit-mask-position-x: 284px;
     }
   }
-  .activity-E0U09Y .timeBarUserPopoutV2-32DL06 .barInner-3dHef4 {
+  .theme-dark .activity-E0U09Y .timeBarUserPopoutV2-32DL06 .barInner-3dHef4 {
     background-color: #FBF1C7;
   }
-  .activity-E0U09Y .platformIcon-k3yytQ {
+  .theme-dark .activity-E0U09Y .platformIcon-k3yytQ {
     display: none;
   }
-  .activity-E0U09Y .activity-E0U09Y [class*=headerText-] {
+  .theme-dark .activity-E0U09Y .activity-E0U09Y [class*=headerText-] {
     --header-primary: #282828;
   }
   div[class*=unread-],
