@@ -123,7 +123,7 @@ z-index: 1;
   }
 
   .barInner-3dHef4 {
-    background-color: #{$text};
+    background-color: var(--profile-body-background-color);
   }
 }
 
