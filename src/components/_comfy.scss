@@ -3,6 +3,7 @@ Stolen from https://github.com/Comfy-Themes/Discord
 -------------*/
 @use "sass:string";
 
+.theme-#{$theme} {
   .activity-E0U09Y {
       --listening: #{$green};
       --playing: #{$brand};
@@ -133,5 +134,6 @@ z-index: 1;
   [class*="headerText-"] {
     --header-primary: #{$base};
   }
+}
 }
 }
