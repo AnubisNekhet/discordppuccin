@@ -1,4 +1,3 @@
-.theme-#{$theme} {
 $svgBg: (
   "noItemsIcon": (
     color: $surface1,
@@ -12,5 +11,4 @@ $svgBg: (
       background-color: #{map-get($color, color)};
     }
   }
-}
 }

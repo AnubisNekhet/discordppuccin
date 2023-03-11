@@ -1,4 +1,3 @@
-.theme-#{$theme} {
 // "spine" svgs before threads
 svg[class^="spine-"] {
   color: $surface2;
@@ -63,5 +62,4 @@ div[class*="activePostCount-"] {
 div[class*="newPostCount-"] {
   background-color: $text;
   color: $crust;
-}
 }

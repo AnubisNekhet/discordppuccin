@@ -1,4 +1,3 @@
-.theme-#{$theme} {
 div[class^="layerContainer"] [role="menu"] {
   // make menu items readable when hovered
   --brand-experiment-560: var(--brand-experiment-25a);
@@ -551,5 +550,4 @@ div[class*="userProfileOuter-"] {
   div[id="sort-and-view-reset-all"] [style="color: var(--text-normal);"]:hover {
     color: $crust !important;
   }
-}
 }

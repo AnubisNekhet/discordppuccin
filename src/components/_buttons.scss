@@ -1,4 +1,3 @@
-.theme-#{$theme} {
 // filled buttons and badges should have crust text
 [class*="lookFilled-"] {
   &[class*="colorBrand-"],
@@ -131,4 +130,3 @@ div[role="radio"][class*="selected"] {
   color: $crust !important;
 }
 
-}

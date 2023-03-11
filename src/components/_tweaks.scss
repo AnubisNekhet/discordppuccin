@@ -1,4 +1,3 @@
-.theme-#{$theme} {
 //Credits: ToxicAven
 // Show edit timestamps in the edited message
 [class*="timestamp-"]:not([class*="timestampInline-"], [class*="timestampVisibleOnHover-"])
@@ -154,4 +153,3 @@ div#vc-spotify-player:hover .vc-spotify-button-row {
 }
 }
 @import "teardrop";
-@import "comfy";

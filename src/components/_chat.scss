@@ -1,4 +1,3 @@
-.theme-#{$theme} {
 [class^="chatContent"] {
   div[class*="wrapperAudio-"],
   div[class*="imageWrapper-"] {
@@ -465,4 +464,3 @@ div[class*="chat-"] {
   [class*="partyStatus-"] {
     color: $text;
   }
-}}

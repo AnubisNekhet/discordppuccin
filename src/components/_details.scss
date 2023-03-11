@@ -1,4 +1,3 @@
-.theme-#{$theme} {
 // online
 rect[fill="#23a55a"],
 foreignObject[mask="url(#svg-mask-status-online)"] > div,
@@ -247,5 +246,4 @@ div[class*="tryItOutBadge-"] {
 span[class*="channelMention"]:hover,
 [class*="mention"]:not([class*="mentionButton-"], [class*="mentionIcon-"]):hover {
   color: $crust;
-}
 }

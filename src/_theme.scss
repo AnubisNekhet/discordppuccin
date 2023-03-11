@@ -1,3 +1,4 @@
+@media (prefers-color-scheme: #{$theme}) {
 @import "components/variables";
 
 @import "components/icons-bgImg";
@@ -80,5 +81,6 @@ div[class*="live-"][class*="badge-"] {
 // 'peopleList' background, friendslist, is not set via the variable
 div[class^="base"] > div[class^="content"] > div[class^="container"] {
   background-color: $base !important;
+}
 }
 }
