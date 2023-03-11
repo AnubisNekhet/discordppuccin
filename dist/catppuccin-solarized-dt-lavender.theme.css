@@ -2251,8 +2251,10 @@ Stolen from https://github.com/Comfy-Themes/Discord
 .activity-E0U09Y .text-31kWmP,
 .activity-E0U09Y .textRow-1sENuL,
 .activity-E0U09Y .anchor-1X4H4q,
-.activity-E0U09Y .activityName-3YXl6e {
-  color: #002129;
+.activity-E0U09Y .activityName-3YXl6e,
+.activity-E0U09Y .textRow-1sENuL,
+.activity-E0U09Y [class*=headerText-] {
+  color: var(--profile-body-background-color) !important;
 }
 .activity-E0U09Y .buttonColor-XIRMbp {
   border: none;
