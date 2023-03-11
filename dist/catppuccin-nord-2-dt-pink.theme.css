@@ -2252,7 +2252,7 @@ Stolen from https://github.com/Comfy-Themes/Discord
 .activity-E0U09Y .textRow-1sENuL,
 .activity-E0U09Y .anchor-1X4H4q,
 .activity-E0U09Y .activityName-3YXl6e {
-  color: #ECEFF4;
+  color: #1E2229;
 }
 .activity-E0U09Y .buttonColor-XIRMbp {
   border: none;
@@ -2349,6 +2349,9 @@ Stolen from https://github.com/Comfy-Themes/Discord
 }
 .activity-E0U09Y .platformIcon-k3yytQ {
   display: none;
+}
+.activity-E0U09Y .activity-E0U09Y [class*=headerText-] {
+  --header-primary: #2E3440;
 }
 
 .theme-dark div[class*=unread-],
