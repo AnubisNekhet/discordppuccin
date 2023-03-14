@@ -1,100 +1,67 @@
-/*------------
-Stolen from https://github.com/Comfy-Themes/Discord
--------------*/
-@use "sass:string";
-
-.theme-#{$theme} {
-  .activity-E0U09Y {
-      --listening: #{$green};
-      --playing: #{$brand};
-      --listening-test: #{$base};
-padding: 16px;
-margin-top: 25px;
-z-index: 1;
-
-.text-31kWmP,
-.textRow-1sENuL,
-.anchor-1X4H4q,
-.activityName-3YXl6e,
-.textRow-1sENuL,
-[class*="headerText-"] {
-  color: var(--profile-body-background-color) !important;
-}
-
-.buttonColor-XIRMbp {
-  border: none;
-  background-color: var(--listening-test);
-  box-shadow: 0 4px 15px #00000021;
-  color: #{$text};
-}
-// Waves are back :D
-.headerTextNormal-Z8we9g::before {
-  content: "";
-  position: absolute;
-  height: 25px;
+// Wavy spotify
+/* Credit to https://github.com/Comfy-Themes/Discord */
+[class*="userPopoutOuter-"] [class*="activity-"] {
+  --listening: #{$green};
+  --playing: #{$brand};
+  --listening-test: #{$base};
+  --wave-width: 283px;
+  padding: 16px;
+  margin-top: 25px;
   z-index: 1;
-  width: 284px;
-  top: -25px;
-  left: 0;
-  background: var(--background-secondary);
-  background: var(--profile-gradient-primary-color);
-  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="25" viewBox="0 0 284 25"><path d="M283.999 15.2776C228.798 15.2776 211.243 -0.0317305 140.048 -0.000164877C69.0475 -0.000164877 51.2975 15.2776 8.58307e-06 15.2776V24.9998H284C284 24.9998 283.999 18.9392 283.999 15.2776Z"/></svg>');
-  animation: animate2 8s linear infinite;
-  animation-delay: 0s;
-  opacity: 1;
 
-  @keyframes animate2 {
-    0% {
-      -webkit-mask-position-x: 284px;
-    }
-    100% {
-      -webkit-mask-position-x: 0;
+  [class*="text-"],
+  [class*="textRow-"],
+  [class*="anchor-"],
+  [class*="activityName-"],
+  [class*="headerText-"] {
+    color: var(--profile-body-background-color) !important;
+  }
+
+  [class*="buttonColor-"] {
+    border: none;
+    background-color: $base;
+    box-shadow: 0 4px 15px #00000021;
+    color: #{$text};
+  }
+
+  // Waves are back :D
+  [class*="headerTextNormal-"]::before {
+    content: "";
+    position: absolute;
+    height: 25px;
+    z-index: 1;
+    width: var(--wave-width);
+    top: -25px;
+    left: 0;
+    background: var(--background-secondary);
+    background: var(--profile-gradient-primary-color);
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="25" viewBox="0 0 284 25"><path d="M283.999 15.2776C228.798 15.2776 211.243 -0.0317305 140.048 -0.000164877C69.0475 -0.000164877 51.2975 15.2776 8.58307e-06 15.2776V24.9998H284C284 24.9998 283.999 18.9392 283.999 15.2776Z"/></svg>');
+    animation: animate2 8s linear infinite;
+    animation-delay: 0s;
+    opacity: 1;
+
+    @keyframes animate2 {
+      0% {
+        -webkit-mask-position-x: var(--wave-width);
+      }
+
+      100% {
+        -webkit-mask-position-x: 0;
+      }
     }
   }
-}
 
-// Playing
-&::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -2;
-  left: 0;
-  top: 0;
-  background: #{$brand};
-  background: var(--playing);
-  border-radius: 0 0 10px 10px;
-}
-
-&::after {
-  content: "";
-  position: absolute;
-  height: 25px;
-  z-index: 2;
-  width: 292px;
-  top: -24px;
-  left: 0;
-  background: #{$brand};
-  background: var(--playing);
-  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="25" viewBox="0 0 284 25"><path d="M283.999 15.2776C228.798 15.2776 211.243 -0.0317305 140.048 -0.000164877C69.0475 -0.000164877 51.2975 15.2776 8.58307e-06 15.2776V24.9998H284C284 24.9998 283.999 18.9392 283.999 15.2776Z"/></svg>');
-  animation: animate 6s linear infinite;
-  animation-delay: 0s;
-  opacity: 1;
-}
-
-// Spotify
-.timeBarUserPopoutV2-32DL06 {
+  // Playing
   &::before {
     content: "";
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: -2;
     left: 0;
     top: 0;
-    background: #{$green};
-    background: var(--listening);
+    background: #{$brand};
+    background: var(--playing);
     border-radius: 0 0 10px 10px;
   }
 
@@ -102,38 +69,115 @@ z-index: 1;
     content: "";
     position: absolute;
     height: 25px;
-    width: 292px;
+    z-index: 2;
+    width: var(--wave-width);
     top: -24px;
     left: 0;
-    z-index: 3;
-    background: #{$green};
-    background: var(--listening);
+    background: $brand;
     -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="25" viewBox="0 0 284 25"><path d="M283.999 15.2776C228.798 15.2776 211.243 -0.0317305 140.048 -0.000164877C69.0475 -0.000164877 51.2975 15.2776 8.58307e-06 15.2776V24.9998H284C284 24.9998 283.999 18.9392 283.999 15.2776Z"/></svg>');
     animation: animate 6s linear infinite;
     animation-delay: 0s;
+    opacity: 1;
+  }
 
-    @keyframes animate {
-      0% {
-        -webkit-mask-position-x: 0;
+  // Spotify
+  [class*="timeBarUserPopoutV2-"] {
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      left: 0;
+      top: 0;
+      background: $green;
+      border-radius: 0 0 10px 10px;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      height: 25px;
+      width: var(--wave-width);
+      top: -24px;
+      left: 0;
+      z-index: 3;
+      background: $green;
+      -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="25" viewBox="0 0 284 25"><path d="M283.999 15.2776C228.798 15.2776 211.243 -0.0317305 140.048 -0.000164877C69.0475 -0.000164877 51.2975 15.2776 8.58307e-06 15.2776V24.9998H284C284 24.9998 283.999 18.9392 283.999 15.2776Z"/></svg>');
+      animation: animate 6s linear infinite;
+      animation-delay: 0s;
+
+      @keyframes animate {
+        0% {
+          -webkit-mask-position-x: 0;
+        }
+
+        100% {
+          -webkit-mask-position-x: var(--wave-width);
+        }
       }
-      100% {
-        -webkit-mask-position-x: 284px;
-      }
+    }
+
+    [class*="barInner-3dHef4"] {
+      background-color: var(--profile-body-background-color);
     }
   }
 
-  .barInner-3dHef4 {
-    background-color: var(--profile-body-background-color);
+  [class*="platformIcon-"] {
+    display: none;
+  }
+
+  [class*="headerText-"] {
+    --header-primary: $base;
   }
 }
 
-.platformIcon-k3yytQ {
-  display: none;
-}
-.activity-E0U09Y {
-  [class*="headerText-"] {
-    --header-primary: #{$base};
+// Cool looking Jump to Present message button
+[class*="jumpToPresentBar"] {
+  display: contents;
+
+  >button:first-child {
+    display: none;
   }
-}
-}
+
+  >button:last-child {
+    position: absolute;
+    bottom: 24px;
+    right: 22px;
+    padding: 8px !important;
+    height: auto;
+    background-color: var(--background-secondary);
+    border-radius: 100px;
+    display: flex;
+    font-size: 0;
+    color: transparent;
+    transition: font-size 150ms 0s, color 150ms 0s, padding 150ms 0s;
+  }
+
+  >button svg {
+    order: -1;
+    margin: 0;
+    height: 24px;
+    width: 24px;
+    top: unset;
+    margin-right: 4px;
+    margin-left: 0;
+    margin-right: 0;
+    color: var(--text-normal);
+    transition: margin 150ms 0s;
+  }
+
+  &:hover>button {
+    padding: 8px 18px !important;
+    font-size: 14px;
+    color: var(--text-normal);
+    transition: font-size 150ms 1.1s, color 150ms 1.1s, padding 150ms 1.1s;
+    background-color: var(--background-tertiary);
+
+    svg {
+      margin-right: 2px;
+      margin-left: -6px;
+      transition: margin 150ms 1.1s;
+    }
+  }
 }
