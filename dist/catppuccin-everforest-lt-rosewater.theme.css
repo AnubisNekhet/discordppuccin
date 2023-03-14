@@ -2169,37 +2169,35 @@ button[class*=emojiButtonNormal] > div > div {
   .mentioned-Tre-dv {
     background-color: var(--background-mentioned) !important;
   }
-  /*------------
-  Stolen from https://github.com/Comfy-Themes/Discord
-  -------------*/
-  .theme-light .activity-E0U09Y {
+  /* Credit to https://github.com/Comfy-Themes/Discord */
+  [class*=userPopoutOuter-] [class*=activity-] {
     --listening: #899C40;
     --playing: #DEB191;
     --listening-test: #FDF6E3;
+    --wave-width: 283px;
     padding: 16px;
     margin-top: 25px;
     z-index: 1;
   }
-  .theme-light .activity-E0U09Y .text-31kWmP,
-  .theme-light .activity-E0U09Y .textRow-1sENuL,
-  .theme-light .activity-E0U09Y .anchor-1X4H4q,
-  .theme-light .activity-E0U09Y .activityName-3YXl6e,
-  .theme-light .activity-E0U09Y .textRow-1sENuL,
-  .theme-light .activity-E0U09Y [class*=headerText-] {
+  [class*=userPopoutOuter-] [class*=activity-] [class*=text-],
+  [class*=userPopoutOuter-] [class*=activity-] [class*=textRow-],
+  [class*=userPopoutOuter-] [class*=activity-] [class*=anchor-],
+  [class*=userPopoutOuter-] [class*=activity-] [class*=activityName-],
+  [class*=userPopoutOuter-] [class*=activity-] [class*=headerText-] {
     color: var(--profile-body-background-color) !important;
   }
-  .theme-light .activity-E0U09Y .buttonColor-XIRMbp {
+  [class*=userPopoutOuter-] [class*=activity-] [class*=buttonColor-] {
     border: none;
-    background-color: var(--listening-test);
+    background-color: #FDF6E3;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1294117647);
     color: #5C6A72;
   }
-  .theme-light .activity-E0U09Y .headerTextNormal-Z8we9g::before {
+  [class*=userPopoutOuter-] [class*=activity-] [class*=headerTextNormal-]::before {
     content: "";
     position: absolute;
     height: 25px;
     z-index: 1;
-    width: 284px;
+    width: var(--wave-width);
     top: -25px;
     left: 0;
     background: var(--background-secondary);
@@ -2211,13 +2209,13 @@ button[class*=emojiButtonNormal] > div > div {
   }
   @keyframes animate2 {
     0% {
-      -webkit-mask-position-x: 284px;
+      -webkit-mask-position-x: var(--wave-width);
     }
     100% {
       -webkit-mask-position-x: 0;
     }
   }
-  .theme-light .activity-E0U09Y::before {
+  [class*=userPopoutOuter-] [class*=activity-]::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -2229,22 +2227,21 @@ button[class*=emojiButtonNormal] > div > div {
     background: var(--playing);
     border-radius: 0 0 10px 10px;
   }
-  .theme-light .activity-E0U09Y::after {
+  [class*=userPopoutOuter-] [class*=activity-]::after {
     content: "";
     position: absolute;
     height: 25px;
     z-index: 2;
-    width: 292px;
+    width: var(--wave-width);
     top: -24px;
     left: 0;
     background: #DEB191;
-    background: var(--playing);
     -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="25" viewBox="0 0 284 25"><path d="M283.999 15.2776C228.798 15.2776 211.243 -0.0317305 140.048 -0.000164877C69.0475 -0.000164877 51.2975 15.2776 8.58307e-06 15.2776V24.9998H284C284 24.9998 283.999 18.9392 283.999 15.2776Z"/></svg>');
     animation: animate 6s linear infinite;
     animation-delay: 0s;
     opacity: 1;
   }
-  .theme-light .activity-E0U09Y .timeBarUserPopoutV2-32DL06::before {
+  [class*=userPopoutOuter-] [class*=activity-] [class*=timeBarUserPopoutV2-]::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -2253,19 +2250,17 @@ button[class*=emojiButtonNormal] > div > div {
     left: 0;
     top: 0;
     background: #899C40;
-    background: var(--listening);
     border-radius: 0 0 10px 10px;
   }
-  .theme-light .activity-E0U09Y .timeBarUserPopoutV2-32DL06::after {
+  [class*=userPopoutOuter-] [class*=activity-] [class*=timeBarUserPopoutV2-]::after {
     content: "";
     position: absolute;
     height: 25px;
-    width: 292px;
+    width: var(--wave-width);
     top: -24px;
     left: 0;
     z-index: 3;
     background: #899C40;
-    background: var(--listening);
     -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="25" viewBox="0 0 284 25"><path d="M283.999 15.2776C228.798 15.2776 211.243 -0.0317305 140.048 -0.000164877C69.0475 -0.000164877 51.2975 15.2776 8.58307e-06 15.2776V24.9998H284C284 24.9998 283.999 18.9392 283.999 15.2776Z"/></svg>');
     animation: animate 6s linear infinite;
     animation-delay: 0s;
@@ -2275,17 +2270,60 @@ button[class*=emojiButtonNormal] > div > div {
       -webkit-mask-position-x: 0;
     }
     100% {
-      -webkit-mask-position-x: 284px;
+      -webkit-mask-position-x: var(--wave-width);
     }
   }
-  .theme-light .activity-E0U09Y .timeBarUserPopoutV2-32DL06 .barInner-3dHef4 {
+  [class*=userPopoutOuter-] [class*=activity-] [class*=timeBarUserPopoutV2-] [class*=barInner-3dHef4] {
     background-color: var(--profile-body-background-color);
   }
-  .theme-light .activity-E0U09Y .platformIcon-k3yytQ {
+  [class*=userPopoutOuter-] [class*=activity-] [class*=platformIcon-] {
     display: none;
   }
-  .theme-light .activity-E0U09Y .activity-E0U09Y [class*=headerText-] {
-    --header-primary: #FDF6E3;
+  [class*=userPopoutOuter-] [class*=activity-] [class*=headerText-] {
+    --header-primary: $base;
+  }
+  [class*=jumpToPresentBar] {
+    display: contents;
+  }
+  [class*=jumpToPresentBar] > button:first-child {
+    display: none;
+  }
+  [class*=jumpToPresentBar] > button:last-child {
+    position: absolute;
+    bottom: 24px;
+    right: 22px;
+    padding: 8px !important;
+    height: auto;
+    background-color: var(--background-secondary);
+    border-radius: 100px;
+    display: flex;
+    font-size: 0;
+    color: transparent;
+    transition: font-size 150ms 0s, color 150ms 0s, padding 150ms 0s;
+  }
+  [class*=jumpToPresentBar] > button svg {
+    order: -1;
+    margin: 0;
+    height: 24px;
+    width: 24px;
+    top: unset;
+    margin-right: 4px;
+    margin-left: 0;
+    margin-right: 0;
+    color: var(--text-normal);
+    transition: margin 150ms 0s;
+  }
+  [class*=jumpToPresentBar]:hover > button {
+    padding: 8px 18px !important;
+    font-size: 14px;
+    color: var(--text-normal);
+    transition: font-size 150ms 1.1s, color 150ms 1.1s, padding 150ms 1.1s;
+    background-color: var(--background-tertiary);
+  }
+  [class*=jumpToPresentBar]:hover > button svg {
+    margin-right: 2px;
+    margin-left: -6px;
+    transition: margin 150ms 1.1s;
   }
   div[class*=unread-],
   div[class^=jumpToPresentBar-] > button,
