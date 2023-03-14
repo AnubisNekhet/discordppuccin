@@ -2282,6 +2282,17 @@ button[class*=emojiButtonNormal] > div > div {
   [class*=userPopoutOuter-] [class*=activity-] [class*=headerText-] {
     --header-primary: #F0EAE2;
   }
+  [class*=userPopoutOuter-][class*=userPopoutOuter-][class*=userPopoutOuter-][class*=userPopoutOuter-][class*=userPopoutOuter-][class*=userPopoutOuter-],
+  [class*=userPopoutOuter-] [class*=activity-] [class*=timeBarUserPopoutV2-],
+  [class*=userPopoutOuter-] [class*=activity-] [class*=timeBarUserPopoutV2-]::before,
+  [class*=userPopoutOuter-] [class*=activity-]::before,
+  [class*=userPopoutOuter-] [class*=activity-]::after,
+  [class*=userPopoutOuter-] [class*=activity-] [class*=headerTextNormal-]::before {
+    --wave-width: 292px !important;
+  }
+  [class*=userPopoutOuter-] [class*=activity-] [class*=headerTextNormal-]::before {
+    background: var(--profile-body-background-color) !important;
+  }
   div[class*=unread-],
   div[class^=jumpToPresentBar-] > button,
   div[class^=newMessagesBar-] > button {
