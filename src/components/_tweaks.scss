@@ -26,35 +26,6 @@ section[class*="chatContent-"] form [class*="container-"] {
 [aria-label="Open sticker picker"] { //sticker button
   display: none;
 }
-//vencord update hide
-[class*="notice"][class*="colorDefault-"] {
-    transform: translateX(-50%) translateY(-60px);
-    transition-delay: 150ms;
-    transition-duration: 300ms;
-    position: absolute;
-    left: 50%;
-    top: 15px;
-    border-radius: 7px;
-    padding: 0 30px 0 10px;
-    &:hover {
-      transform: translateX(-50%);
-      transition-delay: 150ms;
-      transition-duration: 300ms;
-      transition: 300ms;
-    }
-    &::after {
-      display: block;
-      position: absolute;
-      content: ' ';
-      width: calc(100% + 60px);
-      height: 40px;
-      transform: translateX(-40px);
-    }
-    & > .closeButton-30b1gR {
-      right: 7px;
-      width: min-content;
-    }
-}
 
 //remove vencord anime (haram)
 .vc-settings-card::after {
@@ -75,6 +46,8 @@ img[role="presentation"] {
   display: none;
 }
 
+//remove ctp thread colors
+
 ul[aria-label$=" threads"] > li:nth-child(n) {
     --channels-default: inherit;
     --interactive-hover: inherit;
@@ -87,19 +60,6 @@ ul[aria-label$=" threads"] > li:nth-child(n) {
 //vencord delete modification
 .messagelogger-red-text.messagelogger-red-text.messagelogger-red-text.messagelogger-red-text .messagelogger-deleted div {
   color: $red;
-}
-//self highlight
-[class*="member-"][data-list-item-id="members-932674476250918946___3"] [class*="name-"] > [class*="username"]::after,
-[class*="headerText-"][id*="message-username-1072002757499822081"] [class*="username-"]::after {
-  width: fit-content;
-  content: 'DEV';
-  font-size: 70%;
-  padding: 1px 5px;
-  background: linear-gradient(to right, #{$brand}, #{darken($brand, 20%)});
-  color: #{$crust};
-  margin-left: 3px;
-  border-radius: 3px;
-  vertical-align: text-bottom;
 }
 //new messages
 [class*="newMessagesBar-"][class*="newMessagesBar-"][class*="newMessagesBar-"][class*="newMessagesBar-"][class*="newMessagesBar-"][class*="newMessagesBar-"] {
@@ -151,7 +111,6 @@ div#vc-spotify-player:hover .vc-spotify-button-row {
     opacity: 1;
 }
 }
-@import "teardrop";
 @import "comfy";
 [class*=userPopoutOuter-][class*=userPopoutOuter-][class*=userPopoutOuter-][class*=userPopoutOuter-][class*=userPopoutOuter-][class*=userPopoutOuter-],
 [class*=userPopoutOuter-] [class*=activity-] [class*=timeBarUserPopoutV2-],
@@ -164,6 +123,7 @@ div#vc-spotify-player:hover .vc-spotify-button-row {
 [class*=userPopoutOuter-] [class*=activity-] [class*=headerTextNormal-]::before {
   background: var(--profile-body-background-color) !important; 
 }
+//new notification style
 .vc-notification-root {
   width: min-content;
   .vc-notification-header::before {
