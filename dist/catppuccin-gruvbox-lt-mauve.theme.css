@@ -146,6 +146,8 @@ button[class*=emojiButtonNormal] > div > div {
     --status-red-530: #CC241D;
     --status-yellow-500: #D79921;
     --black-500: #E6D7B2;
+    --green-360: #98971A;
+    --primary-400: #504945;
     --primary-dark-700: #E6D7B2;
     --status-green-560: #98971A;
     --white-500: #282828;
@@ -887,7 +889,8 @@ button[class*=emojiButtonNormal] > div > div {
     background-color: #fefefa;
   }
   nav[class*=guilds-] div[data-list-item-id=guildsnav___create-join-button] svg > path,
-  nav[class*=guilds-] div[data-list-item-id=guildsnav___guild-discover-button] svg > path {
+  nav[class*=guilds-] div[data-list-item-id=guildsnav___guild-discover-button] svg > path,
+  nav[class*=guilds-] div[data-list-item-id=guildsnav___app-download-button] svg > path {
     fill: #98971A;
   }
   div[class^=upperBadge] > div[class^=iconBadge] path {
@@ -1737,9 +1740,6 @@ button[class*=emojiButtonNormal] > div > div {
     -webkit-box-shadow: inset 0 0 0 2px #98971A, inset 0 0 0 3px var(--background-secondary);
     box-shadow: inset 0 0 0 2px #98971A, inset 0 0 0 3px var(--background-secondary);
   }
-  [class*=border-][class*=speaking-] {
-    --green-360: $green;
-  }
   div[class*=videoLayer-] > div[class^=tileChild] > div[class^=border][class*=speaking-] {
     -webkit-box-shadow: inset 0 0 0 2px #98971A, inset 0 0 0 3px #98971A;
     box-shadow: inset 0 0 0 2px #98971A, inset 0 0 0 3px #98971A;
@@ -1762,7 +1762,8 @@ button[class*=emojiButtonNormal] > div > div {
     color: #E6D7B2;
   }
   span[class*=channelMention]:hover,
-  [class*=mention]:not([class*=mentionButton-], [class*=mentionIcon-]):hover {
+  [class*=mention]:not([class*=mentionButton-],
+  [class*=mentionIcon-]):hover {
     color: #E6D7B2;
   }
   #vc-spotify-album-image:hover {
