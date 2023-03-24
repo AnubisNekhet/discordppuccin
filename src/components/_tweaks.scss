@@ -125,7 +125,7 @@ div#vc-spotify-player:hover .vc-spotify-button-row {
 }
 //new notification style
 .vc-notification-root {
-  width: min-content;
+  width: min-content !important;
   .vc-notification-header::before {
     content: '';
     background: #{$brand};
@@ -134,6 +134,9 @@ div#vc-spotify-player:hover .vc-spotify-button-row {
     -webkit-mask-size: contain;
     width: 40px;
     height: 40px;
+  }
+  .vc-notification-header {
+    gap: 10px;
   }
   .vc-notification-title, .vc-notification-p {
     display: none;
