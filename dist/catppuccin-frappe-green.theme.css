@@ -1992,7 +1992,7 @@ button[class*=emojiButtonNormal] > div > div {
     background: var(--profile-body-background-color) !important;
   }
   .vc-notification-root {
-    width: min-content;
+    width: min-content !important;
   }
   .vc-notification-root .vc-notification-header::before {
     content: "";
@@ -2002,6 +2002,9 @@ button[class*=emojiButtonNormal] > div > div {
     -webkit-mask-size: contain;
     width: 40px;
     height: 40px;
+  }
+  .vc-notification-root .vc-notification-header {
+    gap: 10px;
   }
   .vc-notification-root .vc-notification-title, .vc-notification-root .vc-notification-p {
     display: none;
