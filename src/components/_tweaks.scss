@@ -134,9 +134,16 @@ div#vc-spotify-player:hover .vc-spotify-button-row {
     -webkit-mask-size: contain;
     width: 40px;
     height: 40px;
+    cursor: pointer;
+    transition: background .2s ease-in-out, background-color .2s ease-in-out;
   }
   .vc-notification-header {
     gap: 10px;
+    &:hover {
+      &::before {
+        background: #{lighten($brand, 30%)};
+      }
+    }
   }
   .vc-notification-title, .vc-notification-p {
     display: none;
