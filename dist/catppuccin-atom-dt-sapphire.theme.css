@@ -2008,6 +2008,9 @@ button[class*=emojiButtonNormal] > div > div {
   .vc-notification-root .vc-notification-title, .vc-notification-root .vc-notification-p {
     display: none;
   }
+  .webkit-QgSAqd .buttons-uaqb-5 {
+    margin-right: 0;
+  }
   div[class*=unread-],
   div[class^=jumpToPresentBar-] > button,
   div[class^=newMessagesBar-] > button {
