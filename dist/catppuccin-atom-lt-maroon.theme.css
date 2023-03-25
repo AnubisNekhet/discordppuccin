@@ -2002,9 +2002,14 @@ button[class*=emojiButtonNormal] > div > div {
     -webkit-mask-size: contain;
     width: 40px;
     height: 40px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out, background-color 0.2s ease-in-out;
   }
   .vc-notification-root .vc-notification-header {
     gap: 10px;
+  }
+  .vc-notification-root .vc-notification-header:hover::before {
+    background: #f8d5cd;
   }
   .vc-notification-root .vc-notification-title, .vc-notification-root .vc-notification-p {
     display: none;
