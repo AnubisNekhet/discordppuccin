@@ -14,7 +14,7 @@
   [class*="anchor-"],
   [class*="activityName-"],
   [class*="headerText-"] {
-    color: var(--profile-body-background-color) !important;
+    color: #{$base} !important;
   }
 
   [class*="buttonColor-"] {
