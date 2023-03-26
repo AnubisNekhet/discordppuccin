@@ -1881,7 +1881,7 @@ button[class*=emojiButtonNormal] > div > div {
   [class*=userPopoutOuter-] [class*=activity-] [class*=anchor-],
   [class*=userPopoutOuter-] [class*=activity-] [class*=activityName-],
   [class*=userPopoutOuter-] [class*=activity-] [class*=headerText-] {
-    color: var(--profile-body-background-color) !important;
+    color: #2E3440 !important;
   }
   [class*=userPopoutOuter-] [class*=activity-] [class*=buttonColor-] {
     border: none;
