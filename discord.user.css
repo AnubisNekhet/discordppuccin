@@ -5,7 +5,7 @@
 @description    Lets get it on
 @author         Catppuccin & AnubisNekhet
 @preprocessor   stylus
-@var select theme "Theme" {"Atom Dark*": "'atom-dt'", "Atom Light": "'atom-lt'", "Cappuccino": "'cappuccino'", "Chadppuccin": "'chadppuccin'", "Coffee": "'coffee'", "Dracula": "'dracula'", "Everforest Dark": "'everforest-dt'", "Everforest Light": "'everforest-lt'", "Gruvbox Dark": "'gruvbox-dt'", "Gruvbox Light": "'gruvbox-lt'", "Kanagawa": "'kanagawa'", "Nord Dark": "'nord-dt'", "Nord Darker": "'nord-2-dt'", "Rosebox": "'rosebox'", "Rose Pine Moon": "'rosepine-dt'", "Rose Pine Dawn": "'rosepine-lt'", "Sandy Beaches": "'sandy-beaches'", "Solarized Dark": "'solarized-dt'"}
+@var select theme "Theme" {"Atom Dark": "'atom-dt'", "Atom Light": "'atom-lt'", "Catppuccin Latte": "'latte'", "Catppuccin Frappe": "'frappe'", "Catppuccin Macchiato": "'macchiato'", "Catppuccin Mocha": "'mocha'", "Cappuccino": "'cappuccino'", "Chadppuccin": "'chadppuccin'", "Coffee": "'coffee'", "Dracula": "'dracula'", "Everforest Dark": "'everforest-dt'", "Everforest Light": "'everforest-lt'", "Gruvbox Dark": "'gruvbox-dt'", "Gruvbox Light": "'gruvbox-lt'", "Kanagawa": "'kanagawa'", "Nord Dark": "'nord-dt'", "Nord Darker*": "'nord-2-dt'", "Rosebox": "'rosebox'", "Rose Pine Moon": "'rosepine-dt'", "Rose Pine Dawn": "'rosepine-lt'", "Sandy Beaches": "'sandy-beaches'", "Solarized Dark": "'solarized-dt'"}
 @var select accent "Accent" {"Rosewater": "'rosewater'", "Flamingo": "'flamingo'", "Pink": "'pink'", "Mauve": "'mauve'", "Red": "'red'", "Maroon": "'maroon'", "Peach": "'peach'", "Yellow": "'yellow'", "Green": "'green'", "Teal": "'teal'", "Blue*": "'blue'", "Sapphire": "'sapphire'", "Sky": "'sky'", "Lavender'": "'lavender'"}
 ==/UserStyle== */
 
