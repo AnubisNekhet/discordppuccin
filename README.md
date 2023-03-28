@@ -11,7 +11,7 @@ Catppuccin Discord but with like a lot of other themes
 | ----- | ----- |
 | Atom | `atom-lt`, `atom-dt` |
 | Catppuccin | `latte`, `frappe`, `macchiato`, `mocha`, `cappuccino` |
-| Chadppuccin [Tobbi my beloved](https://github.com/justtobbi) | `chadppuccin` |
+| Chadpuccin ([Tobbi my beloved](https://github.com/justtobbi)) | `chadppuccin` |
 | Coffee (Dark) | `coffee` |
 | Everforest | `everforest-lt`, `everforest-dt` |
 | Gruvbox (dark) | `gruvbox-lt`, `gruvbox-dt` |
