@@ -1,14 +1,14 @@
 /* ==UserStyle==
-@name           Discord Catppuccin
-@namespace      github.com/catppuccin/discord
+@name           Discordppuccin
+@namespace      Anubis
 @version        0.2.1
-@description    Soothing pastel theme for Discord
-@author         Catppuccin
+@description    Lets get it on
+@author         Catppuccin & AnubisNekhet
 @preprocessor   stylus
-@var select theme "Theme" ["latte:Latte", "frappe:Frappe", "macchiato:Macchiato", "mocha:Mocha*"]
+@var select theme "Theme" ["latte:Latte", "frappe:Frappe", "macchiato:Macchiato", "mocha:Mocha*", "atom-dt:Atom Dark", "atom-lt:Atom Light", "cappuccino:Cappuccino", "chadppuccin:Chadpuccin", "coffee:Coffee", "dracula:Dracula", "everforest-dt:Everforest Dark", "everforest-lt:Everforest-light", "gruvbox-dt:Gruvbox Dark", "gruvbox-lt:Gruvbox Light", "kanagawa:Kanagawa", "nord-dt:Nord Dark", "nord-2-dt:Nord Darker", "rosebox:Rosebox", "rosepine-dt:Rose Pine Moon", "rosepine-lt:Rose Pine Dawn", "sandy-beaches:Sandy Beaches", "solarized-dt:Solarized Dark"]
 @var select accent "Accent" {"Rosewater": "'rosewater'", "Flamingo": "'flamingo'", "Pink": "'pink'", "Mauve": "'mauve'", "Red": "'red'", "Maroon": "'maroon'", "Peach": "'peach'", "Yellow": "'yellow'", "Green": "'green'", "Teal": "'teal'", "Blue*": "'blue'", "Sapphire": "'sapphire'", "Sky": "'sky'", "Lavender'": "'lavender'"}
 ==/UserStyle== */
 
 @-moz-document regexp("https?://(canary\\.|ptb\\.|)discord.com/.*") {
-    @import url("https://catppuccin.github.io/discord/dist/catppuccin-" + theme + "-" + accent + ".theme.css")
+    @import url("https://anubisnekhet.github.io/discordppuccin/dist/catppuccin-" + theme + "-" + accent + ".theme.css")
 }
