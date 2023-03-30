@@ -2013,6 +2013,20 @@
   .webkit-QgSAqd .buttons-uaqb-5 {
     margin-right: 0;
   }
+  img.emoji[aria-label=🥺] {
+    background: url("https://raw.githubusercontent.com/jdecked/twemoji/a75e31ed39525b820993c2c63b114c50762fe7ee/assets/svg/1f97a.svg");
+    padding: 0.65375rem;
+    width: 0;
+    height: 0;
+  }
+  img.emoji.jumboable[aria-label=🥺] {
+    background: url("https://raw.githubusercontent.com/jdecked/twemoji/a75e31ed39525b820993c2c63b114c50762fe7ee/assets/svg/1f97a.svg");
+    padding: 1.5rem;
+    height: 0;
+    width: 0;
+    background-repeat: no-repeat;
+    min-height: 0;
+  }
   div[class*=unread-],
   div[class^=jumpToPresentBar-] > button,
   div[class^=newMessagesBar-] > button {
