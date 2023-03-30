@@ -121,7 +121,7 @@ div#vc-spotify-player:hover .vc-spotify-button-row {
   --wave-width: 292px !important;
 }
 [class*=userPopoutOuter-] [class*=activity-] [class*=headerTextNormal-]::before {
-  background: var(--profile-body-background-color) !important; 
+  background: var(--profile-body-background-color) !important;
 }
 //new notification style
 .vc-notification-root {
@@ -151,4 +151,19 @@ div#vc-spotify-player:hover .vc-spotify-button-row {
 }
 .webkit-QgSAqd .buttons-uaqb-5 {
   margin-right: 0;
+}
+// bring back :pleading_face:
+img.emoji[aria-label="🥺"] {
+    background: url('https://raw.githubusercontent.com/jdecked/twemoji/a75e31ed39525b820993c2c63b114c50762fe7ee/assets/svg/1f97a.svg');
+    padding: 0.65375rem;
+    width: 0;
+    height: 0;
+}
+img.emoji.jumboable[aria-label="🥺"] {
+    background: url('https://raw.githubusercontent.com/jdecked/twemoji/a75e31ed39525b820993c2c63b114c50762fe7ee/assets/svg/1f97a.svg');
+    padding: 1.5rem;
+    height: 0;
+    width: 0;
+    background-repeat: no-repeat;
+    min-height: 0;
 }
