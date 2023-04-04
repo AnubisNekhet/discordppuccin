@@ -1105,6 +1105,9 @@ button[class*=emojiButtonNormal] > div > div {
   div[class^=chat] > div[class^=content-] main[class^=chatContent-] + div[class^=container-] {
     background-color: var(--background-secondary);
   }
+  [class*=channelTextAreaInnerError-] {
+    border: 1px solid #f38ba8 !important;
+  }
   div[class^=callContainer-] [class*=controlIcon-] {
     color: #5c5f77;
   }
@@ -1362,6 +1365,9 @@ button[class*=emojiButtonNormal] > div > div {
   section[class^=positionContainer-] button[class*=navButtonActive] {
     background-color: #dc8a78;
     color: #dce0e8;
+  }
+  .theme-light section[class^=positionContainer-] div[class^=categoryText-] {
+    color: #eff1f5;
   }
   #emoji-picker-tab-panel [class*=stickerInspected-] [class*=inspectedIndicator],
   #emoji-picker-tab-panel [class^=emojiItem-][class*=emojiItemSelected-] {

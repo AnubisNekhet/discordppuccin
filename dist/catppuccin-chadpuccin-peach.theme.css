@@ -1101,6 +1101,9 @@
   div[class^=chat] > div[class^=content-] main[class^=chatContent-] + div[class^=container-] {
     background-color: var(--background-secondary);
   }
+  [class*=channelTextAreaInnerError-] {
+    border: 1px solid #f38ba8 !important;
+  }
   div[class^=callContainer-] [class*=controlIcon-] {
     color: #b5bfe2;
   }
@@ -1358,6 +1361,9 @@
   section[class^=positionContainer-] button[class*=navButtonActive] {
     background-color: #ef9f76;
     color: #272530;
+  }
+  .theme-light section[class^=positionContainer-] div[class^=categoryText-] {
+    color: #353341;
   }
   #emoji-picker-tab-panel [class*=stickerInspected-] [class*=inspectedIndicator],
   #emoji-picker-tab-panel [class^=emojiItem-][class*=emojiItemSelected-] {
