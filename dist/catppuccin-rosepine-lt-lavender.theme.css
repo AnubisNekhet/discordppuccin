@@ -2056,13 +2056,16 @@ button[class*=emojiButtonNormal] > div > div {
   [class*=panels-] [class*=wrapper-] [class*=container-] {
     border-bottom: none;
   }
+  [class*=userPopoutOuter-] [class*=scroller-] {
+    padding-left: 4px;
+  }
   [class*=userPopoutOuter-][class*=userPopoutOuter-][class*=userPopoutOuter-][class*=userPopoutOuter-][class*=userPopoutOuter-][class*=userPopoutOuter-],
   [class*=userPopoutOuter-] [class*=activity-] [class*=timeBarUserPopoutV2-],
   [class*=userPopoutOuter-] [class*=activity-] [class*=timeBarUserPopoutV2-]::before,
   [class*=userPopoutOuter-] [class*=activity-]::before,
   [class*=userPopoutOuter-] [class*=activity-]::after,
   [class*=userPopoutOuter-] [class*=activity-] [class*=headerTextNormal-]::before {
-    --wave-width: 292px !important;
+    --wave-width: 300px !important;
   }
   [class*=userPopoutOuter-] [class*=activity-] [class*=headerTextNormal-]::before {
     background: var(--profile-body-background-color) !important;
