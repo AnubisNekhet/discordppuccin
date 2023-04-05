@@ -2045,7 +2045,7 @@ button[class*=emojiButtonNormal] > div > div {
     color: var(--spotify-vencord-color);
   }
   #vc-spotify-player .vc-spotify-button.vc-spotify-button {
-    transition: background 0.3s;
+    transition: background 0.1s;
   }
   #vc-spotify-player .vc-spotify-button.vc-spotify-button:hover {
     background: hsl(var(--primary-700-hsl)/0.3);
