@@ -198,3 +198,9 @@
     background: hsl(var(--primary-700-hsl)/0.3);
   }
 }
+[class*=wrapper-] + #vc-spotify-player {
+  margin-top: 27px;
+}
+[class*=panels-] [class*=wrapper-] [class*=container-] {
+  border-bottom: none;
+}
