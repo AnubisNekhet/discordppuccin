@@ -2109,6 +2109,14 @@
   #vc-spotify-album-image#vc-spotify-album-image#vc-spotify-album-image:hover {
     filter: none;
   }
+  [class*=message-][class*=selected-] [class*=timestamp-],
+  .mouse-mode.full-motion [class*=message-] [class*=timestamp-] {
+    display: none;
+  }
+  [class*=message-][class*=selected-] [class*=timestamp-],
+  .mouse-mode.full-motion [class*=message-]:hover [class*=timestamp-] {
+    display: inline-block;
+  }
   div[class*=unread-],
   div[class^=jumpToPresentBar-] > button,
   div[class^=newMessagesBar-] > button {
