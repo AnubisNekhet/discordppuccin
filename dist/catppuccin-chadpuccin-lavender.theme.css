@@ -2109,7 +2109,6 @@
   #vc-spotify-album-image#vc-spotify-album-image#vc-spotify-album-image:hover {
     filter: none;
   }
-  [class*=message-][class*=selected-] [class*=timestamp-],
   .mouse-mode.full-motion [class*=message-] [class*=timestamp-] {
     display: none;
   }
