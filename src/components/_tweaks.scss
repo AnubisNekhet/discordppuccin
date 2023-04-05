@@ -174,12 +174,12 @@ img.emoji.jumboable[aria-label="🥺"] {
   filter: none;
 }
 //hide discord timestamp and show on hover
-[class*=message-][class*=selected-],
 .mouse-mode.full-motion [class*=message-] {
   [class*=timestamp-] {
     display: none;
   }
 }
+[class*=message-][class*=selected-],
 .mouse-mode.full-motion [class*=message-]:hover {
   [class*=timestamp-] {
     display: inline-block;
