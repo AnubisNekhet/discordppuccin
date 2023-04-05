@@ -173,15 +173,3 @@ img.emoji.jumboable[aria-label="🥺"] {
 #vc-spotify-album-image#vc-spotify-album-image#vc-spotify-album-image:hover {
   filter: none;
 }
-//hide discord timestamp and show on hover
-.mouse-mode.full-motion [class*=message-] {
-  [class*=timestamp-] {
-    display: none;
-  }
-}
-[class*=message-][class*=selected-],
-.mouse-mode.full-motion [class*=message-]:hover {
-  [class*=timestamp-] {
-    display: inline-block;
-  }
-}
