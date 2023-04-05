@@ -208,6 +208,7 @@
   }
   .vc-spotify-button.vc-spotify-button:hover {
     background: hsl(var(--primary-700-hsl)/0.3);
+    color: var(--spotify-vencord-text);
   }
 }
 [class*=wrapper-]:not(:empty) + #vc-spotify-player {
