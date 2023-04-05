@@ -131,3 +131,68 @@
     --header-primary: #{$base};
   }
 }
+
+/* Comfy Code, kanged from Comfy but modified be me so you gotta give me credit >:D */
+/* Comfy-Style Spotify Player
+ * Kanged and modified code from https://github.com/Comfy-Themes/Discord
+ */
+#vc-spotify-player {
+  --spotify-wave-width: 240px;
+  --spotify-vencord-color: #{$brand};
+  --spotify-vencord-text: var(--background-primary);
+}
+@keyframes spotifywave {
+  0% {
+    -webkit-mask-position-x: var(--spotify-wave-width);
+  }
+
+  100% {
+    -webkit-mask-position-x: 0;
+  }
+}
+#vc-spotify-player::before {
+  content: "";
+  position: absolute;
+  height: 25px;
+  z-index: 1;
+  width: var(--spotify-wave-width);
+  margin-top: -31px;
+  left: 0;
+  background: var(--spotify-vencord-color);
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="25" viewBox="0 0 284 25"><path d="M283.999 15.2776C228.798 15.2776 211.243 -0.0317305 140.048 -0.000164877C69.0475 -0.000164877 51.2975 15.2776 8.58307e-06 15.2776V24.9998H284C284 24.9998 283.999 18.9392 283.999 15.2776Z"/></svg>');
+  animation: spotifywave 8s linear infinite;
+  animation-delay: 0s;
+  opacity: 1;
+}
+#vc-spotify-player#vc-spotify-player  {
+  background: linear-gradient(var(--spotify-vencord-color) 20%, var(--bg-overlay-1, var(--background-secondary-alt)));
+  border-bottom: none;
+}
+#vc-spotify-song-title#vc-spotify-song-title,
+.vc-spotify-ellipoverflow.vc-spotify-ellipoverflow,
+.vc-spotify-artist.vc-spotify-artist,
+.vc-spotify-album.vc-spotify-album
+/* , .vc-spotify-time-right, .vc-spotify-time-left */  {
+  color: var(--spotify-vencord-text);
+}
+#vc-spotify-player [class*="bar-"] {
+  background: hsl(var(--primary-700-hsl)/0.3);
+}
+#vc-spotify-player [class*="barFill"] {
+  background: var(--spotify-vencord-color);
+}
+/* The code below isn't really needed but it looks pretty :3 */
+.vc-spotify-shuffle-on.vc-spotify-shuffle-on,
+.vc-spotify-repeat-context.vc-spotify-repeat-context,
+.vc-spotify-repeat-track.vc-spotify-repeat-track,
+.vc-spotify-shuffle-on.vc-spotify-shuffle-on:hover,
+.vc-spotify-repeat-context.vc-spotify-repeat-context:hover,
+.vc-spotify-repeat-track.vc-spotify-repeat-track:hover {
+  color: var(--spotify-vencord-color);
+}
+.vc-spotify-button.vc-spotify-button {
+  transition: background 0.s;
+}
+.vc-spotify-button.vc-spotify-button:hover {
+  background: hsl(var(--primary-700-hsl)/0.3);
+}
