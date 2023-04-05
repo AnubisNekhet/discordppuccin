@@ -1990,7 +1990,7 @@ button[class*=emojiButtonNormal] > div > div {
   /* Comfy-Style Spotify Player
    * Kanged and modified code from https://github.com/Comfy-Themes/Discord
    */
-  #vc-spotify-player {
+  #vc-spotify-player, #vc-spotify-player + [class*=container-] {
     --spotify-wave-width: 240px;
     --spotify-vencord-color: #EB7A6F;
     --spotify-vencord-text: var(--background-primary);
@@ -2021,20 +2021,28 @@ button[class*=emojiButtonNormal] > div > div {
     opacity: 1;
   }
   #vc-spotify-player#vc-spotify-player {
-    background: linear-gradient(var(--spotify-vencord-color) 20%, var(--bg-overlay-1, var(--background-secondary-alt)));
+    background: var(--spotify-vencord-color);
     border-bottom: none;
   }
   #vc-spotify-player #vc-spotify-song-title#vc-spotify-song-title,
   #vc-spotify-player .vc-spotify-ellipoverflow.vc-spotify-ellipoverflow,
   #vc-spotify-player .vc-spotify-artist.vc-spotify-artist,
-  #vc-spotify-player .vc-spotify-album.vc-spotify-album {
+  #vc-spotify-player .vc-spotify-album.vc-spotify-album, #vc-spotify-player .vc-spotify-time-right, #vc-spotify-player .vc-spotify-time-left {
     color: var(--spotify-vencord-text);
   }
   #vc-spotify-player#vc-spotify-player [class*=bar-] {
     background: hsl(var(--primary-700-hsl)/0.3);
   }
   #vc-spotify-player#vc-spotify-player [class*=barFill] {
-    background: var(--spotify-vencord-color);
+    background: hsl(var(--primary-700-hsl)/0.7);
+  }
+  #vc-spotify-player #vc-spotify-progress-bar > [class^=slider] [class^=grabber][class^=grabber] {
+    background-color: var(--spotify-vencord-color);
+    border-color: var(--background-primary);
+    color: var(--interactive-normal);
+    border-width: 2px;
+    height: 8px !important;
+    width: 8px !important;
   }
   #vc-spotify-player .vc-spotify-shuffle-on.vc-spotify-shuffle-on,
   #vc-spotify-player .vc-spotify-repeat-context.vc-spotify-repeat-context,
@@ -2042,7 +2050,11 @@ button[class*=emojiButtonNormal] > div > div {
   #vc-spotify-player .vc-spotify-shuffle-on.vc-spotify-shuffle-on:hover,
   #vc-spotify-player .vc-spotify-repeat-context.vc-spotify-repeat-context:hover,
   #vc-spotify-player .vc-spotify-repeat-track.vc-spotify-repeat-track:hover {
-    color: var(--spotify-vencord-color);
+    color: var(--spotify-vencord-text);
+  }
+  #vc-spotify-player .vc-spotify-repeat-off.vc-spotify-repeat-off.vc-spotify-repeat-off,
+  #vc-spotify-player .vc-spotify-shuffle-off.vc-spotify-shuffle-off.vc-spotify-shuffle-off {
+    color: hsl(var(--primary-700-hsl)/0.5);
   }
   #vc-spotify-player .vc-spotify-button.vc-spotify-button {
     transition: background 0.1s;
@@ -2055,6 +2067,21 @@ button[class*=emojiButtonNormal] > div > div {
   }
   [class*=panels-] [class*=wrapper-] [class*=container-] {
     border-bottom: none;
+  }
+  #vc-spotify-player + [class*=container-] {
+    background: var(--spotify-vencord-color);
+  }
+  #vc-spotify-player + [class*=container-] [class*=button-][class*=button-][class*=button-],
+  #vc-spotify-player + [class*=container-] [class*=title-][class*=title-][class*=title-] {
+    color: var(--spotify-vencord-text);
+  }
+  #vc-spotify-player + [class*=container-] [class*=subtext-] {
+    color: hsl(var(--primary-700-hsl)/0.7) !important;
+  }
+  #vc-spotify-player + [class*=container-] [class*=withTagAsButton-]:hover,
+  #vc-spotify-player + [class*=container-] [class*=withTagless]:hover,
+  #vc-spotify-player + [class*=container-] [class*=button-][class*=enabled-]:hover {
+    background-color: hsl(var(--primary-700-hsl)/0.2);
   }
   [class*=userPopoutOuter-] [class*=scroller-] {
     padding-left: 4px;
