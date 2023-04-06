@@ -58,8 +58,13 @@ ul[aria-label$=" threads"] > li:nth-child(n) {
   display: none;
 }
 //vencord delete modification
-.messagelogger-red-text.messagelogger-red-text.messagelogger-red-text.messagelogger-red-text .messagelogger-deleted div {
-  color: $red;
+.messagelogger-deleted.messagelogger-deleted.messagelogger-deleted div {
+    color: #{$red};
+}
+
+.messagelogger-deleted.messagelogger-deleted.messagelogger-deleted a {
+    color: #{darken($red, 5%)};
+    text-decoration: underline;
 }
 //new messages
 [class*="newMessagesBar-"][class*="newMessagesBar-"][class*="newMessagesBar-"][class*="newMessagesBar-"][class*="newMessagesBar-"][class*="newMessagesBar-"] {
