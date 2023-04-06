@@ -2141,6 +2141,12 @@
   #vc-spotify-album-image#vc-spotify-album-image#vc-spotify-album-image:hover {
     filter: none;
   }
+  [class*=effectsWrapper] {
+    display: none;
+  }
+  [class*=hideEmoji-][class*=hideEmoji-][class*=hideEmoji-] {
+    opacity: 1;
+  }
   div[class*=unread-],
   div[class^=jumpToPresentBar-] > button,
   div[class^=newMessagesBar-] > button {
