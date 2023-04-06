@@ -1660,6 +1660,9 @@ button[class*=emojiButtonNormal] > div > div {
   .vc-platform-indicator svg[fill*="--red-"] {
     fill: #B4637A;
   }
+  .vc-platform-indicator svg[fill*="--primary-400"] {
+    fill: #797593;
+  }
   [src="/assets/eaeac24163b35f7526704a3d9b3c7722.svg"] {
     width: 0;
     padding: 12px;
