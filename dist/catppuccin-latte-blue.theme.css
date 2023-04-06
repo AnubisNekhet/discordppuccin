@@ -2151,6 +2151,9 @@ button[class*=emojiButtonNormal] > div > div {
   [class*=hideEmoji-][class*=hideEmoji-][class*=hideEmoji-] {
     opacity: 1;
   }
+  [class*=threadSuggestionBar-] {
+    display: none;
+  }
   div[class*=unread-],
   div[class^=jumpToPresentBar-] > button,
   div[class^=newMessagesBar-] > button {
