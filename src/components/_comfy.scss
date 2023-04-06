@@ -42,7 +42,7 @@
 
     @keyframes animate2 {
       0% {
-        -webkit-mask-position-x: var(--wave-width);
+        -webkit-mask-position-x: 284px;
       }
 
       100% {
@@ -113,7 +113,7 @@
         }
 
         100% {
-          -webkit-mask-position-x: var(--wave-width);
+          -webkit-mask-position-x: 284px;
         }
       }
     }
