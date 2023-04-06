@@ -7,10 +7,6 @@
  * @website https://github.com/catppuccin/discord
  * @invite r6Mdz5dpFc
 **/
-button[class*=emojiButtonNormal] > div > div {
-  filter: grayscale(0.77) hue-rotate(185deg) brightness(0.7) opacity(100%) contrast(2) !important;
-}
-
 @media (prefers-color-scheme: light) {
   .theme-light, .theme-light[data-popout-root], .theme-light [class*=layer-] > div > [class*=focusLock-] > [class*=root-] {
     --brand-experiment: #899C40;
