@@ -177,10 +177,10 @@
     color: var(--spotify-vencord-text);
   }
   &#vc-spotify-player [class*="bar-"] {
-    background: #{hsla($base, 0.3)};
+    background: #{rgba($base, 0.3)};
   }
   &#vc-spotify-player [class*="barFill"] {
-    background: #{hsla($base, 0.7)};
+    background: #{rgba($base, 0.7)};
   }
   #vc-spotify-progress-bar>[class^=slider] [class^=grabber][class^=grabber] {
     background-color: var(--spotify-vencord-color);
@@ -201,14 +201,14 @@
   }
   .vc-spotify-repeat-off.vc-spotify-repeat-off.vc-spotify-repeat-off,
   .vc-spotify-shuffle-off.vc-spotify-shuffle-off.vc-spotify-shuffle-off {
-    color: #{hsla($base, 0.5)};
+    color: #{rgba($base, 0.5)};
   }
   .vc-spotify-button.vc-spotify-button {
     transition: background 0.1s;
     color: var(--spotify-vencord-text);
   }
   .vc-spotify-button.vc-spotify-button:hover {
-    background: #{hsla($base, 0.3)};
+    background: #{rgba($base, 0.3)};
     color: var(--spotify-vencord-text);
   }
 }
@@ -225,11 +225,11 @@
     color: var(--spotify-vencord-text);
   }
   [class*=subtext-] {
-    color: #{hsla($base, 0.7)} !important;
+    color: #{rgba($base, 0.7)} !important;
   }
   [class*=withTagAsButton-]:hover,
   [class*=withTagless]:hover,
   [class*=button-][class*=enabled-]:hover {
-    background-color: #{hsla($base, 0.2)};
+    background-color: #{rgba($base, 0.2)};
   }
 }
