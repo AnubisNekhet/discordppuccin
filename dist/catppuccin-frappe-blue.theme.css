@@ -2147,7 +2147,7 @@
   [class*=hideEmoji-][class*=hideEmoji-][class*=hideEmoji-] {
     opacity: 1;
   }
-  [class*=threadSuggestionBar-] {
+  [class*=container-] > [class*=threadSuggestionBar-][class*=threadSuggestionBar-][class*=threadSuggestionBar-] {
     display: none;
   }
   div[class*=unread-],
