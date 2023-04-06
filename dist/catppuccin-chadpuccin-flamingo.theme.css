@@ -1912,7 +1912,7 @@
   }
   @keyframes animate2 {
     0% {
-      -webkit-mask-position-x: var(--wave-width);
+      -webkit-mask-position-x: 284px;
     }
     100% {
       -webkit-mask-position-x: 0;
@@ -1973,7 +1973,7 @@
       -webkit-mask-position-x: 0;
     }
     100% {
-      -webkit-mask-position-x: var(--wave-width);
+      -webkit-mask-position-x: 284px;
     }
   }
   [class*=userPopoutOuter-] [class*=activity-] [class*=timeBarUserPopoutV2-] [class*=barInner-3dHef4] {
