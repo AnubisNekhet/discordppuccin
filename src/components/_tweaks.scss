@@ -174,3 +174,6 @@ img.emoji.jumboable[aria-label="🥺"] {
   filter: none;
 }
 @import "fucknitro";
+[class*=threadSuggestionBar-] {
+  display: none;
+}
