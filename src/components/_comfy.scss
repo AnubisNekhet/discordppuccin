@@ -1,5 +1,6 @@
 // Wavy spotify
 /* Credit to https://github.com/Comfy-Themes/Discord */
+@use "sass:color";
 [class*="userPopoutOuter-"] [class*="activity-"] {
   --listening: #{$green};
   --playing: #{$brand};
@@ -151,6 +152,7 @@
   }
 }
 #vc-spotify-player {
+  --primary-700-hsl: #{color.hue($base), color.saturation($base), color.lightness($base)};
   &::before {
     content: "";
     position: absolute;
@@ -218,6 +220,7 @@
   border-bottom: none;
 }
 #vc-spotify-player + [class*=container-] {
+  --primary-700-hsl: #{color.hue($base), color.saturation($base), color.lightness($base)};
   background: var(--spotify-vencord-color);
   [class*=button-][class*=button-][class*=button-],
   [class*=title-][class*=title-][class*=title-] {
