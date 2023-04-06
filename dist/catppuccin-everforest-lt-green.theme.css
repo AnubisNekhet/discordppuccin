@@ -1822,8 +1822,12 @@
   *::-webkit-scrollbar {
     display: none;
   }
-  .messagelogger-red-text.messagelogger-red-text.messagelogger-red-text.messagelogger-red-text .messagelogger-deleted div {
+  .messagelogger-deleted.messagelogger-deleted.messagelogger-deleted div {
     color: #F85552;
+  }
+  .messagelogger-deleted.messagelogger-deleted.messagelogger-deleted a {
+    color: #f73d39;
+    text-decoration: underline;
   }
   [class*=newMessagesBar-][class*=newMessagesBar-][class*=newMessagesBar-][class*=newMessagesBar-][class*=newMessagesBar-][class*=newMessagesBar-] {
     top: 8px;
