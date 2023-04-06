@@ -2003,6 +2003,7 @@
     }
   }
   #vc-spotify-player {
+    --primary-700-hsl: 229.0909090909deg, 18.6440677966%, 23.137254902%;
     /* The code below isn't really needed but it looks pretty :3 */
   }
   #vc-spotify-player::before {
@@ -2070,6 +2071,7 @@
     border-bottom: none;
   }
   #vc-spotify-player + [class*=container-] {
+    --primary-700-hsl: 229.0909090909deg, 18.6440677966%, 23.137254902%;
     background: var(--spotify-vencord-color);
   }
   #vc-spotify-player + [class*=container-] [class*=button-][class*=button-][class*=button-],

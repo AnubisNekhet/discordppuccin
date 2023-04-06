@@ -2007,6 +2007,7 @@ button[class*=emojiButtonNormal] > div > div {
     }
   }
   #vc-spotify-player {
+    --primary-700-hsl: 249.2307692308deg, 22.0338983051%, 11.568627451%;
     /* The code below isn't really needed but it looks pretty :3 */
   }
   #vc-spotify-player::before {
@@ -2074,6 +2075,7 @@ button[class*=emojiButtonNormal] > div > div {
     border-bottom: none;
   }
   #vc-spotify-player + [class*=container-] {
+    --primary-700-hsl: 249.2307692308deg, 22.0338983051%, 11.568627451%;
     background: var(--spotify-vencord-color);
   }
   #vc-spotify-player + [class*=container-] [class*=button-][class*=button-][class*=button-],
