@@ -1793,17 +1793,6 @@ button[class*=emojiButtonNormal] > div > div {
   section[class*=chatContent-] form [class*=container-] {
     display: none;
   }
-  .vc-settings-card::after {
-    content: " ";
-    width: 250px;
-    background: url("https://media.tenor.com/bU7TCU-uk_cAAAAC/i-swear-to-bro-bro.gif");
-    height: auto;
-    display: flex;
-    aspect-ratio: 392/498;
-    margin-right: 0;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
   img[role=presentation] {
     display: none;
   }
