@@ -1789,14 +1789,6 @@
   section[class*=chatContent-] form [class*=container-] {
     display: none;
   }
-  [class*=userPopoutInner-] > [class*=wrapper-],
-  [class^=premiumTier0Badge-],
-  [class*=premiumFeatureBorder-],
-  [class*=emojiSection-] > [class*=shinyButton-],
-  [aria-label="Send a gift"],
-  [aria-label="Open sticker picker"] {
-    display: none;
-  }
   .vc-settings-card::after {
     content: " ";
     width: 250px;
@@ -2145,11 +2137,25 @@
   #vc-spotify-album-image#vc-spotify-album-image#vc-spotify-album-image:hover {
     filter: none;
   }
+  :root {
+    --discpp-avatar-deco: none;
+  }
   [class*=effectsWrapper] {
     display: none;
   }
   [class*=hideEmoji-][class*=hideEmoji-][class*=hideEmoji-] {
     opacity: 1;
+  }
+  [class*=avatarDecoration-] {
+    display: var(--discpp-avatar-deco);
+  }
+  [class*=userPopoutInner-] > [class*=wrapper-],
+  [class^=premiumTier0Badge-],
+  [class*=premiumFeatureBorder-],
+  [class*=emojiSection-] > [class*=shinyButton-],
+  [aria-label="Send a gift"],
+  [aria-label="Open sticker picker"] {
+    display: none;
   }
   [class*=container-] > [class*=threadSuggestionBar-][class*=threadSuggestionBar-][class*=threadSuggestionBar-] {
     display: none;
