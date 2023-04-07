@@ -17,16 +17,6 @@
 section[class*="chatContent-"] form [class*="container-"] {
   display: none;
 }
-// Various nitro cleanups
-[class*="userPopoutInner-"] > [class*="wrapper-"],
-[class^="premiumTier0Badge-"],
-[class*="premiumFeatureBorder-"],
-[class*="emojiSection-"] > [class*="shinyButton-"],
-[aria-label="Send a gift"],  //Gift nitro button
-[aria-label="Open sticker picker"] { //sticker button
-  display: none;
-}
-
 //remove vencord anime (haram)
 .vc-settings-card::after {
     content: ' ';
@@ -47,7 +37,6 @@ img[role="presentation"] {
 }
 
 //remove ctp thread colors
-
 ul[aria-label$=" threads"] > li:nth-child(n) {
     --channels-default: inherit;
     --interactive-hover: inherit;

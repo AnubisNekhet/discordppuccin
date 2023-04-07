@@ -1,6 +1,23 @@
+:root {
+  --discpp-avatar-deco: none;
+}
+// Fuck Super Reactions
 [class*=effectsWrapper] {
   display: none;
 }
 [class*="hideEmoji-"][class*="hideEmoji-"][class*="hideEmoji-"] {
     opacity: 1;
+}
+// Fuck Avatar Decorations
+[class*=avatarDecoration-] {
+  display: var(--discpp-avatar-deco);
+}
+// Various nitro cleanups
+[class*="userPopoutInner-"] > [class*="wrapper-"],
+[class^="premiumTier0Badge-"],
+[class*="premiumFeatureBorder-"],
+[class*="emojiSection-"] > [class*="shinyButton-"],
+[aria-label="Send a gift"],  //Gift nitro button
+[aria-label="Open sticker picker"] { //sticker button
+  display: none;
 }
