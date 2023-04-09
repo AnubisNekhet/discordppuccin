@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://discord.com/">Discord</a>
+	Discordppuccin
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -11,7 +11,7 @@ Catppuccin Discord but with like a lot of other themes
 | ----- | ----- |
 | Atom | `atom-lt`, `atom-dt` |
 | Catppuccin | `latte`, `frappe`, `macchiato`, `mocha`, `cappuccino` |
-| Chadpuccin ([Tobbi my beloved](https://github.com/justtobbi)) | `chadppuccin` |
+| Chadpuccin ([Tobbi my beloved](https://github.com/justtobbi)) | `chadpuccin` |
 | Coffee (Dark) | `coffee` |
 | Everforest | `everforest-lt`, `everforest-dt` |
 | Gruvbox (dark) | `gruvbox-lt`, `gruvbox-dt` |
@@ -43,19 +43,19 @@ Catppuccin Discord but with like a lot of other themes
 
 ```css
 /* latte */
-@import url("https://catppuccin.github.io/discord/dist/catppuccin-latte.theme.css");
+@import url("https://anubisnekhet.github.io/discordppuccin/dist/catppuccin-latte.theme.css");
 /* frappe */
-@import url("https://catppuccin.github.io/discord/dist/catppuccin-frappe.theme.css");
+@import url("https://anubisnekhet.github.io/discordppuccin/dist/catppuccin-frappe.theme.css");
 /* macchiato */
-@import url("https://catppuccin.github.io/discord/dist/catppuccin-macchiato.theme.css");
+@import url("https://anubisnekhet.github.io/discordppuccin/dist/catppuccin-macchiato.theme.css");
 /* mocha */
-@import url("https://catppuccin.github.io/discord/dist/catppuccin-mocha.theme.css");
+@import url("https://anubisnekhet.github.io/discordppuccin/dist/catppuccin-mocha.theme.css");
 
 /* You can also append Catppuccin colors to customize the accent, e.g. */
 /* mocha (pink accent)*/
-@import url("https://catppuccin.github.io/discord/dist/catppuccin-mocha-pink.theme.css");
+@import url("https://anubisnekhet.github.io/discordppuccin/dist/catppuccin-mocha-pink.theme.css");
 /* frappe (maroon accent) */
-@import url("https://catppuccin.github.io/discord/dist/catppuccin-frappe-maroon.theme.css");
+@import url("https://anubisnekhet.github.io/discordppuccin/dist/catppuccin-frappe-maroon.theme.css");
 ```
 
 ### [DiscoCSS](https://github.com/mlvzk/discocss)
@@ -65,19 +65,19 @@ Catppuccin Discord but with like a lot of other themes
 
 ```bash
 # latte
-curl -L https://catppuccin.github.io/discord/dist/catppuccin-latte.theme.css > ~/.config/discocss/custom.css
+curl -L https://anubisnekhet.github.io/discordppuccin/dist/catppuccin-latte.theme.css > ~/.config/discocss/custom.css
 # frappe
-curl -L https://catppuccin.github.io/discord/dist/catppuccin-frappe.theme.css > ~/.config/discocss/custom.css
+curl -L https://anubisnekhet.github.io/discordppuccin/dist/catppuccin-frappe.theme.css > ~/.config/discocss/custom.css
 # macchiato
-curl -L https://catppuccin.github.io/discord/dist/catppuccin-macchiato.theme.css > ~/.config/discocss/custom.css
+curl -L https://anubisnekhet.github.io/discordppuccin/dist/catppuccin-macchiato.theme.css > ~/.config/discocss/custom.css
 # mocha
-curl -L https://catppuccin.github.io/discord/dist/catppuccin-mocha.theme.css > ~/.config/discocss/custom.css
+curl -L https://anubisnekhet.github.io/discordppuccin/dist/catppuccin-mocha.theme.css > ~/.config/discocss/custom.css
 
 # You can also append Catppuccin colors to customize the accent, e.g.
 # mocha (pink accent)
-curl -L https://catppuccin.github.io/discord/dist/catppuccin-mocha-pink.theme.css > ~/.config/discocss/custom.css
+curl -L https://anubisnekhet.github.io/discordppuccin/dist/catppuccin-mocha-pink.theme.css > ~/.config/discocss/custom.css
 # frappe (maroon accent)
-curl -L https://catppuccin.github.io/discord/dist/catppuccin-frappe-maroon.theme.css > ~/.config/discocss/custom.css
+curl -L https://anubisnekhet.github.io/discordppuccin/dist/catppuccin-frappe-maroon.theme.css > ~/.config/discocss/custom.css
 ```
 
 ### [Stylus](https://github.com/openstyles/stylus)
@@ -94,8 +94,8 @@ curl -L https://catppuccin.github.io/discord/dist/catppuccin-frappe-maroon.theme
 - A: Using the Latte theme requires Discord's light mode to be on. You can set it up to sync between e.g. Mocha in dark mode, and Latte in light mode with this snippet:
 
   ```css
-  @import url("https://catppuccin.github.io/discord/dist/catppuccin-mocha.theme.css") (prefers-color-scheme: dark);
-  @import url("https://catppuccin.github.io/discord/dist/catppuccin-latte.theme.css") (prefers-color-scheme: light);
+  @import url("https://anubisnekhet.github.io/discordppuccin/dist/catppuccin-mocha.theme.css") (prefers-color-scheme: dark);
+  @import url("https://anubisnekhet.github.io/discordppuccin/dist/catppuccin-latte.theme.css") (prefers-color-scheme: light);
   ```
 
 ## 💝 Thanks to
