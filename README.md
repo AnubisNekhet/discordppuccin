@@ -4,8 +4,10 @@
 	Discordppuccin
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
-
+<h4 align="center">
 Catppuccin Discord but with like a lot of other themes
+</h4>
+
 
 | Theme | Code (`lt` is Light Mode, `dt` is Dark Mode) |
 | ----- | ----- |
@@ -22,6 +24,14 @@ Catppuccin Discord but with like a lot of other themes
 | Rosé Pine | `rosepine-lt`, `rosepine-dt` |
 | Sandy Beaches (Light) | `sandy-beaches` |
 | Solarized | `solarized-dt` |
+
+## Cool Stuff
+
+### Cool Vencord Spotify Thingy
+Kanged from [Comfy](https://github.com/Comfy-Themes/Discord)
+
+![image](https://user-images.githubusercontent.com/102488279/230763533-a9e1b81f-71e7-48e7-950b-d997ebf04183.png)
+
 
 ## Usage
 
@@ -100,6 +110,7 @@ curl -L https://anubisnekhet.github.io/discordppuccin/dist/catppuccin-frappe-mar
 
 ## 💝 Thanks to
 
+- Ya boy
 - [GlowingUmbreon](https://github.com/glowingumbreon)
 - [Isabelinc](https://github.com/Isabelincorp)
 - [Ren](https://github.com/watatomo)
