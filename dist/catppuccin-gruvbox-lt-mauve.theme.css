@@ -2089,6 +2089,43 @@ button[class*=emojiButtonNormal] > div > div {
   #vc-spotify-player + [class*=container-] [class*=button-][class*=enabled-]:hover {
     background-color: rgba(249, 245, 215, 0.2);
   }
+  #vc-spotify-player + [class*=container-] rect[fill="#f23f43"],
+  #vc-spotify-player + [class*=container-] foreignObject[mask="url(#svg-mask-status-dnd)"] > div {
+    fill: #F9F5D7 !important;
+    background-color: #F9F5D7 !important;
+  }
+  #vc-spotify-player + [class*=container-] rect[fill="rgba(242, 63, 67, 1)"] {
+    fill: #F9F5D7 !important;
+  }
+  #vc-spotify-player + [class*=container-] rect[fill="#23a55a"],
+  #vc-spotify-player + [class*=container-] foreignObject[mask="url(#svg-mask-status-online)"] > div,
+  #vc-spotify-player + [class*=container-] div[class^=dotOnline],
+  #vc-spotify-player + [class*=container-] i[class^=statusOnline-] {
+    fill: #F9F5D7 !important;
+    background-color: #F9F5D7 !important;
+  }
+  #vc-spotify-player + [class*=container-] rect[fill="rgba(35, 165, 90, 1)"] {
+    fill: #F9F5D7 !important;
+  }
+  #vc-spotify-player + [class*=container-] rect[fill="#f0b232"],
+  #vc-spotify-player + [class*=container-] foreignObject[mask="url(#svg-mask-status-idle)"] > div {
+    fill: #F9F5D7 !important;
+    background-color: #F9F5D7 !important;
+  }
+  #vc-spotify-player + [class*=container-] rect[fill="rgba(240, 178, 50, 1)"] {
+    fill: #F9F5D7 !important;
+  }
+  #vc-spotify-player + [class*=container-] rect[fill="#82858f"],
+  #vc-spotify-player + [class*=container-] foreignObject[mask="url(#svg-mask-status-offline)"] > div,
+  #vc-spotify-player + [class*=container-] foreignObject[mask="url(#svg-mask-status-offline)"] > rect,
+  #vc-spotify-player + [class*=container-] div[class^=dotOffline],
+  #vc-spotify-player + [class*=container-] i[class^=statusOffline-] {
+    fill: #F9F5D7 !important;
+    background-color: #F9F5D7 !important;
+  }
+  #vc-spotify-player + [class*=container-] rect[fill="rgba(130, 133, 143, 1)"] {
+    fill: #F9F5D7 !important;
+  }
   [class*=userPopoutOuter-] [class*=scroller-] {
     padding-left: 4px;
   }
