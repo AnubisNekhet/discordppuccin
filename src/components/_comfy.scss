@@ -233,3 +233,52 @@
     background-color: #{rgba($base, 0.2)};
   }
 }
+// dnd
+#vc-spotify-player + [class*=container-] {
+  rect[fill="#f23f43"],
+  foreignObject[mask="url(#svg-mask-status-dnd)"] > div {
+    fill: $base !important;
+    background-color: $base !important;
+  }
+
+  rect[fill="rgba(242, 63, 67, 1)"] {
+    fill: $base !important;
+  }
+  rect[fill="#23a55a"],
+  foreignObject[mask="url(#svg-mask-status-online)"] > div,
+  div[class^="dotOnline"],
+  i[class^="statusOnline-"] {
+    fill: $base !important;
+    background-color: $base !important;
+  }
+
+  rect[fill="rgba(35, 165, 90, 1)"] {
+    fill: $base !important;
+  }
+
+  // idle
+  rect[fill="#f0b232"],
+  foreignObject[mask="url(#svg-mask-status-idle)"] > div {
+    fill: $base !important;
+    background-color: $base !important;
+  }
+
+  rect[fill="rgba(240, 178, 50, 1)"] {
+    fill: $base !important;
+  }
+
+  // offline
+  rect[fill="#82858f"],
+  foreignObject[mask="url(#svg-mask-status-offline)"] > div,
+  foreignObject[mask="url(#svg-mask-status-offline)"] > rect,
+  div[class^="dotOffline"],
+  i[class^="statusOffline-"] {
+    fill: $base !important;
+    background-color: $base !important;
+  }
+
+  rect[fill="rgba(130, 133, 143, 1)"] {
+    fill: $base !important;
+  }
+}
+
