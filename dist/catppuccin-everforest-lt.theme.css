@@ -2122,6 +2122,9 @@
   #vc-spotify-player + [class*=container-] rect[fill="rgba(130, 133, 143, 1)"] {
     fill: #FDF6E3 !important;
   }
+  [class*=panels-] [class*=activityPanel-] {
+    border-bottom: none;
+  }
   [class*=userPopoutOuter-] [class*=scroller-] {
     padding-left: 4px;
   }

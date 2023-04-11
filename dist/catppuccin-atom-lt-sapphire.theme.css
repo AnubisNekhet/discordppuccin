@@ -2126,6 +2126,9 @@ button[class*=emojiButtonNormal] > div > div {
   #vc-spotify-player + [class*=container-] rect[fill="rgba(130, 133, 143, 1)"] {
     fill: #FAFAFA !important;
   }
+  [class*=panels-] [class*=activityPanel-] {
+    border-bottom: none;
+  }
   [class*=userPopoutOuter-] [class*=scroller-] {
     padding-left: 4px;
   }
