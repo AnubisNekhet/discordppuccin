@@ -281,4 +281,6 @@
     fill: $base !important;
   }
 }
-
+[class*=panels-] [class*=activityPanel-] {
+  border-bottom: none;
+}
