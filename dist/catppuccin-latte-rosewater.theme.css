@@ -2195,7 +2195,10 @@ button[class*=emojiButtonNormal] > div > div {
   [class*=hideEmoji-][class*=hideEmoji-][class*=hideEmoji-] {
     opacity: 1;
   }
-  [class*=avatarDecoration-] {
+  /* Hide avatar decorations outside of personal DMs and profiles */
+  [class^=chat-]:has([aria-label$="Member List"]) [class^=avatarDecoration-],
+  [aria-label="Thread header"] + [class^=chat-] [class^=avatarDecoration-],
+  [aria-label="Direct Messages"] [class^=avatarDecoration-] {
     display: var(--discpp-avatar-deco);
   }
   [class*=userPopoutInner-] > [class*=wrapper-],
@@ -2208,6 +2211,9 @@ button[class*=emojiButtonNormal] > div > div {
   }
   [class*=container-] > [class*=threadSuggestionBar-][class*=threadSuggestionBar-][class*=threadSuggestionBar-] {
     display: none;
+  }
+  .theme-dark, .theme-light {
+    --brand-500: #dc8a78;
   }
   div[class*=unread-],
   div[class^=jumpToPresentBar-] > button,
