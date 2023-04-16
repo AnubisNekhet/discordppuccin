@@ -8,9 +8,11 @@
 [class*="hideEmoji-"][class*="hideEmoji-"][class*="hideEmoji-"] {
     opacity: 1;
 }
-// Fuck Avatar Decorations
-[class*=avatarDecoration-] {
-  display: var(--discpp-avatar-deco);
+/* Hide avatar decorations outside of personal DMs and profiles */
+[class^="chat-"]:has([aria-label$="Member List"]) [class^="avatarDecoration-"],
+[aria-label="Thread header"]+[class^="chat-"] [class^="avatarDecoration-"],
+[aria-label="Direct Messages"] [class^="avatarDecoration-"] {
+    display: var(--discpp-avatar-deco);
 }
 // Various nitro cleanups
 [class*="userPopoutInner-"] > [class*="wrapper-"],

@@ -159,3 +159,6 @@ img.emoji.jumboable[aria-label="🥺"] {
 [class*=container-] > [class*=threadSuggestionBar-][class*=threadSuggestionBar-][class*=threadSuggestionBar-] {
   display: none;
 }
+.theme-dark, .theme-light {
+  --brand-500: #{$brand};
+}
