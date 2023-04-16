@@ -1823,11 +1823,8 @@ button[class*=emojiButtonNormal] > div > div {
   *::-webkit-scrollbar {
     display: none;
   }
-  .messagelogger-deleted.messagelogger-deleted.messagelogger-deleted div {
-    color: #CC241D;
-  }
   .messagelogger-deleted.messagelogger-deleted.messagelogger-deleted a {
-    color: #b6201a;
+    color: #b6201a !important;
     text-decoration: underline;
   }
   [class*=newMessagesBar-][class*=newMessagesBar-][class*=newMessagesBar-][class*=newMessagesBar-][class*=newMessagesBar-][class*=newMessagesBar-] {
