@@ -34,13 +34,9 @@ ul[aria-label$=" threads"] > li:nth-child(n) {
 *::-webkit-scrollbar {
   display: none;
 }
-//vencord delete modification
-.messagelogger-deleted.messagelogger-deleted.messagelogger-deleted div {
-    color: #{$red};
-}
 
 .messagelogger-deleted.messagelogger-deleted.messagelogger-deleted a {
-    color: #{darken($red, 5%)};
+    color: #{darken($red, 5%)} !important;
     text-decoration: underline;
 }
 //new messages
