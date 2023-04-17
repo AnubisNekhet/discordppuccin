@@ -968,6 +968,10 @@ button[class*=emojiButtonNormal] > div > div {
     background-color: #D9E0EE;
     color: #161320;
   }
+  div[class*=liveSmall-] {
+    background-color: #F38BA8 !important;
+    color: #161320;
+  }
   [class^=chatContent] div[class*=wrapperAudio-] div[class*=audioControls],
   [class^=chatContent] div[class*=wrapperAudio-] div[class*=videoControls-],
   [class^=chatContent] div[class*=imageWrapper-] div[class*=audioControls],
@@ -996,6 +1000,34 @@ button[class*=emojiButtonNormal] > div > div {
   [class^=chatContent] [id^=message-reactions-] div[class^=reaction-]:hover {
     background-color: var(--brand-experiment-20a);
     border-color: var(--brand-experiment-30a);
+  }
+  [class^=chatContent] div[class*=isBurstReactionPicker-] {
+    box-shadow: 0 0 0 2px #CBA6F7, 0 0 16px #B4BEFE;
+  }
+  [class^=chatContent] div[class^=navButtonSuperReactActive-], [class^=chatContent] div[class^=navButtonSuperReactActive-]:hover {
+    background: linear-gradient(270deg, #F5C2E7, #B4BEFE 33.63%, #CBA6F7);
+    color: #161320;
+  }
+  [class^=chatContent] div[class*=betaTag-] {
+    background: var(--brand-experiment) !important;
+    color: #161320;
+  }
+  [class^=chatContent] button[class*=navButtonActive-], [class^=chatContent] button[class*=navButtonActive-]:hover {
+    color: #161320;
+  }
+  [class^=chatContent] div[class*=colorPremiumGradient-][class*=focused-] {
+    background: linear-gradient(270deg, #F5C2E7, #B4BEFE 33.63%, #CBA6F7);
+    color: #161320 !important;
+  }
+  [class^=chatContent] div[class*=isBurstReactionPicker] {
+    border: none;
+    box-shadow: 0 0 0 2px #CBA6F7, 0 0 16px #B4BEFE;
+  }
+  [class^=chatContent] div[class*=playButtonContainer-] {
+    background: var(--brand-experiment) !important;
+  }
+  [class^=chatContent] svg[class*=playIcon-] path {
+    fill: #161320;
   }
   [class^=chatContent] div[class^=container-][class*=header-] div[class*=addReactButton-],
   [class^=chatContent] div[class^=container-][class*=header-] div[class^=buttons-]:not([class*=lookBlank-]) div[class^=contents] {
@@ -1268,6 +1300,13 @@ button[class*=emojiButtonNormal] > div > div {
   }
   [id*=message-accessories-] > [class*=invite-] [class*=partyStatus-] {
     color: #D9E0EE;
+  }
+  .messagelogger-deleted div {
+    color: #F38BA8 !important;
+  }
+  .messagelogger-deleted.messagelogger-deleted.messagelogger-deleted a {
+    color: #f17497;
+    text-decoration: underline;
   }
   div[class^=layerContainer] [role=menu] {
     --brand-experiment-560: var(--brand-experiment-25a);
