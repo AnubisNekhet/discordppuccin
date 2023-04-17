@@ -2165,6 +2165,9 @@ button[class*=emojiButtonNormal] > div > div {
   [class*=panels-] [class*=activityPanel-] {
     border-bottom: none;
   }
+  [class*=listeningAlong-] {
+    padding-bottom: 24px !important;
+  }
   [class*=userPopoutOuter-] [class*=scroller-] {
     padding-left: 4px;
   }
