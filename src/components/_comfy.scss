@@ -137,14 +137,14 @@
 /* Comfy-Style Spotify Player
  * Kanged and modified code from https://github.com/Comfy-Themes/Discord
  */
-#vc-spotify-player, #vc-spotify-player + [class*=container-]  {
-  --spotify-wave-width: 240px;
+:root {
+  --spotify-vencord-wave-width: 240px;
   --spotify-vencord-color: #{$brand};
-  --spotify-vencord-text: var(--background-primary);
+  --spotify-vencord-text: #{hue($base) saturation($base) lightness($base)};
 }
 @keyframes spotifywave {
   0% {
-    -webkit-mask-position-x: var(--spotify-wave-width);
+    -webkit-mask-position-x: var(--spotify-vencord-wave-width);
   }
 
   100% {
@@ -157,7 +157,7 @@
     position: absolute;
     height: 25px;
     z-index: 1;
-    width: var(--spotify-wave-width);
+    width: var(--spotify-vencord-wave-width);
     margin-top: -29px;
     left: 0;
     background: var(--spotify-vencord-color);
@@ -174,13 +174,13 @@
   .vc-spotify-ellipoverflow.vc-spotify-ellipoverflow,
   .vc-spotify-artist.vc-spotify-artist,
   .vc-spotify-album.vc-spotify-album, .vc-spotify-time-right, .vc-spotify-time-left  {
-    color: var(--spotify-vencord-text);
+    color: hsla(var(--spotify-vencord-text)/1);
   }
   &#vc-spotify-player [class*="bar-"] {
-    background: #{rgba($base, 0.3)};
+    background: hsla(var(--spotify-vencord-text)/0.3);
   }
   &#vc-spotify-player [class*="barFill"] {
-    background: #{rgba($base, 0.7)};
+    background: hsla(var(--spotify-vencord-text)/0.7);
   }
   #vc-spotify-progress-bar>[class^=slider] [class^=grabber][class^=grabber] {
     background-color: var(--spotify-vencord-color);
@@ -197,19 +197,19 @@
   .vc-spotify-shuffle-on.vc-spotify-shuffle-on:hover,
   .vc-spotify-repeat-context.vc-spotify-repeat-context:hover,
   .vc-spotify-repeat-track.vc-spotify-repeat-track:hover {
-    color: var(--spotify-vencord-text);
+    color: hsla(var(--spotify-vencord-text)/1);
   }
   .vc-spotify-repeat-off.vc-spotify-repeat-off.vc-spotify-repeat-off,
   .vc-spotify-shuffle-off.vc-spotify-shuffle-off.vc-spotify-shuffle-off {
-    color: #{rgba($base, 0.5)};
+    color: hsla(var(--spotify-vencord-text)/0.5);
   }
   .vc-spotify-button.vc-spotify-button {
     transition: background 0.1s;
-    color: var(--spotify-vencord-text);
+    color: hsla(var(--spotify-vencord-text)/1);
   }
   .vc-spotify-button.vc-spotify-button:hover {
-    background: #{rgba($base, 0.3)};
-    color: var(--spotify-vencord-text);
+    background: hsla(var(--spotify-vencord-text)/0.3);
+    color: hsla(var(--spotify-vencord-text)/1);
   }
 }
 [class*=wrapper-]:not(:empty) + #vc-spotify-player {
@@ -222,49 +222,49 @@
   background: var(--spotify-vencord-color);
   [class*=button-][class*=button-][class*=button-],
   [class*=title-][class*=title-][class*=title-] {
-    color: var(--spotify-vencord-text);
+    color: hsla(var(--spotify-vencord-text)/1);
   }
   [class*=subtext-] {
-    color: #{rgba($base, 0.7)} !important;
+    color: hsla(var(--spotify-vencord-text)/0.7) !important;
   }
   [class*=withTagAsButton-]:hover,
   [class*=withTagless]:hover,
   [class*=button-][class*=enabled-]:hover {
-    background-color: #{rgba($base, 0.2)};
+    background-color: hsla(var(--spotify-vencord-text)/0.2);
   }
 }
 // dnd
 #vc-spotify-player + [class*=container-] {
   rect[fill="#f23f43"],
   foreignObject[mask="url(#svg-mask-status-dnd)"] > div {
-    fill: $base !important;
-    background-color: $base !important;
+    fill: hsla(var(--spotify-vencord-text)/1) !important;
+    background-color: hsla(var(--spotify-vencord-text)/1) !important;
   }
 
   rect[fill="rgba(242, 63, 67, 1)"] {
-    fill: $base !important;
+    fill: hsla(var(--spotify-vencord-text)/1) !important;
   }
   rect[fill="#23a55a"],
   foreignObject[mask="url(#svg-mask-status-online)"] > div,
   div[class^="dotOnline"],
   i[class^="statusOnline-"] {
-    fill: $base !important;
-    background-color: $base !important;
+    fill: hsla(var(--spotify-vencord-text)/1) !important;
+    background-color: hsla(var(--spotify-vencord-text)/1) !important;
   }
 
   rect[fill="rgba(35, 165, 90, 1)"] {
-    fill: $base !important;
+    fill: hsla(var(--spotify-vencord-text)/1) !important;
   }
 
   // idle
   rect[fill="#f0b232"],
   foreignObject[mask="url(#svg-mask-status-idle)"] > div {
-    fill: $base !important;
-    background-color: $base !important;
+    fill: hsla(var(--spotify-vencord-text)/1) !important;
+    background-color: hsla(var(--spotify-vencord-text)/1) !important;
   }
 
   rect[fill="rgba(240, 178, 50, 1)"] {
-    fill: $base !important;
+    fill: hsla(var(--spotify-vencord-text)/1) !important;
   }
 
   // offline
@@ -273,12 +273,12 @@
   foreignObject[mask="url(#svg-mask-status-offline)"] > rect,
   div[class^="dotOffline"],
   i[class^="statusOffline-"] {
-    fill: $base !important;
-    background-color: $base !important;
+    fill: hsla(var(--spotify-vencord-text)/1) !important;
+    background-color: hsla(var(--spotify-vencord-text)/1) !important;
   }
 
   rect[fill="rgba(130, 133, 143, 1)"] {
-    fill: $base !important;
+    fill: hsla(var(--spotify-vencord-text)/1) !important;
   }
 }
 [class*=panels-] [class*=activityPanel-] {
