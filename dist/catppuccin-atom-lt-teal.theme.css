@@ -1404,7 +1404,8 @@ button[class*=emojiButtonNormal] > div > div {
   div[class*=layerContainer] > div[class*=layer] div[class^=reactors] {
     background-color: var(--background-primary);
   }
-  div[class*=layerContainer] > div[class*=layer] div[class^=scroller]:not([style*="padding-right: 4px;"], [style*="padding-right: 8px;"]) {
+  div[class*=layerContainer] > div[class*=layer] div[class^=scroller]:not([style*="padding-right: 4px;"],
+  [style*="padding-right: 8px;"]) {
     background-color: var(--background-secondary);
   }
   div[class*=layerContainer] > div[class*=layer] div[class*=reactorDefault] {
@@ -1457,10 +1458,23 @@ button[class*=emojiButtonNormal] > div > div {
   .theme-light[class*=profileColors-] [class*=section-],
   .theme-light[class*=profileColors-] [class*=additionalActionsIcon-],
   .theme-light[class*=profileColors-] [class*=overlayBackground-] * {
-    --interactive-normal: #383A42;
-    --text-normal: #383A42;
-    --interactive-active: #383A42;
-    --interactive-hover: #383A42;
+    --interactive-normal: #DBDBDC;
+    --text-normal: #DBDBDC;
+    --interactive-active: #DBDBDC;
+    --interactive-hover: #DBDBDC;
+  }
+  .theme-light[class*=profileColors-] [class*=userTagUsernameBase-]:not(a),
+  .theme-light[class*=profileColors-] [class*=discrimBase-]:not(a),
+  .theme-light[class*=profileColors-] [class*=title-]:not(a),
+  .theme-light[class*=profileColors-] [class*=roles-]:not(a),
+  .theme-light[class*=profileColors-] [class*=defaultColor-]:not(a),
+  .theme-light[class*=profileColors-] [class*=markup-]:not(a),
+  .theme-light[class*=profileColors-] [class*=activityUserPopoutV2-] *:not(a),
+  .theme-light[class*=profileColors-] [class*=customStatus-]:not(a),
+  .theme-light[class*=profileColors-] [class*=section-]:not(a),
+  .theme-light[class*=profileColors-] [class*=additionalActionsIcon-]:not(a),
+  .theme-light[class*=profileColors-] [class*=overlayBackground-] *:not(a) {
+    color: unset !important;
   }
   div[class^=layerContainer] #guild-header-popout,
   div[class^=layerContainer] #guild-context,

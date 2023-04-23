@@ -1400,7 +1400,8 @@
   div[class*=layerContainer] > div[class*=layer] div[class^=reactors] {
     background-color: var(--background-primary);
   }
-  div[class*=layerContainer] > div[class*=layer] div[class^=scroller]:not([style*="padding-right: 4px;"], [style*="padding-right: 8px;"]) {
+  div[class*=layerContainer] > div[class*=layer] div[class^=scroller]:not([style*="padding-right: 4px;"],
+  [style*="padding-right: 8px;"]) {
     background-color: var(--background-secondary);
   }
   div[class*=layerContainer] > div[class*=layer] div[class*=reactorDefault] {
@@ -1453,10 +1454,23 @@
   .theme-light[class*=profileColors-] [class*=section-],
   .theme-light[class*=profileColors-] [class*=additionalActionsIcon-],
   .theme-light[class*=profileColors-] [class*=overlayBackground-] * {
-    --interactive-normal: #5C6A72;
-    --text-normal: #5C6A72;
-    --interactive-active: #5C6A72;
-    --interactive-hover: #5C6A72;
+    --interactive-normal: #F0EDD8;
+    --text-normal: #F0EDD8;
+    --interactive-active: #F0EDD8;
+    --interactive-hover: #F0EDD8;
+  }
+  .theme-light[class*=profileColors-] [class*=userTagUsernameBase-]:not(a),
+  .theme-light[class*=profileColors-] [class*=discrimBase-]:not(a),
+  .theme-light[class*=profileColors-] [class*=title-]:not(a),
+  .theme-light[class*=profileColors-] [class*=roles-]:not(a),
+  .theme-light[class*=profileColors-] [class*=defaultColor-]:not(a),
+  .theme-light[class*=profileColors-] [class*=markup-]:not(a),
+  .theme-light[class*=profileColors-] [class*=activityUserPopoutV2-] *:not(a),
+  .theme-light[class*=profileColors-] [class*=customStatus-]:not(a),
+  .theme-light[class*=profileColors-] [class*=section-]:not(a),
+  .theme-light[class*=profileColors-] [class*=additionalActionsIcon-]:not(a),
+  .theme-light[class*=profileColors-] [class*=overlayBackground-] *:not(a) {
+    color: unset !important;
   }
   div[class^=layerContainer] #guild-header-popout,
   div[class^=layerContainer] #guild-context,
