@@ -1458,6 +1458,22 @@ button[class*=emojiButtonNormal] > div > div {
   .theme-light[class*=profileColors-] [class*=section-],
   .theme-light[class*=profileColors-] [class*=additionalActionsIcon-],
   .theme-light[class*=profileColors-] [class*=overlayBackground-] * {
+    --interactive-normal: #282828;
+    --text-normal: #282828;
+    --interactive-active: #282828;
+    --interactive-hover: #282828;
+  }
+  [class*=profileColors-][class*=profileColors-][class*=profileColors-]:not(.theme-light) [class*=userTagUsernameBase-],
+  [class*=profileColors-][class*=profileColors-][class*=profileColors-]:not(.theme-light) [class*=discrimBase-],
+  [class*=profileColors-][class*=profileColors-][class*=profileColors-]:not(.theme-light) [class*=title-],
+  [class*=profileColors-][class*=profileColors-][class*=profileColors-]:not(.theme-light) [class*=roles-],
+  [class*=profileColors-][class*=profileColors-][class*=profileColors-]:not(.theme-light) [class*=defaultColor-],
+  [class*=profileColors-][class*=profileColors-][class*=profileColors-]:not(.theme-light) [class*=markup-],
+  [class*=profileColors-][class*=profileColors-][class*=profileColors-]:not(.theme-light) [class*=activityUserPopoutV2-] *,
+  [class*=profileColors-][class*=profileColors-][class*=profileColors-]:not(.theme-light) [class*=customStatus-],
+  [class*=profileColors-][class*=profileColors-][class*=profileColors-]:not(.theme-light) [class*=section-],
+  [class*=profileColors-][class*=profileColors-][class*=profileColors-]:not(.theme-light) [class*=additionalActionsIcon-],
+  [class*=profileColors-][class*=profileColors-][class*=profileColors-]:not(.theme-light) [class*=overlayBackground-] * {
     --interactive-normal: #E6D7B2;
     --text-normal: #E6D7B2;
     --interactive-active: #E6D7B2;
