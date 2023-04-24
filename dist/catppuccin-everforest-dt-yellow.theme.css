@@ -2254,6 +2254,24 @@ button[class*=emojiButtonNormal] > div > div {
   .theme-dark, .theme-light {
     --brand-500: #BF983D;
   }
+  :is([class*=contents-], [class*=memberInner], [class*=repliedMessage]):has([src*="928339066838216754"]) [class*=username] {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(30deg, var(--brand-500), hsl(24deg, 87%, 78%));
+    text-shadow: 0 0 2px hsla(24deg, 87%, 78%, 0.5);
+  }
+  [class^=userPopoutOuter-]:has([src*="928339066838216754"]) [class^=profileBadges-]::after {
+    content: "";
+    height: 22px;
+    width: 22px;
+    background: url("https://i.imgur.com/ZpjX8pC.gif");
+    margin: 4px;
+    background-size: contain;
+    border-radius: 2px;
+  }
+  [class^=userPopoutOuter-] [class^=profileBadges-][class*=containerWithContent-]::after {
+    margin: 0 !important;
+  }
   div[class*=unread-],
   div[class^=jumpToPresentBar-] > button,
   div[class^=newMessagesBar-] > button {
