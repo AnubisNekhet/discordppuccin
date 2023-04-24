@@ -1463,19 +1463,6 @@ button[class*=emojiButtonNormal] > div > div {
     --interactive-active: #E6DFD8;
     --interactive-hover: #E6DFD8;
   }
-  .theme-light[class*=profileColors-] [class*=userTagUsernameBase-]:not(a),
-  .theme-light[class*=profileColors-] [class*=discrimBase-]:not(a),
-  .theme-light[class*=profileColors-] [class*=title-]:not(a),
-  .theme-light[class*=profileColors-] [class*=roles-]:not(a),
-  .theme-light[class*=profileColors-] [class*=defaultColor-]:not(a),
-  .theme-light[class*=profileColors-] [class*=markup-]:not(a),
-  .theme-light[class*=profileColors-] [class*=activityUserPopoutV2-] *:not(a),
-  .theme-light[class*=profileColors-] [class*=customStatus-]:not(a),
-  .theme-light[class*=profileColors-] [class*=section-]:not(a),
-  .theme-light[class*=profileColors-] [class*=additionalActionsIcon-]:not(a),
-  .theme-light[class*=profileColors-] [class*=overlayBackground-] *:not(a) {
-    color: unset !important;
-  }
   div[class^=layerContainer] #guild-header-popout,
   div[class^=layerContainer] #guild-context,
   div[class^=layerContainer] div[id^=channel-context],
