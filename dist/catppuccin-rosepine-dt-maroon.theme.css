@@ -2290,7 +2290,7 @@ button[class*=emojiButtonNormal] > div > div {
     transform: translate(0);
     overflow: hidden;
     border: 0;
-    --transparency: .4;
+    --transparency: .3;
     border-radius: 5px;
   }
   .role-2TIOKu .roleRemoveIcon-387wKV {
