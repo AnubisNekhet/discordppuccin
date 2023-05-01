@@ -2177,6 +2177,9 @@
   [class*=listeningAlong-] {
     padding-bottom: 24px !important;
   }
+  .vc-spotify-comma.vc-spotify-comma {
+    color: hsla(var(--spotify-vencord-text)/1);
+  }
   [class*=userPopoutOuter-] [class*=scroller-] {
     padding-left: 4px;
   }
