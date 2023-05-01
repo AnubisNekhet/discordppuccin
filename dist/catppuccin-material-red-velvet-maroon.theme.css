@@ -94,7 +94,7 @@
     --text-link-low-saturation: #e0acb4;
     --text-positive: #A6E3A1;
     --text-warning: #F9E2AF;
-    --text-danger: #F38BA8;
+    --text-danger: hsl(344deg, 29%, 72%);
     --text-brand: #EBA0AC;
     --background-primary: hsl(344deg, 29%, 10%);
     --background-secondary: hsl(344deg, 29%, 6%);
@@ -118,8 +118,8 @@
     --info-warning-background: rgba(249, 226, 175, 0.15);
     --info-warning-foreground: #F9E2AF;
     --info-warning-text: hsl(344deg, 29%, 80%);
-    --info-danger-background: rgba(243, 139, 168, 0.15);
-    --info-danger-foreground: #F38BA8;
+    --info-danger-background: rgba(204, 163, 174, 0.15);
+    --info-danger-foreground: hsl(344deg, 29%, 72%);
     --info-danger-text: hsl(344deg, 29%, 80%);
     --info-help-background: rgba(137, 220, 235, 0.15);
     --info-help-foreground: #89DCEB;
@@ -128,17 +128,17 @@
     --status-positive-text: hsl(344deg, 29%, 10%);
     --status-warning-background: #F9E2AF;
     --status-warning-text: hsl(344deg, 29%, 10%);
-    --status-danger-background: #F38BA8;
+    --status-danger-background: hsl(344deg, 29%, 72%);
     --status-danger-text: hsl(344deg, 29%, 10%);
-    --status-danger: #F38BA8;
+    --status-danger: hsl(344deg, 29%, 72%);
     --status-positive: #A6E3A1;
     --status-warning: #F9E2AF;
     --status-yellow-400: #F9E2AF;
     --status-green-600: #A6E3A1;
     --primary-dark-600: hsl(344deg, 29%, 10%);
     --status-yellow-560: #F9E2AF;
-    --status-red-500: #F38BA8;
-    --status-red-530: #F38BA8;
+    --status-red-500: hsl(344deg, 29%, 72%);
+    --status-red-530: hsl(344deg, 29%, 72%);
     --status-yellow-500: #F9E2AF;
     --black-500: hsl(344deg, 29%, 3%);
     --green-360: #A6E3A1;
@@ -156,10 +156,10 @@
     --premium-perk-pink: #F5C2E7;
     --premium-perk-orange: #FAB387;
     --status-green-400: #A6E3A1;
-    --button-danger-background: #F38BA8;
-    --button-danger-background-hover: #f17497;
+    --button-danger-background: hsl(344deg, 29%, 72%);
+    --button-danger-background-hover: #c3929f;
     --button-danger-background-active: #e48090;
-    --button-danger-background-disabled: #F38BA8;
+    --button-danger-background-disabled: hsl(344deg, 29%, 72%);
     --button-positive-background: #A6E3A1;
     --button-positive-background-hover: #93dd8d;
     --button-positive-background-active: #8ada84;
@@ -169,14 +169,14 @@
     --button-secondary-background-active: #3f222a;
     --button-secondary-background-disabled: hsl(344deg, 29%, 24%);
     --button-outline-danger-text: hsl(344deg, 29%, 80%);
-    --button-outline-danger-border: #F38BA8;
+    --button-outline-danger-border: hsl(344deg, 29%, 72%);
     --button-outline-danger-background: transparent;
-    --button-outline-danger-background-hover: #f27f9f;
+    --button-outline-danger-background-hover: #c89ba7;
     --button-outline-danger-text-hover: hsl(344deg, 29%, 10%);
-    --button-outline-danger-border-hover: #f27f9f;
-    --button-outline-danger-background-active: #f17497;
+    --button-outline-danger-border-hover: #c89ba7;
+    --button-outline-danger-background-active: #c3929f;
     --button-outline-danger-text-active: hsl(344deg, 29%, 10%);
-    --button-outline-danger-border-active: #f27f9f;
+    --button-outline-danger-border-active: #c89ba7;
     --button-outline-positive-text: hsl(344deg, 29%, 80%);
     --button-outline-positive-border: #A6E3A1;
     --button-outline-positive-background: transparent;
@@ -253,7 +253,7 @@
     --interactive-active: hsl(344deg, 29%, 80%);
     --rs-online-color: #A6E3A1;
     --rs-idle-color: #F9E2AF;
-    --rs-dnd-color: #F38BA8;
+    --rs-dnd-color: hsl(344deg, 29%, 72%);
     --rs-offline-color: hsl(344deg, 29%, 16%);
     --rs-streaming-color: #CBA6F7;
     --rs-invisible-color: hsl(344deg, 29%, 16%);
@@ -278,10 +278,10 @@
     background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="18" height="18"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cpath d="M0 0h18v18H0"/%3E%3Cpath fill="%23sl(344deg, 29%, 3%)" d="M14.25 4.8075L13.1925 3.75 9 7.9425 4.8075 3.75 3.75 4.8075 7.9425 9 3.75 13.1925 4.8075 14.25 9 10.0575l4.1925 4.1925 1.0575-1.0575L10.0575 9"/%3E%3C/g%3E%3C/svg%3E') !important;
   }
   [class*=removeGame-] {
-    background-image: url("data:image/svg+xml,%3Csvg height='18' viewBox='0 0 18 18' width='18' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='m14.25 4.808-1.057-1.058-4.193 4.192-4.192-4.192-1.058 1.058 4.192 4.192-4.192 4.193 1.058 1.057 4.192-4.193 4.193 4.193 1.057-1.057-4.193-4.193z' fill-rule='nonzero' fill='%23F38BA8'/%3E%3Cpath d='m0 0h18v18h-18z'/%3E%3C/g%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml,%3Csvg height='18' viewBox='0 0 18 18' width='18' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='m14.25 4.808-1.057-1.058-4.193 4.192-4.192-4.192-1.058 1.058 4.192 4.192-4.192 4.193 1.058 1.057 4.192-4.193 4.193 4.193 1.057-1.057-4.193-4.193z' fill-rule='nonzero' fill='%23sl(344deg, 29%, 72%)'/%3E%3Cpath d='m0 0h18v18h-18z'/%3E%3C/g%3E%3C/svg%3E") !important;
   }
   [class*=emojiRemove-] {
-    background-image: url("data:image/svg+xml,%3Csvg height='18' viewBox='0 0 18 18' width='18' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='m14.25 4.808-1.057-1.058-4.193 4.192-4.192-4.192-1.058 1.058 4.192 4.192-4.192 4.193 1.058 1.057 4.192-4.193 4.193 4.193 1.057-1.057-4.193-4.193z' fill-rule='nonzero' fill='%23F38BA8'/%3E%3Cpath d='m0 0h18v18h-18z'/%3E%3C/g%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml,%3Csvg height='18' viewBox='0 0 18 18' width='18' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='m14.25 4.808-1.057-1.058-4.193 4.192-4.192-4.192-1.058 1.058 4.192 4.192-4.192 4.193 1.058 1.057 4.192-4.193 4.193 4.193 1.057-1.057-4.193-4.193z' fill-rule='nonzero' fill='%23sl(344deg, 29%, 72%)'/%3E%3Cpath d='m0 0h18v18h-18z'/%3E%3C/g%3E%3C/svg%3E") !important;
   }
   [class*=lockIcon-] {
     content: url("data:image/svg+xml,%3Csvg height='14' viewBox='0 0 10 14' width='10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m553 515h-6v-1c0-1.654 1.346-3 3-3s3 1.346 3 3zm-4 6h2v-4h-2zm1-12c-2.762 0-5 2.238-5 5v1 4 2c0 1.104.896 2 2 2h6c1.104 0 2-.896 2-2v-2-4-1c0-2.762-2.238-5-5-5z' fill='%23A6E3A1' fill-rule='evenodd' transform='translate(-545 -509)'/%3E%3C/svg%3E") !important;
@@ -424,7 +424,7 @@
     background-color: hsl(344deg, 29%, 16%);
   }
   div[class*=button-][class*=dangerous-]:hover {
-    color: #ee5d85;
+    color: #ba8291;
   }
   div[role=radio][class*=selected] {
     color: hsl(344deg, 29%, 3%);
@@ -446,7 +446,7 @@
     color: var(--text-muted);
   }
   [class*=topGuildEmojiBadge-] {
-    background: linear-gradient(268.26deg, #FAB387, #F38BA8 102.45%);
+    background: linear-gradient(268.26deg, #FAB387, hsl(344deg, 29%, 72%) 102.45%);
   }
   [class*=topGuildEmojiBadge-] * {
     color: hsl(344deg, 29%, 3%) !important;
@@ -499,7 +499,7 @@
     border-color: #F9E2AF;
   }
   div[class^=contentRegion-] [id="privacy-&-safety-tab"] div[class^=radioBar-][style*="hsl(359,"] {
-    border-color: #F38BA8;
+    border-color: hsl(344deg, 29%, 72%);
   }
   div[class^=contentRegion-] [id="privacy-&-safety-tab"] div[class*=betaTagIcon] {
     background-color: #EBA0AC !important;
@@ -697,7 +697,7 @@
     background-color: #A6E3A1;
   }
   div[class^=contentRegion-] #discovery-tab div[class*=checklistIcon] svg[viewBox="0 0 14 14"] path {
-    fill: #F38BA8;
+    fill: hsl(344deg, 29%, 72%);
   }
   div[class^=contentRegion-] #discovery-tab div[class*=checklistIcon] svg[viewBox="0 0 20 20"] path {
     fill: #F9E2AF;
@@ -706,7 +706,7 @@
     fill: #A6E3A1;
   }
   div[class^=contentRegion-] #guild_templates-tab svg[class*=descriptionIcon][viewBox="0 0 14 14"] path {
-    fill: #F38BA8;
+    fill: hsl(344deg, 29%, 72%);
   }
   div[class^=contentRegion-] #guild_templates-tab svg[class*=descriptionIcon] circle {
     fill: hsl(344deg, 29%, 3%);
@@ -740,7 +740,7 @@
     color: hsl(344deg, 29%, 3%);
   }
   .bd-button.bd-button-danger {
-    background-color: #F38BA8;
+    background-color: hsl(344deg, 29%, 72%);
   }
   .bd-controls > .bd-addon-button svg {
     fill: hsl(344deg, 29%, 3%);
@@ -920,9 +920,9 @@
     background: hsl(344deg, 29%, 32%);
   }
   ul[aria-label$=" threads"] > li:nth-child(1n) {
-    --channels-default: #e2aebc;
-    --interactive-hover: #F38BA8;
-    --interactive-active: #F38BA8;
+    --channels-default: #d7b5be;
+    --interactive-hover: hsl(344deg, 29%, 72%);
+    --interactive-active: hsl(344deg, 29%, 72%);
   }
   ul[aria-label$=" threads"] > li:nth-child(2n) {
     --channels-default: #e4bab2;
@@ -965,7 +965,7 @@
     color: hsl(344deg, 29%, 3%);
   }
   div[class*=liveSmall-] {
-    background-color: #F38BA8 !important;
+    background-color: hsl(344deg, 29%, 72%) !important;
     color: hsl(344deg, 29%, 3%);
   }
   [class^=chatContent] div[class*=wrapperAudio-] div[class*=audioControls],
@@ -1192,7 +1192,7 @@
     color: hsl(344deg, 29%, 80%);
   }
   div[class^=callContainer-] div[class^=videoControls-] div[class^=toolbar-] div[class^=liveIndicator-] div[class^=live-] {
-    background-color: #F38BA8 !important;
+    background-color: hsl(344deg, 29%, 72%) !important;
     color: hsl(344deg, 29%, 3%) !important;
   }
   div[class^=callContainer-] div[class^=videoControls-] button[class*=leftTrayIcon-][class*=buttonColor-] {
@@ -1200,7 +1200,7 @@
     color: hsl(344deg, 29%, 80%);
   }
   div[class^=callContainer-] div[class^=videoControls-] [class*=colorable-][class*=red-] {
-    background: #F38BA8;
+    background: hsl(344deg, 29%, 72%);
   }
   div[class^=callContainer-] div[class^=videoControls-] [class*=colorable-][class*=red-] [class*=centerIcon-] {
     color: hsl(344deg, 29%, 3%);
@@ -1298,10 +1298,10 @@
     color: hsl(344deg, 29%, 80%);
   }
   .messagelogger-deleted div {
-    color: #F38BA8 !important;
+    color: hsl(344deg, 29%, 72%) !important;
   }
   .messagelogger-deleted.messagelogger-deleted.messagelogger-deleted a {
-    color: #f17497;
+    color: #c3929f;
     text-decoration: underline;
   }
   div[class^=layerContainer] [role=menu] {
@@ -1341,7 +1341,7 @@
   div[class^=layerContainer] [role=menu] [class*=colorDanger][class*=focused],
   div[class^=layerContainer] [role=menu] [class*=colorDefault] [class*=check-] {
     color: var(--background-floating);
-    background-color: #F38BA8;
+    background-color: hsl(344deg, 29%, 72%);
   }
   div[class^=layerContainer] [role=menu] #guild-header-popout-premium-subscribe div[class^=iconContainer-] > svg {
     color: #F5C2E7;
@@ -1522,7 +1522,7 @@
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] h4[class^=fixed-],
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] h5[class^=fixed-],
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] h6[class^=fixed-] {
-    color: #F38BA8;
+    color: hsl(344deg, 29%, 72%);
   }
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] h1[class^=fixed-]:after,
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] h2[class^=fixed-]:after,
@@ -1530,7 +1530,7 @@
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] h4[class^=fixed-]:after,
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] h5[class^=fixed-]:after,
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] h6[class^=fixed-]:after {
-    background-color: #F38BA8;
+    background-color: hsl(344deg, 29%, 72%);
   }
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class*=message-] {
     background-color: hsl(344deg, 29%, 16%);
@@ -1651,7 +1651,7 @@
   }
   div[class*=userPopoutOuter-] div[aria-label="HypeSquad Brilliance"],
   div[class*=userProfileOuter-] div[aria-label="HypeSquad Brilliance"] {
-    content: url("data:image/svg+xml,%3Csvg height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath clip-rule='evenodd' d='m12 20c4.4183 0 8-3.5817 8-8 0-4.41828-3.5817-8-8-8-4.41828 0-8 3.58172-8 8 0 4.4183 3.58172 8 8 8zm.7921-8.275 3.6146-2.3738c.0909-.05916.2013.03974.151.136l-1.4986 2.9416c-.0354.0707.0158.1537.0944.1537h.8973c.1033 0 .1457.1315.0618.1916l-4.0517 2.9027c-.0362.0265-.0856.0265-.1227 0l-4.05168-2.9027c-.08301-.0601-.04062-.1916.06182-.1916h.89634c.07948 0 .1307-.083.09449-.1537l-1.49862-2.9416c-.04945-.09626.06094-.19516.1519-.136l3.61545 2.3738c.0627.0415.113.098.1465.1651l.5511 1.1057c.0389.0777.1501.0777.189 0l.551-1.1057c.0336-.0671.0839-.1245.1466-.1651z' fill='%23F38BA8' fill-rule='evenodd'/%3E%3C/svg%3E");
+    content: url("data:image/svg+xml,%3Csvg height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath clip-rule='evenodd' d='m12 20c4.4183 0 8-3.5817 8-8 0-4.41828-3.5817-8-8-8-4.41828 0-8 3.58172-8 8 0 4.4183 3.58172 8 8 8zm.7921-8.275 3.6146-2.3738c.0909-.05916.2013.03974.151.136l-1.4986 2.9416c-.0354.0707.0158.1537.0944.1537h.8973c.1033 0 .1457.1315.0618.1916l-4.0517 2.9027c-.0362.0265-.0856.0265-.1227 0l-4.05168-2.9027c-.08301-.0601-.04062-.1916.06182-.1916h.89634c.07948 0 .1307-.083.09449-.1537l-1.49862-2.9416c-.04945-.09626.06094-.19516.1519-.136l3.61545 2.3738c.0627.0415.113.098.1465.1651l.5511 1.1057c.0389.0777.1501.0777.189 0l.551-1.1057c.0336-.0671.0839-.1245.1466-.1651z' fill='%23sl(344deg, 29%, 72%)' fill-rule='evenodd'/%3E%3C/svg%3E");
   }
   div[class*=userPopoutOuter-] div[aria-label="Active Developer"],
   div[class*=userProfileOuter-] div[aria-label="Active Developer"] {
@@ -1694,11 +1694,11 @@
   }
   rect[fill="#f23f43"],
   foreignObject[mask="url(#svg-mask-status-dnd)"] > div {
-    fill: #F38BA8 !important;
-    background-color: #F38BA8 !important;
+    fill: hsl(344deg, 29%, 72%) !important;
+    background-color: hsl(344deg, 29%, 72%) !important;
   }
   rect[fill="rgba(242, 63, 67, 1)"] {
-    fill: #F38BA8 !important;
+    fill: hsl(344deg, 29%, 72%) !important;
   }
   rect[fill="#82858f"],
   foreignObject[mask="url(#svg-mask-status-offline)"] > div,
@@ -1721,7 +1721,7 @@
     fill: #F9E2AF;
   }
   .vc-platform-indicator svg[fill*="--red-"] {
-    fill: #F38BA8;
+    fill: hsl(344deg, 29%, 72%);
   }
   .vc-platform-indicator svg[fill*="--primary-400"] {
     fill: hsl(344deg, 29%, 64%);
@@ -1871,7 +1871,7 @@
     display: none;
   }
   .messagelogger-deleted.messagelogger-deleted.messagelogger-deleted a {
-    color: #f17497 !important;
+    color: #c3929f !important;
     text-decoration: underline;
   }
   [class*=newMessagesBar-][class*=newMessagesBar-][class*=newMessagesBar-][class*=newMessagesBar-][class*=newMessagesBar-][class*=newMessagesBar-] {
@@ -2316,7 +2316,7 @@
     color: hsl(344deg, 29%, 10%);
   }
   a[href="/channels/907385605422448742/992579279835639808"] *[class^=icon] {
-    color: #F38BA8 !important;
+    color: hsl(344deg, 29%, 72%) !important;
   }
   a[href="/channels/907385605422448742/918688623002550313"] *[class^=icon] {
     color: #A6E3A1 !important;
@@ -2382,7 +2382,7 @@
     position: absolute;
     height: 48px;
     width: 48px;
-    color: #F38BA8;
+    color: hsl(344deg, 29%, 72%);
     background-color: currentColor;
     transform: scale(0.4) translate(-32px, -38px);
   }
@@ -2434,7 +2434,7 @@
     position: absolute;
     height: 48px;
     width: 48px;
-    color: #F38BA8;
+    color: hsl(344deg, 29%, 72%);
     background-color: currentColor;
     transform: scale(0.4) translate(-32px, -38px);
   }
@@ -2499,7 +2499,7 @@
     position: absolute;
     height: 48px;
     width: 48px;
-    color: #F38BA8;
+    color: hsl(344deg, 29%, 72%);
     background-color: currentColor;
     transform: scale(0.4) translate(-32px, -38px);
   }
@@ -2577,7 +2577,7 @@
     position: absolute;
     height: 48px;
     width: 48px;
-    color: #F38BA8;
+    color: hsl(344deg, 29%, 72%);
     background-color: currentColor;
     transform: scale(0.4) translate(-32px, -38px);
   }
@@ -2603,7 +2603,7 @@
     position: absolute;
     height: 48px;
     width: 48px;
-    color: #F38BA8;
+    color: hsl(344deg, 29%, 72%);
     background-color: currentColor;
     transform: scale(0.4) translate(-32px, -38px);
   }
@@ -2722,13 +2722,13 @@
     color: #CBA6F7 !important;
   }
   [class*=username-][style*="rgb(242, 143, 173)"] {
-    color: #F38BA8 !important;
+    color: hsl(344deg, 29%, 72%) !important;
   }
   [class*=roleCircle-][style*="rgb(242, 143, 173)"] {
-    background-color: #F38BA8 !important;
+    background-color: hsl(344deg, 29%, 72%) !important;
   }
   [class*=typing-] strong[style*="rgb(242, 143, 173)"] {
-    color: #F38BA8 !important;
+    color: hsl(344deg, 29%, 72%) !important;
   }
   [class*=username-][style*="rgb(228, 156, 179)"] {
     color: #EBA0AC !important;
@@ -2839,13 +2839,13 @@
     color: #F9E2AF !important;
   }
   [class*=username-][style*="rgb(237, 135, 150)"] {
-    color: #F38BA8 !important;
+    color: hsl(344deg, 29%, 72%) !important;
   }
   [class*=roleCircle-][style*="rgb(237, 135, 150)"] {
-    background-color: #F38BA8 !important;
+    background-color: hsl(344deg, 29%, 72%) !important;
   }
   [class*=typing-] strong[style*="rgb(237, 135, 150)"] {
-    color: #F38BA8 !important;
+    color: hsl(344deg, 29%, 72%) !important;
   }
   [class*=username-][style*="rgb(138, 173, 244)"] {
     color: #87B0F9 !important;
@@ -3021,7 +3021,7 @@
   }
   .theme-dark div[class*=liveShapeRound-],
   .theme-dark div[class*=live-][class*=badge-] {
-    background-color: #F38BA8 !important;
+    background-color: hsl(344deg, 29%, 72%) !important;
     color: hsl(344deg, 29%, 3%) !important;
   }
   .theme-dark div[class^=base] > div[class^=content] > div[class^=container] {
