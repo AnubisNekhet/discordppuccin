@@ -1,0 +1,15 @@
+/**
+ * @name Catppuccin Material Red Velvet
+ * @author Anubis
+ * @version 0.2.0
+ * @description 🎮 Soothing pastel theme for Discord
+ * @website https://github.com/catppuccin/discord
+ * @invite r6Mdz5dpFc
+**/
+
+@use "sass:math";
+@import "_colors/material-red-velvet";
+
+$brand: $teal;
+
+@import "theme";

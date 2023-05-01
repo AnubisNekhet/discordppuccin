@@ -24,7 +24,8 @@ const sourceFiles = [
   "src/catppuccin-sandy-beaches.theme.scss",
   "src/catppuccin-gruvbox-lt.theme.scss",
   "src/catppuccin-gruvbox-dt.theme.scss",
-  "src/catppuccin-mint.theme.scss",
+  "src/catppuccin-material-mint.theme.scss",
+  "src/catppuccin-material-red-velvet.theme.scss",
 ];
 
 const accents = [
