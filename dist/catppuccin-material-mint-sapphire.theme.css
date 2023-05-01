@@ -1,5 +1,5 @@
 /**
- * @name Catppuccin Mint
+ * @name Catppuccin Material Mint
  * @author Anubis
  * @version 0.2.0
  * @description 🎮 Soothing pastel theme for Discord
@@ -8,51 +8,51 @@
 **/
 @media (prefers-color-scheme: dark) {
   .theme-dark, .theme-dark[data-popout-root], .theme-dark [class*=layer-] > div > [class*=focusLock-] > [class*=root-] {
-    --brand-experiment: #F9E2AF;
+    --brand-experiment: #74C7EC;
     --brand-experiment-100: white;
     --brand-experiment-130: white;
     --brand-experiment-160: white;
     --brand-experiment-200: white;
     --brand-experiment-230: white;
     --brand-experiment-260: white;
-    --brand-experiment-300: white;
-    --brand-experiment-330: white;
-    --brand-experiment-360: white;
-    --brand-experiment-400: #fefcf6;
-    --brand-experiment-430: #fdf3de;
-    --brand-experiment-460: #fbebc7;
-    --brand-experiment-500: #F9E2AF;
-    --brand-experiment-530: #f7d997;
-    --brand-experiment-560: #f5d180;
-    --brand-experiment-600: #f4c868;
-    --brand-experiment-630: #f2c050;
-    --brand-experiment-660: #f0b738;
-    --brand-experiment-700: #eeae21;
-    --brand-experiment-730: #edaa15;
-    --brand-experiment-760: #e4a311;
-    --brand-experiment-800: #d99a10;
-    --brand-experiment-830: #cd920f;
-    --brand-experiment-860: #c1890e;
-    --brand-experiment-900: #b5810e;
-    --brand-experiment-05a: rgba(249, 226, 175, 0.05);
-    --brand-experiment-10a: rgba(249, 226, 175, 0.1);
-    --brand-experiment-15a: rgba(249, 226, 175, 0.15);
-    --brand-experiment-20a: rgba(249, 226, 175, 0.2);
-    --brand-experiment-25a: rgba(249, 226, 175, 0.25);
-    --brand-experiment-30a: rgba(249, 226, 175, 0.3);
-    --brand-experiment-35a: rgba(249, 226, 175, 0.35);
-    --brand-experiment-40a: rgba(249, 226, 175, 0.4);
-    --brand-experiment-45a: rgba(249, 226, 175, 0.45);
-    --brand-experiment-50a: rgba(249, 226, 175, 0.5);
-    --brand-experiment-55a: rgba(249, 226, 175, 0.55);
-    --brand-experiment-60a: rgba(249, 226, 175, 0.6);
-    --brand-experiment-65a: rgba(249, 226, 175, 0.65);
-    --brand-experiment-70a: rgba(249, 226, 175, 0.7);
-    --brand-experiment-75a: rgba(249, 226, 175, 0.75);
-    --brand-experiment-80a: rgba(249, 226, 175, 0.8);
-    --brand-experiment-85a: rgba(249, 226, 175, 0.85);
-    --brand-experiment-90a: rgba(249, 226, 175, 0.9);
-    --brand-experiment-95a: rgba(249, 226, 175, 0.95);
+    --brand-experiment-300: #fbfdfe;
+    --brand-experiment-330: #e4f4fb;
+    --brand-experiment-360: #ceebf8;
+    --brand-experiment-400: #b7e2f5;
+    --brand-experiment-430: #a1d9f2;
+    --brand-experiment-460: #8ad0ef;
+    --brand-experiment-500: #74C7EC;
+    --brand-experiment-530: #5ebee9;
+    --brand-experiment-560: #47b5e6;
+    --brand-experiment-600: #31ace3;
+    --brand-experiment-630: #1ea1dc;
+    --brand-experiment-660: #1b91c6;
+    --brand-experiment-700: #1880af;
+    --brand-experiment-730: #1678a4;
+    --brand-experiment-760: #157099;
+    --brand-experiment-800: #13688d;
+    --brand-experiment-830: #126082;
+    --brand-experiment-860: #105777;
+    --brand-experiment-900: #0f4f6c;
+    --brand-experiment-05a: rgba(116, 199, 236, 0.05);
+    --brand-experiment-10a: rgba(116, 199, 236, 0.1);
+    --brand-experiment-15a: rgba(116, 199, 236, 0.15);
+    --brand-experiment-20a: rgba(116, 199, 236, 0.2);
+    --brand-experiment-25a: rgba(116, 199, 236, 0.25);
+    --brand-experiment-30a: rgba(116, 199, 236, 0.3);
+    --brand-experiment-35a: rgba(116, 199, 236, 0.35);
+    --brand-experiment-40a: rgba(116, 199, 236, 0.4);
+    --brand-experiment-45a: rgba(116, 199, 236, 0.45);
+    --brand-experiment-50a: rgba(116, 199, 236, 0.5);
+    --brand-experiment-55a: rgba(116, 199, 236, 0.55);
+    --brand-experiment-60a: rgba(116, 199, 236, 0.6);
+    --brand-experiment-65a: rgba(116, 199, 236, 0.65);
+    --brand-experiment-70a: rgba(116, 199, 236, 0.7);
+    --brand-experiment-75a: rgba(116, 199, 236, 0.75);
+    --brand-experiment-80a: rgba(116, 199, 236, 0.8);
+    --brand-experiment-85a: rgba(116, 199, 236, 0.85);
+    --brand-experiment-90a: rgba(116, 199, 236, 0.9);
+    --brand-experiment-95a: rgba(116, 199, 236, 0.95);
   }
   .theme-dark, .theme-dark[data-popout-root], .theme-dark [class*=layer-] > div > [class*=focusLock-] > [class*=root-] {
     /* Color (Header) */
@@ -90,17 +90,17 @@
     --header-secondary: hsl(190deg, 30%, 64%);
     --text-normal: hsl(190deg, 30%, 80%);
     --text-muted: hsl(190deg, 30%, 64%);
-    --text-link: #F9E2AF;
-    --text-link-low-saturation: #f0dfb8;
+    --text-link: #74C7EC;
+    --text-link-low-saturation: #84c1dc;
     --text-positive: #A6E3A1;
     --text-warning: #F9E2AF;
     --text-danger: #F38BA8;
-    --text-brand: #F9E2AF;
+    --text-brand: #74C7EC;
     --background-primary: hsl(190deg, 30%, 10%);
     --background-secondary: hsl(190deg, 30%, 6%);
     --background-secondary-alt: #070c0d;
     --background-tertiary: hsl(190deg, 30%, 3%);
-    --background-accent: #F9E2AF;
+    --background-accent: #74C7EC;
     --background-floating: #020303;
     --background-nested-floating: hsl(190deg, 30%, 6%);
     --background-mobile-primary: hsl(190deg, 30%, 10%);
@@ -158,7 +158,7 @@
     --status-green-400: #A6E3A1;
     --button-danger-background: #F38BA8;
     --button-danger-background-hover: #f17497;
-    --button-danger-background-active: #f6d58b;
+    --button-danger-background-active: #52b9e7;
     --button-danger-background-disabled: #F38BA8;
     --button-positive-background: #A6E3A1;
     --button-positive-background-hover: #93dd8d;
@@ -187,14 +187,14 @@
     --button-outline-positive-text-active: hsl(190deg, 30%, 10%);
     --button-outline-positive-border-active: #9de097;
     --button-outline-brand-text: hsl(190deg, 30%, 80%);
-    --button-outline-brand-border: #F9E2AF;
+    --button-outline-brand-border: #74C7EC;
     --button-outline-brand-background: transparent;
-    --button-outline-brand-background-hover: #f8dea3;
+    --button-outline-brand-background-hover: #69c2ea;
     --button-outline-brand-text-hover: hsl(190deg, 30%, 10%);
-    --button-outline-brand-border-hover: #f8dea3;
-    --button-outline-brand-background-active: #f7d997;
+    --button-outline-brand-border-hover: #69c2ea;
+    --button-outline-brand-background-active: #5ebee9;
     --button-outline-brand-text-active: hsl(190deg, 30%, 10%);
-    --button-outline-brand-border-active: #f8dea3;
+    --button-outline-brand-border-active: #69c2ea;
     --button-outline-primary-text: hsl(190deg, 30%, 80%);
     --button-outline-primary-border: hsl(190deg, 30%, 32%);
     --button-outline-primary-background: transparent;
@@ -206,26 +206,26 @@
     --button-outline-primary-border-active: #355a62;
     --modal-background: hsl(190deg, 30%, 10%);
     --modal-footer-background: hsl(190deg, 30%, 3%);
-    --scrollbar-thin-thumb: #F9E2AF;
+    --scrollbar-thin-thumb: #74C7EC;
     --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: #F9E2AF;
+    --scrollbar-auto-thumb: #74C7EC;
     --scrollbar-auto-track: hsl(190deg, 30%, 3%);
-    --scrollbar-auto-scrollbar-color-thumb: #F9E2AF;
+    --scrollbar-auto-scrollbar-color-thumb: #74C7EC;
     --scrollbar-auto-scrollbar-color-track: hsl(190deg, 30%, 3%);
     --input-background: hsl(190deg, 30%, 3%);
     --input-placeholder-text: hsl(190deg, 30%, 72%);
     --logo-primary: hsl(190deg, 30%, 80%);
-    --control-brand-foreground: #F9E2AF;
-    --control-brand-foreground-new: #F9E2AF;
-    --mention-foreground: #F9E2AF;
-    --mention-background: rgba(249, 226, 175, 0.3);
+    --control-brand-foreground: #74C7EC;
+    --control-brand-foreground-new: #74C7EC;
+    --mention-foreground: #74C7EC;
+    --mention-background: rgba(116, 199, 236, 0.3);
     --background-mentioned: rgba(249, 226, 175, 0.1);
     --background-mentioned-hover: rgba(249, 226, 175, 0.08);
     --background-message-hover: rgba(5, 9, 10, 0.25);
     --background-message-automod: rgba(245, 224, 220, 0.05);
     --background-message-automod-hover: rgba(245, 224, 220, 0.1);
-    --background-message-highlight: rgba(249, 226, 175, 0.1);
-    --background-message-highlight-hover: rgba(249, 226, 175, 0.08);
+    --background-message-highlight: rgba(116, 199, 236, 0.1);
+    --background-message-highlight-hover: rgba(116, 199, 236, 0.08);
     --channels-default: #77abb6;
     --channel-icon: #77abb6;
     --channel-text-area-placeholder: rgba(189, 214, 219, 0.5);
@@ -246,7 +246,7 @@
     --deprecated-text-input-border-hover: black;
     --deprecated-text-input-border-disabled: hsl(190deg, 30%, 6%);
     --deprecated-text-input-prefix: hsl(190deg, 30%, 64%);
-    --focus-primary: #F9E2AF;
+    --focus-primary: #74C7EC;
     --interactive-normal: hsl(190deg, 30%, 80%);
     --interactive-muted: rgba(189, 214, 219, 0.3);
     --interactive-hover: hsl(190deg, 30%, 80%);
@@ -348,7 +348,7 @@
   }
   .theme-dark svg[class*=threadIcon-],
   .theme-light svg[class*=threadIcon-] {
-    color: hsl(190deg, 30%, 80%) !important;
+    color: #BDD6DB !important;
   }
   .theme-dark svg[class*=premiumIcon-],
   .theme-light svg[class*=premiumIcon-] {
@@ -452,7 +452,7 @@
     color: hsl(190deg, 30%, 3%) !important;
   }
   [class*=newlyAddedBadge-] {
-    background: linear-gradient(268.26deg, hsl(190deg, 30%, 80%), #A6E3A1 102.45%);
+    background: linear-gradient(268.26deg, #BDD6DB, #A6E3A1 102.45%);
   }
   [class*=newlyAddedBadge-] * {
     color: hsl(190deg, 30%, 3%) !important;
@@ -464,7 +464,7 @@
     fill: #F5C2E7 !important;
   }
   div[class^=sidebarRegion-] div[class^=serverBoostTabItem-][class*=selected-] {
-    background-color: #F9E2AF !important;
+    background-color: #74C7EC !important;
     color: hsl(190deg, 30%, 3%) !important;
   }
   div[class^=sidebarRegion-] div[class^=serverBoostTabItem-][class*=selected-] svg[class^=icon-] {
@@ -483,7 +483,7 @@
     color: hsl(190deg, 30%, 3%);
   }
   div[class^=sidebarRegion-] div[class*=tabBarItemContainer-] [class*=textBadge-][style*="background-color: var(--brand-500);"] {
-    background-color: #F9E2AF !important;
+    background-color: #74C7EC !important;
   }
   div[class^=contentRegion-] div[class*=noticeRegion-] div[style="background-color: rgb(24, 25, 28);"] {
     background-color: hsl(190deg, 30%, 3%) !important;
@@ -502,11 +502,11 @@
     border-color: #F38BA8;
   }
   div[class^=contentRegion-] [id="privacy-&-safety-tab"] div[class*=betaTagIcon] {
-    background-color: #F9E2AF !important;
+    background-color: #74C7EC !important;
     color: hsl(190deg, 30%, 3%);
   }
   div[class^=contentRegion-] #accessibility-tab button[class*=colorBrandNew] {
-    background-color: #F9E2AF;
+    background-color: #74C7EC;
   }
   div[class^=contentRegion-] #keybinds-tab span[class*=key] {
     color: hsl(190deg, 30%, 3%);
@@ -600,7 +600,7 @@
     border-color: hsl(190deg, 30%, 16%);
   }
   div[class^=contentRegion-] [id="voice-&-video-tab"] div[class^=backgroundOptionRing-] {
-    border-color: #F9E2AF;
+    border-color: #74C7EC;
   }
   div[class^=contentRegion-] #notifications-tab button[class*=marketingUnsubscribeButton-] {
     color: hsl(190deg, 30%, 80%);
@@ -736,7 +736,7 @@
     fill: #328e2a;
   }
   .bd-button {
-    background-color: #F9E2AF;
+    background-color: #74C7EC;
     color: hsl(190deg, 30%, 3%);
   }
   .bd-button.bd-button-danger {
@@ -746,7 +746,7 @@
     fill: hsl(190deg, 30%, 3%);
   }
   .bd-addon-views .bd-view-button.selected {
-    background-color: #F9E2AF;
+    background-color: #74C7EC;
   }
   .bd-addon-views .bd-view-button.selected svg {
     fill: hsl(190deg, 30%, 3%);
@@ -859,13 +859,13 @@
     background-image: url("data:image/svg+xml,%3Csvg fill='none' height='24' viewBox='0 0 25 24' width='25' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23sl(190deg, 30%, 3%)'%3E%3Cpath clip-rule='evenodd' d='m13.25 18v-12h-1.5v12z' fill-rule='evenodd'/%3E%3Cpath clip-rule='evenodd' d='m7 12.75c-.69036 0-1.25.5596-1.25 1.25v4h-1.5v-4c0-1.5188 1.23122-2.75 2.75-2.75h11c1.5188 0 2.75 1.2312 2.75 2.75v4h-1.5v-4c0-.6904-.5596-1.25-1.25-1.25z' fill-rule='evenodd'/%3E%3Cpath d='m12.5 7c-1.3807 0-2.5-1.11929-2.5-2.5s1.1193-2.5 2.5-2.5 2.5 1.11929 2.5 2.5-1.1193 2.5-2.5 2.5z'/%3E%3Cpath d='m20 22c-1.3807 0-2.5-1.1193-2.5-2.5s1.1193-2.5 2.5-2.5 2.5 1.1193 2.5 2.5-1.1193 2.5-2.5 2.5z'/%3E%3Cpath d='m12.5 22c-1.3807 0-2.5-1.1193-2.5-2.5s1.1193-2.5 2.5-2.5 2.5 1.1193 2.5 2.5-1.1193 2.5-2.5 2.5z'/%3E%3Cpath d='m5 22c-1.38071 0-2.5-1.1193-2.5-2.5s1.11929-2.5 2.5-2.5 2.5 1.1193 2.5 2.5-1.11929 2.5-2.5 2.5z'/%3E%3C/g%3E%3C/svg%3E");
   }
   path[d="M22 12.4065C21.8956 14.9141 20.8533 17.2908 19.0798 19.0654C17.3062 20.8401 14.931 21.883 12.425 21.9875L13.7625 15.646L17.2375 17.9224C17.3214 17.9702 17.416 17.996 17.5125 17.9975C17.6481 17.9962 17.7781 17.9424 17.875 17.8474C17.9439 17.7577 17.9813 17.6478 17.9813 17.5347C17.9813 17.4216 17.9439 17.3117 17.875 17.222L15.6 13.7323L22 12.4065ZM13.7625 8.34148L17.2375 6.06504C17.3352 6.00866 17.4487 5.98608 17.5605 6.00084C17.6723 6.0156 17.7762 6.06686 17.8559 6.14665C17.9357 6.22645 17.9869 6.33037 18.0017 6.44225C18.0164 6.55413 17.9938 6.66772 17.9375 6.76548L15.6625 10.2551L22 11.581C21.8956 9.07342 20.8533 6.69669 19.0798 4.92206C17.3062 3.14742 14.931 2.10449 12.425 2L13.7625 8.34148ZM10.275 8.34148L11.6 2C9.09402 2.10449 6.71878 3.14742 4.94525 4.92206C3.17172 6.69669 2.12945 9.07342 2.02502 11.581L8.37497 10.2551L6.08752 6.76548C6.02873 6.66774 6.00413 6.55315 6.01772 6.43988C6.0313 6.32661 6.08228 6.22113 6.16252 6.14009C6.24233 6.05781 6.34797 6.00542 6.46175 5.99176C6.57552 5.97809 6.69052 6.00399 6.78752 6.06504L10.275 8.34148ZM6.16252 17.8474C6.08228 17.7663 6.0313 17.6609 6.01772 17.5476C6.00413 17.4343 6.02873 17.3197 6.08752 17.222L8.37497 13.7323L2 12.4065C2.10442 14.9141 3.1467 17.2908 4.92023 19.0654C6.69376 20.8401 9.06899 21.883 11.575 21.9875L10.25 15.646L6.7625 17.9224C6.67925 17.9718 6.58428 17.9977 6.48753 17.9975C6.35971 17.9937 6.23848 17.9398 6.15001 17.8474H6.16252Z"] {
-    fill: hsl(190deg, 30%, 80%);
+    fill: #BDD6DB;
   }
   path[d="M17.225 6.06504C17.3227 6.00866 17.4362 5.98608 17.548 6.00084C17.6598 6.0156 17.7637 6.06686 17.8434 6.14665C17.9232 6.22645 17.9744 6.33037 17.9892 6.44225C18.0039 6.55413 17.9813 6.66772 17.925 6.76548L15.65 10.2551L21.9875 11.581C21.9875 11.7185 21.9875 11.8562 21.9875 11.9937C21.9875 12.1313 21.9875 12.2689 21.9875 12.4065L15.65 13.7323L17.925 17.222C17.9939 17.3117 18.0313 17.4216 18.0313 17.5347C18.0313 17.6478 17.9939 17.7577 17.925 17.8474C17.8281 17.9424 17.6982 17.9962 17.5625 17.9975C17.466 17.996 17.3714 17.9702 17.2875 17.9224L13.8125 15.646L12.4125 22H11.5875L10.2625 15.6585L6.77501 17.935C6.69176 17.9843 6.59672 18.0102 6.49997 18.01C6.43455 18.0098 6.3699 17.9963 6.30977 17.9705C6.24964 17.9447 6.1953 17.9072 6.15001 17.8599C6.06977 17.7789 6.01879 17.6734 6.0052 17.5601C5.99162 17.4468 6.01621 17.3323 6.07501 17.2345L8.36253 13.7449L2 12.4065C2 12.2689 2 12.1313 2 11.9937C2 11.8562 2 11.7185 2 11.581L8.35002 10.2551L6.0625 6.76548C6.0037 6.66774 5.97918 6.55315 5.99277 6.43988C6.00635 6.32661 6.05726 6.22113 6.1375 6.14009C6.21731 6.05781 6.32295 6.00542 6.43672 5.99176C6.5505 5.97809 6.6655 6.00399 6.7625 6.06504L10.25 8.34148L11.575 2H12.4L13.7375 8.34148L17.225 6.06504Z"] {
     fill: hsl(190deg, 30%, 3%);
   }
   div[class^=tierPreviews-] button[class^=button-] {
-    background: linear-gradient(90deg, hsl(190deg, 30%, 80%), #87B0F9);
+    background: linear-gradient(90deg, #BDD6DB, #87B0F9);
   }
   div[class^=notice-] div[class*=noticeText-] {
     color: hsl(190deg, 30%, 3%);
@@ -881,7 +881,7 @@
     color: hsl(190deg, 30%, 3%);
   }
   div[class^=notice-] button[class^=button-]:hover {
-    background: #f5d180;
+    background: #47b5e6;
   }
   nav[class*=guilds-] foreignObject > div[data-list-item-id^=guildsnav_] {
     background-color: #152528;
@@ -1094,10 +1094,10 @@
     background-color: transparent;
   }
   div[class*=autocomplete-] div[class^=usageWrapper-] > div[class*=title-] {
-    color: #F9E2AF !important;
+    color: #74C7EC !important;
   }
   div[class*=autocomplete-] strong {
-    color: #F9E2AF !important;
+    color: #74C7EC !important;
   }
   div[class^=channelTextArea-] button[class*=emojiButton-] {
     background: transparent !important;
@@ -1123,7 +1123,7 @@
     color: hsl(190deg, 30%, 3%);
   }
   div[class^=chat] > div[class^=content-] > div[class^=container-] svg[class^=discordIcon-] {
-    background-color: #F9E2AF;
+    background-color: #74C7EC;
     color: hsl(190deg, 30%, 3%);
   }
   div[class^=chat] > div[class^=content-] > div[class^=container-] div[class^=newBadge-] {
@@ -1142,7 +1142,7 @@
     background-color: hsl(190deg, 30%, 6%);
   }
   [data-list-id^=forum-channel-list-] button[class^=submitButton-][class*=colorBrand] {
-    background-color: #F9E2AF;
+    background-color: #74C7EC;
     color: hsl(190deg, 30%, 3%);
   }
   div[class^=chat] > div[class^=content-] main[class^=chatContent-] + div[class^=container-] {
@@ -1309,7 +1309,7 @@
     --brand-experiment-600: var(--brand-experiment);
   }
   div[class^=layerContainer] [role=menu] [class*=colorDefault][class*=colorBrand] {
-    color: #F9E2AF;
+    color: #74C7EC;
   }
   div[class^=layerContainer] [role=menu] [class*=colorDefault][class*=focused]:not([class*=colorDanger]),
   div[class^=layerContainer] [role=menu] [class*=colorDefault][class*=focused] [class*=checkbox-] {
@@ -1350,7 +1350,7 @@
     background-color: hsl(190deg, 30%, 16%);
   }
   .theme-dark div[class^=layerContainer] div[id^=popout_] > div[class*=didRender-]:not([class^=animatorBottom-]) > div div[class*=flowerStarContainer-] svg[class*=flowerStar-] * {
-    fill: #F9E2AF;
+    fill: #74C7EC;
   }
   .theme-dark div[class^=layerContainer] div[id^=popout_] > div[class*=didRender-] div[class*=countText] {
     color: hsl(190deg, 30%, 3%);
@@ -1359,7 +1359,7 @@
     fill: hsl(190deg, 30%, 3%);
   }
   .theme-dark div[class^=layerContainer] div[id^=popout_] > div[class*=didRender-] svg[class*=activeIcon] g path {
-    fill: #F9E2AF;
+    fill: #74C7EC;
   }
   .theme-dark div[class^=layerContainer] div[id^=popout_] > div[class*=didRender-] div[class*=container] div[class*=autocompleteArrow-],
   .theme-dark div[class^=layerContainer] div[id^=popout_] > div[class*=didRender-] div[class*=container] header {
@@ -1410,7 +1410,7 @@
     background: hsl(190deg, 30%, 16%) !important;
   }
   section[class^=positionContainer-] button[class*=navButtonActive] {
-    background-color: #F9E2AF;
+    background-color: #74C7EC;
     color: hsl(190deg, 30%, 3%);
   }
   .theme-light section[class^=positionContainer-] div[class^=categoryText-] {
@@ -1614,7 +1614,7 @@
     background-color: hsl(190deg, 30%, 3%) !important;
   }
   .react-datepicker__day:active {
-    background: #F9E2AF !important;
+    background: #74C7EC !important;
   }
   .react-datepicker__day--selected:after {
     background-color: #87B0F9 !important;
@@ -1647,7 +1647,7 @@
   }
   div[class*=userPopoutOuter-] div[aria-label="HypeSquad Balance"],
   div[class*=userProfileOuter-] div[aria-label="HypeSquad Balance"] {
-    content: url("data:image/svg+xml,%3Csvg height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath clip-rule='evenodd' d='m11.8622 4.05696c.076-.07595.1996-.07595.2756 0l7.8048 7.80474c.0371.0362.0574.0865.0574.1377 0 .0513-.0212.1016-.0574.1378l-7.8048 7.8047c-.038.038-.0883.0574-.1378.0574s-.0998-.0194-.1378-.0574l-7.8048-7.8047c-.03709-.0362-.0574-.0857-.0574-.1378s.02031-.1015.0574-.1377zm.9299 8.29474 3.6146-2.37377c.0909-.05917.2013.03977.151.13597l-1.4986 2.9416c-.0354.0707.0158.1537.0944.1537h.8973c.1033 0 .1457.1316.0618.1916l-4.0517 2.9028c-.0362.0265-.0856.0265-.1227 0l-4.05168-2.9028c-.08301-.06-.04062-.1916.06182-.1916h.89634c.07948 0 .1307-.083.09449-.1537l-1.49862-2.9416c-.04945-.0962.06094-.19514.1519-.13597l3.61545 2.37377c.0627.0415.113.098.1465.1651l.5511 1.1057c.0389.0777.1501.0777.189 0l.551-1.1057c.0336-.0671.0839-.1245.1466-.1651z' fill='%23sl(190deg, 30%, 80%)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    content: url("data:image/svg+xml,%3Csvg height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath clip-rule='evenodd' d='m11.8622 4.05696c.076-.07595.1996-.07595.2756 0l7.8048 7.80474c.0371.0362.0574.0865.0574.1377 0 .0513-.0212.1016-.0574.1378l-7.8048 7.8047c-.038.038-.0883.0574-.1378.0574s-.0998-.0194-.1378-.0574l-7.8048-7.8047c-.03709-.0362-.0574-.0857-.0574-.1378s.02031-.1015.0574-.1377zm.9299 8.29474 3.6146-2.37377c.0909-.05917.2013.03977.151.13597l-1.4986 2.9416c-.0354.0707.0158.1537.0944.1537h.8973c.1033 0 .1457.1316.0618.1916l-4.0517 2.9028c-.0362.0265-.0856.0265-.1227 0l-4.05168-2.9028c-.08301-.06-.04062-.1916.06182-.1916h.89634c.07948 0 .1307-.083.09449-.1537l-1.49862-2.9416c-.04945-.0962.06094-.19514.1519-.13597l3.61545 2.37377c.0627.0415.113.098.1465.1651l.5511 1.1057c.0389.0777.1501.0777.189 0l.551-1.1057c.0336-.0671.0839-.1245.1466-.1651z' fill='%23BDD6DB' fill-rule='evenodd'/%3E%3C/svg%3E");
   }
   div[class*=userPopoutOuter-] div[aria-label="HypeSquad Brilliance"],
   div[class*=userProfileOuter-] div[aria-label="HypeSquad Brilliance"] {
@@ -1663,7 +1663,7 @@
   }
   div[class*=userPopoutOuter-] div[class^=userPopoutOverlayBackground] > div[class^=scroller] > div[class^=section]:first-child > div[class^=buttonsContainer] > button:nth-child(2),
   div[class*=userProfileOuter-] div[class^=userPopoutOverlayBackground] > div[class^=scroller] > div[class^=section]:first-child > div[class^=buttonsContainer] > button:nth-child(2) {
-    background: #F9E2AF;
+    background: #74C7EC;
   }
   [class*=layerContainer-] [class*=toolbar-] {
     background-color: var(--background-floating);
@@ -1740,7 +1740,7 @@
     fill: hsl(190deg, 30%, 10%) !important;
   }
   [style*="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"] {
-    background-color: #F9E2AF !important;
+    background-color: #74C7EC !important;
     color: hsl(190deg, 30%, 3%);
   }
   span[class*=username-][style*="color: rgb(54, 57, 62)"],
@@ -1772,7 +1772,7 @@
     fill: hsl(190deg, 30%, 3%);
   }
   div[class*=flowerStarContainer-][class*=partnered-] svg[class*=flowerStar-] * {
-    fill: #F9E2AF;
+    fill: #74C7EC;
   }
   div[class*=flowerStarContainer-][class*=partnered-] div[class^=childContainer-] svg * {
     fill: hsl(190deg, 30%, 3%);
@@ -1817,11 +1817,11 @@
     box-shadow: inset 0 0 0 2px #A6E3A1, inset 0 0 0 3px #A6E3A1;
   }
   div[class*=videoLayer-] > div[class^=tileChild] > div[class^=border][class*=voiceChannelEffect-] {
-    -webkit-box-shadow: inset 0 0 0 2px #F9E2AF, inset 0 0 0 3px #F9E2AF;
-    box-shadow: inset 0 0 0 2px #F9E2AF, inset 0 0 0 3px #F9E2AF;
+    -webkit-box-shadow: inset 0 0 0 2px #74C7EC, inset 0 0 0 3px #74C7EC;
+    box-shadow: inset 0 0 0 2px #74C7EC, inset 0 0 0 3px #74C7EC;
   }
   div[class*=featureIcon-] path {
-    fill: #F9E2AF;
+    fill: #74C7EC;
   }
   div[class*=backgroundAccent-] {
     color: hsl(190deg, 30%, 3%);
@@ -1924,7 +1924,7 @@
   /* Credit to https://github.com/Comfy-Themes/Discord */
   [class*=userPopoutOuter-] [class*=activity-] {
     --listening: #A6E3A1;
-    --playing: #F9E2AF;
+    --playing: #74C7EC;
     --listening-test: hsl(190deg, 30%, 10%);
     --wave-width: 283px;
     padding: 16px;
@@ -1975,7 +1975,7 @@
     z-index: -2;
     left: 0;
     top: 0;
-    background: #F9E2AF;
+    background: #74C7EC;
     background: var(--playing);
     border-radius: 0 0 10px 10px;
   }
@@ -1987,7 +1987,7 @@
     width: var(--wave-width);
     top: -24px;
     left: 0;
-    background: #F9E2AF;
+    background: #74C7EC;
     -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="25" viewBox="0 0 284 25"><path d="M283.999 15.2776C228.798 15.2776 211.243 -0.0317305 140.048 -0.000164877C69.0475 -0.000164877 51.2975 15.2776 8.58307e-06 15.2776V24.9998H284C284 24.9998 283.999 18.9392 283.999 15.2776Z"/></svg>');
     animation: animate 6s linear infinite;
     animation-delay: 0s;
@@ -2040,7 +2040,7 @@
    */
   :root {
     --spotify-vencord-wave-width: 240px;
-    --spotify-vencord-color: #F9E2AF;
+    --spotify-vencord-color: #74C7EC;
     --spotify-vencord-text: 190deg 30% 10%;
   }
   @keyframes spotifywave {
@@ -2198,7 +2198,7 @@
   }
   .vc-notification-root .vc-notification-header::before {
     content: "";
-    background: #F9E2AF;
+    background: #74C7EC;
     -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242'%3E%3C/path%3E%3Cpath d='M12 12v9'%3E%3C/path%3E%3Cpath d='m8 17 4 4 4-4'%3E%3C/path%3E%3C/svg%3E");
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
@@ -2211,7 +2211,7 @@
     gap: 10px;
   }
   .vc-notification-root .vc-notification-header:hover::before {
-    background: white;
+    background: #fbfdfe;
   }
   .vc-notification-root .vc-notification-title, .vc-notification-root .vc-notification-p {
     display: none;
@@ -2263,7 +2263,7 @@
     display: none;
   }
   .theme-dark, .theme-light {
-    --brand-500: #F9E2AF;
+    --brand-500: #74C7EC;
   }
   :is([class*=contents-], [class*=memberInner], [class*=repliedMessage]):has([src*="928339066838216754"]) [class*=username] {
     -webkit-background-clip: text !important;
@@ -2767,13 +2767,13 @@
     color: #A6E3A1 !important;
   }
   [class*=username-][style*="rgb(181, 232, 224)"] {
-    color: hsl(190deg, 30%, 80%) !important;
+    color: #BDD6DB !important;
   }
   [class*=roleCircle-][style*="rgb(181, 232, 224)"] {
-    background-color: hsl(190deg, 30%, 80%) !important;
+    background-color: #BDD6DB !important;
   }
   [class*=typing-] strong[style*="rgb(181, 232, 224)"] {
-    color: hsl(190deg, 30%, 80%) !important;
+    color: #BDD6DB !important;
   }
   [class*=username-][style*="rgb(137, 220, 235)"] {
     color: #89DCEB !important;
@@ -2893,13 +2893,13 @@
     color: #EBA0AC !important;
   }
   [class*=username-][style*="rgb(148, 226, 213)"] {
-    color: hsl(190deg, 30%, 80%) !important;
+    color: #BDD6DB !important;
   }
   [class*=roleCircle-][style*="rgb(148, 226, 213)"] {
-    background-color: hsl(190deg, 30%, 80%) !important;
+    background-color: #BDD6DB !important;
   }
   [class*=typing-] strong[style*="rgb(148, 226, 213)"] {
-    color: hsl(190deg, 30%, 80%) !important;
+    color: #BDD6DB !important;
   }
   [class*=username-][style*="rgb(198, 160, 246)"] {
     color: #CBA6F7 !important;
@@ -2974,13 +2974,13 @@
     color: #FAB387 !important;
   }
   [class*=username-][style*="rgb(136, 223, 210)"] {
-    color: hsl(190deg, 30%, 80%) !important;
+    color: #BDD6DB !important;
   }
   [class*=roleCircle-][style*="rgb(136, 223, 210)"] {
-    background-color: hsl(190deg, 30%, 80%) !important;
+    background-color: #BDD6DB !important;
   }
   [class*=typing-] strong[style*="rgb(136, 223, 210)"] {
-    color: hsl(190deg, 30%, 80%) !important;
+    color: #BDD6DB !important;
   }
   li[id*=chat-messages-921217923790561360-] article[style="border-color: hsla(120, calc(var(--saturation-factor, 1) * 100%), 29.8%, 1);"] {
     border-color: #A6E3A1 !important;
@@ -3000,10 +3000,10 @@
     color: hsl(190deg, 30%, 3%);
   }
   .theme-dark div[class^=notice-] button[class^=button-]:hover {
-    background: #f5d180;
+    background: #47b5e6;
   }
   .theme-dark div[class^=checkbox-][style*="border-color: var(--brand-experiment-400)"][style*="background-color: var(--brand-experiment-500)"] {
-    background-color: #F9E2AF !important;
+    background-color: #74C7EC !important;
     border-color: transparent !important;
   }
   .theme-dark div[class^=checkbox-][style*="border-color: var(--brand-experiment-400)"][style*="background-color: var(--brand-experiment-500)"] svg > path {
