@@ -1,3 +1,6 @@
+@import "fucknitro";
+@import "comfy";
+@import "nyantro";
 //Credits: ToxicAven
 // Show edit timestamps in the edited message
 [class*="timestamp-"]:not([class*="timestampInline-"], [class*="timestampVisibleOnHover-"])
@@ -89,7 +92,6 @@ div#vc-spotify-player:hover .vc-spotify-button-row {
     opacity: 1;
 }
 }
-@import "comfy";
 [class*=userPopoutOuter-] [class*=scroller-] {
   padding-left: 4px;
 }
@@ -151,7 +153,6 @@ img.emoji.jumboable[aria-label="🥺"] {
 #vc-spotify-album-image#vc-spotify-album-image#vc-spotify-album-image:hover {
   filter: none;
 }
-@import "fucknitro";
 [class*=container-] > [class*=threadSuggestionBar-][class*=threadSuggestionBar-][class*=threadSuggestionBar-] {
   display: none;
 }
