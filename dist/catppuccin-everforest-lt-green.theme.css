@@ -1298,12 +1298,14 @@
   [id*=message-accessories-] > [class*=invite-] [class*=partyStatus-] {
     color: #5C6A72;
   }
+  [class^=avatar-] [class^=dots-] {
+    color: #FDF6E3;
+  }
   .messagelogger-deleted div {
     color: #F85552 !important;
   }
-  .messagelogger-deleted.messagelogger-deleted.messagelogger-deleted a {
-    color: #f73d39;
-    text-decoration: underline;
+  .messagelogger-deleted div a {
+    color: #f73d39 !important;
   }
   div[class^=layerContainer] [role=menu] {
     --brand-experiment-560: var(--brand-experiment-25a);

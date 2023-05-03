@@ -1302,12 +1302,14 @@ button[class*=emojiButtonNormal] > div > div {
   [id*=message-accessories-] > [class*=invite-] [class*=partyStatus-] {
     color: #cad3f5;
   }
+  [class^=avatar-] [class^=dots-] {
+    color: #24273a;
+  }
   .messagelogger-deleted div {
     color: #ed8796 !important;
   }
-  .messagelogger-deleted.messagelogger-deleted.messagelogger-deleted a {
-    color: #ea7183;
-    text-decoration: underline;
+  .messagelogger-deleted div a {
+    color: #ea7183 !important;
   }
   div[class^=layerContainer] [role=menu] {
     --brand-experiment-560: var(--brand-experiment-25a);
