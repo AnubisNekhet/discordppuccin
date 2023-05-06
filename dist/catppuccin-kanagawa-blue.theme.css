@@ -2113,6 +2113,7 @@ button[class*=emojiButtonNormal] > div > div {
   }
   :root .userProfileModalOuter-2wdWjU .topSection-13QKHs .headerTop-1PNKck .badgeList-2aoHPw {
     padding: 3px;
+    margin-bottom: 5px;
     background-color: rgba(0, 0, 0, 0.3333333333);
   }
   :root .userProfileModalOuter-2wdWjU .userProfileModalOverlayBackground-2dAaBg {
