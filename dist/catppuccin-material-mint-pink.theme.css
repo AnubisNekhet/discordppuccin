@@ -2179,6 +2179,9 @@
   :root .userProfileModalOuter-2wdWjU .activityProfileV2-1N7pee .platformIcon-k3yytQ {
     display: none !important;
   }
+  :root .userProfileModalOuter-2wdWjU [class^=activityProfileV2-] {
+    background: #F5C2E7;
+  }
   :root .userProfileModalOuter-2wdWjU .connectedAccountContainer-3aLMHJ {
     border: solid #000000;
     border-width: 1.2px 1.2px 3px 1.2px;
