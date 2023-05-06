@@ -116,6 +116,7 @@ curl -L https://anubisnekhet.github.io/discordppuccin/dist/catppuccin-frappe-mar
 - [Ren](https://github.com/watatomo)
 - [winston](https://github.com/nekowinston)
 - [rubyowo](https://github.com/rubyowo)
+- [Nyria](https://github.com/NYRI4) for [Comfy](https://github.com/Comfy-Themes/Discord) code I shamelessly kanged
 
 &nbsp;
 
