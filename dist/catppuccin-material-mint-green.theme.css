@@ -2470,7 +2470,7 @@
   [class^=userPopoutOuter-] [class^=activityUserPopoutV2-]::before,
   [class^=userPopoutOuter-] [class^=activityUserPopoutV2-]::after,
   [class^=userPopoutOuter-] [class^=activityUserPopoutV2-] [class*=headerTextNormal-]::before {
-    --wave-width: 300px !important;
+    --wave-width: 284px !important;
   }
   [class^=userPopoutOuter-] [class*=activity-] [class*=headerTextNormal-]::before {
     background: var(--profile-body-background-color) !important;
@@ -2568,6 +2568,16 @@
     position: absolute;
     background: inherit;
     opacity: var(--transparency);
+  }
+  .usernameSection-3FppkT.usernameSection-3FppkT.usernameSection-3FppkT .userTagDiscriminatorNoNickname-3dioAe {
+    font-size: 70%;
+    vertical-align: baseline;
+    opacity: 80%;
+  }
+  .usernameSection-3FppkT.usernameSection-3FppkT.usernameSection-3FppkT .userTag-3A4Fw4 {
+    word-break: break-all;
+    width: calc(100% + 50px);
+    max-height: 1.2em;
   }
   div[class*=unread-],
   div[class^=jumpToPresentBar-] > button,
