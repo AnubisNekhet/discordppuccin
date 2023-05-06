@@ -165,7 +165,8 @@ img.emoji.jumboable[aria-label="🥺"] {
   background: -webkit-linear-gradient(30deg, var(--brand-500), hsl(24, 87%, 78%));
   text-shadow: 0 0 2px hsla(24, 87%, 78%, 0.5);
 }
-[class^=userPopoutOuter-]:has([src*="928339066838216754"]) [class^=profileBadges-]::after {
+[class^=userPopoutOuter-], [class^=userProfileModalOuter-] {
+  &:has([src*="928339066838216754"]) [class^=profileBadges-]::after {
     content: '';
     height: 22px;
     width: 22px;
@@ -173,9 +174,12 @@ img.emoji.jumboable[aria-label="🥺"] {
     margin: 4px;
     background-size: contain;
     border-radius: 2px;
+  }
 }
-[class^=userPopoutOuter-] [class^=profileBadges-][class*=containerWithContent-]::after {
-  margin: 0 !important;
+[class^=userPopoutOuter-], [class^=userProfileModalOuter-] {
+  [class^=profileBadges-][class*=containerWithContent-]::after {
+    margin: 0 !important;
+  }
 }
 //sickass roles
 /* Shoutout to GracefulLion#9559 */
@@ -205,16 +209,4 @@ img.emoji.jumboable[aria-label="🥺"] {
   position: absolute;
   background: inherit;
   opacity: var(--transparency);
-}
-.usernameSection-3FppkT.usernameSection-3FppkT.usernameSection-3FppkT {
-  .userTagDiscriminatorNoNickname-3dioAe {
-    font-size: 70%;
-    vertical-align: baseline;
-    opacity: 80%;
-  }
-  .userTag-3A4Fw4 {
-      word-break: break-all;
-      width: calc(100% + 50px);
-      max-height: 1.2em;
-  }
 }

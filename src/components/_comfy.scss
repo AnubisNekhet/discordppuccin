@@ -310,8 +310,8 @@
         left: 155px;
 
         .badgeList-2aoHPw {
-          padding: 0 0 10px 0;
-          background-color: transparent;
+          padding: 3px;
+          background-color: #00000055;
         }
       }
     }
@@ -439,6 +439,18 @@
 }
 [class*="NonPremium"]:has([class*="bannerPremium"]) [class*="avatarPositionNormal"], [class*="PremiumWithoutBanner"]:has([class*="bannerPremium"]) [class*="avatarPositionPremiumNoBanner"] {
   top: 20px !important;
+}
+.usernameSection-3FppkT.usernameSection-3FppkT.usernameSection-3FppkT {
+  .userTagDiscriminatorNoNickname-3dioAe {
+    font-size: 70%;
+    vertical-align: baseline;
+    opacity: 80%;
+  }
+  .userTag-3A4Fw4 {
+      word-break: break-all;
+      width: calc(100% + 50px);
+      max-height: 1.2em;
+  }
 }
 
 /* Comfy Code, kanged from Comfy but modified be me so you gotta give me credit >:D */
