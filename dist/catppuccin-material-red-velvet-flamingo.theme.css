@@ -2108,8 +2108,8 @@
     left: 155px;
   }
   :root .userProfileModalOuter-2wdWjU .topSection-13QKHs .headerTop-1PNKck .badgeList-2aoHPw {
-    padding: 0 0 10px 0;
-    background-color: transparent;
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 0.3333333333);
   }
   :root .userProfileModalOuter-2wdWjU .userProfileModalOverlayBackground-2dAaBg {
     overflow: visible;
@@ -2213,6 +2213,16 @@
   }
   [class*=NonPremium]:has([class*=bannerPremium]) [class*=avatarPositionNormal], [class*=PremiumWithoutBanner]:has([class*=bannerPremium]) [class*=avatarPositionPremiumNoBanner] {
     top: 20px !important;
+  }
+  .usernameSection-3FppkT.usernameSection-3FppkT.usernameSection-3FppkT .userTagDiscriminatorNoNickname-3dioAe {
+    font-size: 70%;
+    vertical-align: baseline;
+    opacity: 80%;
+  }
+  .usernameSection-3FppkT.usernameSection-3FppkT.usernameSection-3FppkT .userTag-3A4Fw4 {
+    word-break: break-all;
+    width: calc(100% + 50px);
+    max-height: 1.2em;
   }
   /* Comfy Code, kanged from Comfy but modified be me so you gotta give me credit >:D */
   /* Comfy-Style Spotify Player
@@ -2530,7 +2540,7 @@
     background: -webkit-linear-gradient(30deg, var(--brand-500), hsl(24deg, 87%, 78%));
     text-shadow: 0 0 2px hsla(24deg, 87%, 78%, 0.5);
   }
-  [class^=userPopoutOuter-]:has([src*="928339066838216754"]) [class^=profileBadges-]::after {
+  [class^=userPopoutOuter-]:has([src*="928339066838216754"]) [class^=profileBadges-]::after, [class^=userProfileModalOuter-]:has([src*="928339066838216754"]) [class^=profileBadges-]::after {
     content: "";
     height: 22px;
     width: 22px;
@@ -2539,7 +2549,7 @@
     background-size: contain;
     border-radius: 2px;
   }
-  [class^=userPopoutOuter-] [class^=profileBadges-][class*=containerWithContent-]::after {
+  [class^=userPopoutOuter-] [class^=profileBadges-][class*=containerWithContent-]::after, [class^=userProfileModalOuter-] [class^=profileBadges-][class*=containerWithContent-]::after {
     margin: 0 !important;
   }
   /* Shoutout to GracefulLion#9559 */
@@ -2568,16 +2578,6 @@
     position: absolute;
     background: inherit;
     opacity: var(--transparency);
-  }
-  .usernameSection-3FppkT.usernameSection-3FppkT.usernameSection-3FppkT .userTagDiscriminatorNoNickname-3dioAe {
-    font-size: 70%;
-    vertical-align: baseline;
-    opacity: 80%;
-  }
-  .usernameSection-3FppkT.usernameSection-3FppkT.usernameSection-3FppkT .userTag-3A4Fw4 {
-    word-break: break-all;
-    width: calc(100% + 50px);
-    max-height: 1.2em;
   }
   div[class*=unread-],
   div[class^=jumpToPresentBar-] > button,
