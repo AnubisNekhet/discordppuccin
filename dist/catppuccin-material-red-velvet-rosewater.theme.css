@@ -2122,6 +2122,10 @@
     font-size: 23px;
     font-weight: 600;
   }
+  :root .userProfileModalOuter-2wdWjU .mask-1y0tyc rect[fill=black],
+  :root .userProfileModalOuter-2wdWjU .mask-1y0tyc circle[fill=black] {
+    display: none;
+  }
   :root .userProfileModalOuter-2wdWjU .activityProfileV2-1N7pee {
     padding: 16px;
     margin: 12px;
