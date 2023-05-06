@@ -1,4 +1,16 @@
+$brandContrast: map-get((
+    $rosewater : $lavender,
+    $flamingo : $mauve,
+    $pink : $peach,
+    $mauve : $peach,
+), $brand);
+
+body {
+    --contrast-color: #{$brandContrast};
+}
+
 @media (prefers-color-scheme: #{$theme}) {
+
 @import "components/variables";
 
 @import "components/icons-bgImg";
