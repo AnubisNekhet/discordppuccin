@@ -395,6 +395,9 @@
         display: none !important;
       }
     }
+    [class^=activityProfileV2-] {
+      background: #{$brand};
+    }
 
     // Connections
     .connectedAccountContainer-3aLMHJ {
