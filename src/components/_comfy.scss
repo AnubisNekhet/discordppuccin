@@ -132,6 +132,316 @@
     --header-primary: #{$base};
   }
 }
+@use "sass:string";
+
+:root {
+  .bannerSVGWrapper-2CLfzN mask {
+    display: none;
+  }
+
+  // -- Member popout --
+  .userPopoutOuter-1OHwPL {
+    max-height: unset !important;
+
+    .userPopoutInner-nv9Y92 {
+      max-height: unset !important;
+    }
+
+    // Banner
+    .bannerSVGWrapper-2CLfzN {
+      overflow: visible;
+      min-height: 120px !important;
+
+      foreignObject {
+        mask: unset;
+      }
+
+      .banner-1YaD3N {
+        -webkit-mask-image: linear-gradient(#000000a7, #000000a7);
+        height: 120px;
+      }
+
+      .pencilContainer-18TrEJ {
+        display: none;
+      }
+
+      &[viewBox="0 0 340 60"] foreignObject {
+        transform: translateY(-30px);
+      }
+      &[viewBox="0 0 340 90"] foreignObject {
+        transform: translateY(-15px);
+      }
+    }
+
+    // Avatar
+    .avatarWrapper-eenWra {
+      top: 20px;
+      left: 16px;
+
+      circle {
+        display: none;
+      }
+
+      .avatarHint-k7pYop {
+        border-radius: 5px;
+
+        foreignObject {
+          mask: none;
+        }
+      }
+
+      .avatarDecorationHint-3n-p6O {
+        border-radius: 5px !important;
+        top: 0;
+        left: 0;
+        width: 80px;
+        height: 80px;
+
+        foreignObject {
+          mask: none;
+        }
+      }
+    }
+
+    // Username
+    .userPopoutOverlayBackground-3A0Pcz {
+      position: static;
+      overflow: visible;
+      margin: 16px;
+      max-height: calc(100vh - 200px);
+
+      .usernameSection-3FppkT {
+        & > .copiableNameTag-3tf-II,
+        & > div > .userText-1_v2Cq > .nickname-3P1RuO,
+        & > div > .userText-1_v2Cq > .userTagNoNickname-h9Bh88 {
+          position: absolute;
+          top: 30px;
+          left: 115px;
+          z-index: 1;
+          max-width: 200px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          display: block;
+
+          & > span {
+            word-break: unset;
+            white-space: unset;
+          }
+        }
+      }
+    }
+    .profileBadges-2pItdR:empty
+      + .userPopoutOverlayBackground-3A0Pcz
+      .nickname-3P1RuO {
+      top: 20px;
+    }
+
+    // Badges
+    .profileBadges-2pItdR {
+      position: absolute;
+      top: 60px;
+      left: 110px;
+      z-index: 1;
+      background-color: #00000055;
+    }
+
+    // Body
+    .userPopoutOverlayBackground-3A0Pcz {
+      .scroller-15bIdk {
+        padding-right: 12px !important;
+        padding-left: 12px !important;
+      }
+
+      .section-28YDOf {
+        padding-top: 0;
+        padding-bottom: 12px;
+      }
+
+      // Nickname
+      .userTagWithNickname-13lfvd {
+        padding-top: 12px;
+      }
+
+      // Dividers
+      .divider-2dDziJ {
+        display: none;
+      }
+
+    }
+  }
+
+  // -- User modal --
+  .userProfileModalOuter-2wdWjU {
+    width: 700px;
+
+    .userProfileModalInner-3dx9L9 {
+      overflow: hidden;
+
+      &::before {
+        border-radius: 8px;
+      }
+    }
+
+    .topSection-13QKHs {
+      margin-bottom: 0;
+
+      .bannerSVGWrapper-2CLfzN {
+        min-height: 160px !important;
+
+        &[viewBox="0 0 600 106"] {
+          foreignObject {
+            transform: translateY(-22px);
+          }
+        }
+
+        .banner-1YaD3N {
+          -webkit-mask-image: linear-gradient(#000000a7, #000000a7);
+          height: 160px;
+          border-radius: 0;
+        }
+      }
+
+      .avatar-3QF_VA {
+        top: -143px;
+      }
+
+      .headerTop-1PNKck {
+        flex-direction: column;
+        top: -100px;
+        left: 155px;
+
+        .badgeList-2aoHPw {
+          padding: 0 0 10px 0;
+          background-color: transparent;
+        }
+      }
+    }
+
+    .userProfileModalOverlayBackground-2dAaBg {
+      overflow: visible;
+
+      .nameTag-35jqbZ {
+        position: absolute;
+        top: -150px;
+        left: 140px;
+        z-index: 1;
+        font-size: 23px;
+        font-weight: 600;
+      }
+    }
+
+    .mask-1y0tyc rect[fill="black"],
+    .mask-1y0tyc circle[fill="black"] {
+      display: none;
+    }
+    .mask-1y0tyc .cursorDefault-2M8ZNp rect,
+    .mask-1y0tyc .pointerEvents-2KjWnj {
+      rx: calc(1px + var(--status-radius)) !important;
+      ry: calc(1px + var(--status-radius));
+    }
+
+    // -- Activities --
+    .activityProfileV2-1N7pee {
+      padding: 16px;
+      margin: 12px;
+      border-radius: 5px;
+      overflow: hidden;
+      z-index: 1;
+
+      .headerText-3g1XK9,
+      .activityName-3YXl6e,
+      .content-tXPNDw,
+      .details-2-ciHo,
+      .name-1-Q7l2,
+      .nameNormal-2fPMD2,
+      .nameWrap-3TyM52,
+      .textLeft-1Noen0,
+      .textRight-2IW704 {
+        color: var(--background-primary);
+        --header-primary: var(--background-primary);
+      }
+
+      .barInner-3dHef4 {
+        background-color: var(--background-primary);
+      }
+
+      .button-TGAkj4 {
+        border: none;
+        background-color: #{rgba($base, 0.4)};
+        box-shadow: 0 4px 15px #00000021;
+        color: var(--background-primary);
+      }
+
+      // Playing
+      .contentImagesProfileV2-2Z-K9I::after,
+      .contentGameImageProfile-24ty00::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+        left: 0;
+        top: 0;
+        background: #{$brand};
+      }
+
+      // Spotify
+      .timeBarProfileV2-14KewZ::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        left: 0;
+        top: 0;
+        background: #{$green};
+      }
+      .platformIcon-k3yytQ {
+        display: none !important;
+      }
+    }
+
+    // Connections
+    .connectedAccountContainer-3aLMHJ {
+      border: solid #000000;
+      border-width: 1.2px 1.2px 3px 1.2px;
+      border-radius: 4px;
+      width: 296px;
+      transition: 100ms;
+
+      &:active {
+        border-width: 1.2px 1.2px 1.2px 1.2px;
+        transform: translateY(1px);
+      }
+
+      .connectedAccountIcon-3FdW8x {
+        padding: 5px;
+        border-radius: 4px;
+      }
+      .connectedAccountNameContainer-3e9mvO {
+        margin-left: 13px;
+      }
+      .connectedAccountChildren-29Qmfl {
+        margin-left: 56px;
+      }
+    }
+
+    // Mutuals
+    .listRow-2nO1T6 {
+      margin: 0;
+      padding: 8px 12px;
+    }
+
+    .pencilContainer-18TrEJ {
+      display: none;
+    }
+  }
+
+}
+[class*="NonPremium"]:has([class*="bannerPremium"]) [class*="avatarPositionNormal"], [class*="PremiumWithoutBanner"]:has([class*="bannerPremium"]) [class*="avatarPositionPremiumNoBanner"] {
+  top: 20px !important;
+}
 
 /* Comfy Code, kanged from Comfy but modified be me so you gotta give me credit >:D */
 /* Comfy-Style Spotify Player
