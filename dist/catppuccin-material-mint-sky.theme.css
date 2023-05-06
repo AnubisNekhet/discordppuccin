@@ -1979,6 +1979,241 @@
   [class*=userPopoutOuter-] [class*=activity-] [class*=headerText-] {
     --header-primary: hsl(190deg, 30%, 10%);
   }
+  :root .bannerSVGWrapper-2CLfzN mask {
+    display: none;
+  }
+  :root .userPopoutOuter-1OHwPL {
+    max-height: unset !important;
+  }
+  :root .userPopoutOuter-1OHwPL .userPopoutInner-nv9Y92 {
+    max-height: unset !important;
+  }
+  :root .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN {
+    overflow: visible;
+    min-height: 120px !important;
+  }
+  :root .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN foreignObject {
+    mask: unset;
+  }
+  :root .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN .banner-1YaD3N {
+    -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 0.6549019608), rgba(0, 0, 0, 0.6549019608));
+    height: 120px;
+  }
+  :root .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN .pencilContainer-18TrEJ {
+    display: none;
+  }
+  :root .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN[viewBox="0 0 340 60"] foreignObject {
+    transform: translateY(-30px);
+  }
+  :root .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN[viewBox="0 0 340 90"] foreignObject {
+    transform: translateY(-15px);
+  }
+  :root .userPopoutOuter-1OHwPL .avatarWrapper-eenWra {
+    top: 20px;
+    left: 16px;
+  }
+  :root .userPopoutOuter-1OHwPL .avatarWrapper-eenWra circle {
+    display: none;
+  }
+  :root .userPopoutOuter-1OHwPL .avatarWrapper-eenWra .avatarHint-k7pYop {
+    border-radius: 5px;
+  }
+  :root .userPopoutOuter-1OHwPL .avatarWrapper-eenWra .avatarHint-k7pYop foreignObject {
+    mask: none;
+  }
+  :root .userPopoutOuter-1OHwPL .avatarWrapper-eenWra .avatarDecorationHint-3n-p6O {
+    border-radius: 5px !important;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+  }
+  :root .userPopoutOuter-1OHwPL .avatarWrapper-eenWra .avatarDecorationHint-3n-p6O foreignObject {
+    mask: none;
+  }
+  :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz {
+    position: static;
+    overflow: visible;
+    margin: 16px;
+    max-height: calc(100vh - 200px);
+  }
+  :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT > .copiableNameTag-3tf-II, :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT > div > .userText-1_v2Cq > .nickname-3P1RuO, :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT > div > .userText-1_v2Cq > .userTagNoNickname-h9Bh88 {
+    position: absolute;
+    top: 30px;
+    left: 115px;
+    z-index: 1;
+    max-width: 200px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+  }
+  :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT > .copiableNameTag-3tf-II > span, :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT > div > .userText-1_v2Cq > .nickname-3P1RuO > span, :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT > div > .userText-1_v2Cq > .userTagNoNickname-h9Bh88 > span {
+    word-break: unset;
+    white-space: unset;
+  }
+  :root .userPopoutOuter-1OHwPL .profileBadges-2pItdR:empty + .userPopoutOverlayBackground-3A0Pcz .nickname-3P1RuO {
+    top: 20px;
+  }
+  :root .userPopoutOuter-1OHwPL .profileBadges-2pItdR {
+    position: absolute;
+    top: 60px;
+    left: 110px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3333333333);
+  }
+  :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .scroller-15bIdk {
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+  }
+  :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .section-28YDOf {
+    padding-top: 0;
+    padding-bottom: 12px;
+  }
+  :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .userTagWithNickname-13lfvd {
+    padding-top: 12px;
+  }
+  :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .divider-2dDziJ {
+    display: none;
+  }
+  :root .userProfileModalOuter-2wdWjU {
+    width: 700px;
+  }
+  :root .userProfileModalOuter-2wdWjU .userProfileModalInner-3dx9L9 {
+    overflow: hidden;
+  }
+  :root .userProfileModalOuter-2wdWjU .userProfileModalInner-3dx9L9::before {
+    border-radius: 8px;
+  }
+  :root .userProfileModalOuter-2wdWjU .topSection-13QKHs {
+    margin-bottom: 0;
+  }
+  :root .userProfileModalOuter-2wdWjU .topSection-13QKHs .bannerSVGWrapper-2CLfzN {
+    min-height: 160px !important;
+  }
+  :root .userProfileModalOuter-2wdWjU .topSection-13QKHs .bannerSVGWrapper-2CLfzN[viewBox="0 0 600 106"] foreignObject {
+    transform: translateY(-22px);
+  }
+  :root .userProfileModalOuter-2wdWjU .topSection-13QKHs .bannerSVGWrapper-2CLfzN .banner-1YaD3N {
+    -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 0.6549019608), rgba(0, 0, 0, 0.6549019608));
+    height: 160px;
+    border-radius: 0;
+  }
+  :root .userProfileModalOuter-2wdWjU .topSection-13QKHs .avatar-3QF_VA {
+    top: -143px;
+  }
+  :root .userProfileModalOuter-2wdWjU .topSection-13QKHs .headerTop-1PNKck {
+    flex-direction: column;
+    top: -100px;
+    left: 155px;
+  }
+  :root .userProfileModalOuter-2wdWjU .topSection-13QKHs .headerTop-1PNKck .badgeList-2aoHPw {
+    padding: 0 0 10px 0;
+    background-color: transparent;
+  }
+  :root .userProfileModalOuter-2wdWjU .userProfileModalOverlayBackground-2dAaBg {
+    overflow: visible;
+  }
+  :root .userProfileModalOuter-2wdWjU .userProfileModalOverlayBackground-2dAaBg .nameTag-35jqbZ {
+    position: absolute;
+    top: -150px;
+    left: 140px;
+    z-index: 1;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  :root .userProfileModalOuter-2wdWjU .mask-1y0tyc rect[fill=black],
+  :root .userProfileModalOuter-2wdWjU .mask-1y0tyc circle[fill=black] {
+    display: none;
+  }
+  :root .userProfileModalOuter-2wdWjU .mask-1y0tyc .cursorDefault-2M8ZNp rect,
+  :root .userProfileModalOuter-2wdWjU .mask-1y0tyc .pointerEvents-2KjWnj {
+    rx: calc(1px + var(--status-radius)) !important;
+    ry: calc(1px + var(--status-radius));
+  }
+  :root .userProfileModalOuter-2wdWjU .activityProfileV2-1N7pee {
+    padding: 16px;
+    margin: 12px;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  :root .userProfileModalOuter-2wdWjU .activityProfileV2-1N7pee .headerText-3g1XK9,
+  :root .userProfileModalOuter-2wdWjU .activityProfileV2-1N7pee .activityName-3YXl6e,
+  :root .userProfileModalOuter-2wdWjU .activityProfileV2-1N7pee .content-tXPNDw,
+  :root .userProfileModalOuter-2wdWjU .activityProfileV2-1N7pee .details-2-ciHo,
+  :root .userProfileModalOuter-2wdWjU .activityProfileV2-1N7pee .name-1-Q7l2,
+  :root .userProfileModalOuter-2wdWjU .activityProfileV2-1N7pee .nameNormal-2fPMD2,
+  :root .userProfileModalOuter-2wdWjU .activityProfileV2-1N7pee .nameWrap-3TyM52,
+  :root .userProfileModalOuter-2wdWjU .activityProfileV2-1N7pee .textLeft-1Noen0,
+  :root .userProfileModalOuter-2wdWjU .activityProfileV2-1N7pee .textRight-2IW704 {
+    color: var(--background-primary);
+    --header-primary: var(--background-primary);
+  }
+  :root .userProfileModalOuter-2wdWjU .activityProfileV2-1N7pee .barInner-3dHef4 {
+    background-color: var(--background-primary);
+  }
+  :root .userProfileModalOuter-2wdWjU .activityProfileV2-1N7pee .button-TGAkj4 {
+    border: none;
+    background-color: rgba(18, 31, 33, 0.4);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1294117647);
+    color: var(--background-primary);
+  }
+  :root .userProfileModalOuter-2wdWjU .activityProfileV2-1N7pee .contentImagesProfileV2-2Z-K9I::after,
+  :root .userProfileModalOuter-2wdWjU .activityProfileV2-1N7pee .contentGameImageProfile-24ty00::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    left: 0;
+    top: 0;
+    background: #89DCEB;
+  }
+  :root .userProfileModalOuter-2wdWjU .activityProfileV2-1N7pee .timeBarProfileV2-14KewZ::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    background: #A6E3A1;
+  }
+  :root .userProfileModalOuter-2wdWjU .activityProfileV2-1N7pee .platformIcon-k3yytQ {
+    display: none !important;
+  }
+  :root .userProfileModalOuter-2wdWjU .connectedAccountContainer-3aLMHJ {
+    border: solid #000000;
+    border-width: 1.2px 1.2px 3px 1.2px;
+    border-radius: 4px;
+    width: 296px;
+    transition: 100ms;
+  }
+  :root .userProfileModalOuter-2wdWjU .connectedAccountContainer-3aLMHJ:active {
+    border-width: 1.2px 1.2px 1.2px 1.2px;
+    transform: translateY(1px);
+  }
+  :root .userProfileModalOuter-2wdWjU .connectedAccountContainer-3aLMHJ .connectedAccountIcon-3FdW8x {
+    padding: 5px;
+    border-radius: 4px;
+  }
+  :root .userProfileModalOuter-2wdWjU .connectedAccountContainer-3aLMHJ .connectedAccountNameContainer-3e9mvO {
+    margin-left: 13px;
+  }
+  :root .userProfileModalOuter-2wdWjU .connectedAccountContainer-3aLMHJ .connectedAccountChildren-29Qmfl {
+    margin-left: 56px;
+  }
+  :root .userProfileModalOuter-2wdWjU .listRow-2nO1T6 {
+    margin: 0;
+    padding: 8px 12px;
+  }
+  :root .userProfileModalOuter-2wdWjU .pencilContainer-18TrEJ {
+    display: none;
+  }
+  [class*=NonPremium]:has([class*=bannerPremium]) [class*=avatarPositionNormal], [class*=PremiumWithoutBanner]:has([class*=bannerPremium]) [class*=avatarPositionPremiumNoBanner] {
+    top: 20px !important;
+  }
   /* Comfy Code, kanged from Comfy but modified be me so you gotta give me credit >:D */
   /* Comfy-Style Spotify Player
    * Kanged and modified code from https://github.com/Comfy-Themes/Discord
@@ -2226,18 +2461,18 @@
     margin-top: 0;
     opacity: 1;
   }
-  [class*=userPopoutOuter-] [class*=scroller-] {
+  [class^=userPopoutOuter-] [class*=scroller-] {
     padding-left: 4px;
   }
-  [class*=userPopoutOuter-][class*=userPopoutOuter-][class*=userPopoutOuter-][class*=userPopoutOuter-][class*=userPopoutOuter-][class*=userPopoutOuter-],
-  [class*=userPopoutOuter-] [class*=activity-] [class*=timeBarUserPopoutV2-],
-  [class*=userPopoutOuter-] [class*=activity-] [class*=timeBarUserPopoutV2-]::before,
-  [class*=userPopoutOuter-] [class*=activity-]::before,
-  [class*=userPopoutOuter-] [class*=activity-]::after,
-  [class*=userPopoutOuter-] [class*=activity-] [class*=headerTextNormal-]::before {
+  [class^=userPopoutOuter-][class^=userPopoutOuter-][class^=userPopoutOuter-][class^=userPopoutOuter-][class^=userPopoutOuter-][class^=userPopoutOuter-],
+  [class^=userPopoutOuter-] [class^=activityUserPopoutV2-] [class^=timeBarUserPopoutV2-],
+  [class^=userPopoutOuter-] [class^=activityUserPopoutV2-] [class^=timeBarUserPopoutV2-]::before,
+  [class^=userPopoutOuter-] [class^=activityUserPopoutV2-]::before,
+  [class^=userPopoutOuter-] [class^=activityUserPopoutV2-]::after,
+  [class^=userPopoutOuter-] [class^=activityUserPopoutV2-] [class*=headerTextNormal-]::before {
     --wave-width: 300px !important;
   }
-  [class*=userPopoutOuter-] [class*=activity-] [class*=headerTextNormal-]::before {
+  [class^=userPopoutOuter-] [class*=activity-] [class*=headerTextNormal-]::before {
     background: var(--profile-body-background-color) !important;
   }
   .vc-notification-root {
