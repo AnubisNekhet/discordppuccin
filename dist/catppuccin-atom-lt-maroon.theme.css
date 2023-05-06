@@ -2585,6 +2585,13 @@ button[class*=emojiButtonNormal] > div > div {
     background: inherit;
     opacity: var(--transparency);
   }
+  .userPopoutInner-nv9Y92:before {
+    height: 100%;
+    width: 100%;
+  }
+  .userProfileOuterThemed-2BgJCM.userPopoutOuter-1OHwPL, .userProfileOuterThemed-2BgJCM.userProfileOuter-2tQwNf {
+    padding: 0;
+  }
   div[class*=unread-],
   div[class^=jumpToPresentBar-] > button,
   div[class^=newMessagesBar-] > button {
