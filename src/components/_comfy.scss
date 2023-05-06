@@ -329,16 +329,6 @@
       }
     }
 
-    .mask-1y0tyc rect[fill="black"],
-    .mask-1y0tyc circle[fill="black"] {
-      display: none;
-    }
-    .mask-1y0tyc .cursorDefault-2M8ZNp rect,
-    .mask-1y0tyc .pointerEvents-2KjWnj {
-      rx: calc(1px + var(--status-radius)) !important;
-      ry: calc(1px + var(--status-radius));
-    }
-
     // -- Activities --
     .activityProfileV2-1N7pee {
       padding: 16px;
