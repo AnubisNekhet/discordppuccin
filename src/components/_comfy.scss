@@ -415,6 +415,10 @@
       .connectedAccountIcon-3FdW8x {
         padding: 5px;
         border-radius: 4px;
+        &[aria-label="Spotify"] {
+          padding: 12px;
+          margin: 5px;
+        }
       }
       .connectedAccountNameContainer-3e9mvO {
         margin-left: 13px;
