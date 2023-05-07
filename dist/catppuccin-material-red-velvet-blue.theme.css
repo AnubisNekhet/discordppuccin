@@ -2202,6 +2202,10 @@
     padding: 5px;
     border-radius: 4px;
   }
+  :root .userProfileModalOuter-2wdWjU .connectedAccountContainer-3aLMHJ .connectedAccountIcon-3FdW8x[aria-label=Spotify] {
+    padding: 12px;
+    margin: 5px;
+  }
   :root .userProfileModalOuter-2wdWjU .connectedAccountContainer-3aLMHJ .connectedAccountNameContainer-3e9mvO {
     margin-left: 13px;
   }
