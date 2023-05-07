@@ -2074,6 +2074,7 @@
   :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .section-28YDOf {
     padding-top: 0;
     padding-bottom: 12px;
+    z-index: 1;
   }
   :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .userTagWithNickname-13lfvd {
     padding-top: 12px;
