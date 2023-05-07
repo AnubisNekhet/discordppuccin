@@ -2188,7 +2188,7 @@
     background: #F9E2AF;
   }
   :root .userProfileModalOuter-2wdWjU .connectedAccountContainer-3aLMHJ {
-    border: solid #000000;
+    border: solid hsl(190deg, 30%, 3%);
     border-width: 1.2px 1.2px 3px 1.2px;
     border-radius: 4px;
     width: 296px;
@@ -2589,7 +2589,8 @@
     background: inherit;
     opacity: var(--transparency);
   }
-  .userPopoutInner-nv9Y92:before {
+  .userPopoutInner-nv9Y92:before,
+  .userProfileModalInner-3dx9L9:before {
     height: 100%;
     width: 100%;
   }
