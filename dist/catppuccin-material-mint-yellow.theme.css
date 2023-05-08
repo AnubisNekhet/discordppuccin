@@ -2598,6 +2598,16 @@
   .userProfileOuterThemed-2BgJCM.userPopoutOuter-1OHwPL, .userProfileOuterThemed-2BgJCM.userProfileOuter-2tQwNf {
     padding: 0;
   }
+  .vc-settings-quick-actions-card.vc-settings-quick-actions-card.vc-settings-quick-actions-card {
+    background: var(--background-secondary);
+    gap: 2px;
+  }
+  .vc-settings-tab-bar.vc-settings-tab-bar {
+    margin-bottom: 10px;
+  }
+  .vc-settings-tab-bar.vc-settings-tab-bar + [class*=divider-] {
+    display: none;
+  }
   div[class*=unread-],
   div[class^=jumpToPresentBar-] > button,
   div[class^=newMessagesBar-] > button {
