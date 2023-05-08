@@ -225,7 +225,11 @@ img.emoji.jumboable[aria-label="🥺"] {
 }
 .vc-settings-tab-bar.vc-settings-tab-bar {
   margin-bottom: 10px;
-  & + [class*=divider-] {
+  & + [class^=divider-] {
     display: none;
   }
+}
+// Reshrink new messages bar
+[class|="chatContent"] [class|="newMessagesBar"] {
+  height: 16px;
 }
