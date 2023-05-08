@@ -2606,8 +2606,11 @@
   .vc-settings-tab-bar.vc-settings-tab-bar {
     margin-bottom: 10px;
   }
-  .vc-settings-tab-bar.vc-settings-tab-bar + [class*=divider-] {
+  .vc-settings-tab-bar.vc-settings-tab-bar + [class^=divider-] {
     display: none;
+  }
+  [class|=chatContent] [class|=newMessagesBar] {
+    height: 16px;
   }
   div[class*=unread-],
   div[class^=jumpToPresentBar-] > button,
