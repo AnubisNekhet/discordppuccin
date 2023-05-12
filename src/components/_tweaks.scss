@@ -233,3 +233,16 @@ img.emoji.jumboable[aria-label="🥺"] {
 [class|="chatContent"] [class|="newMessagesBar"] {
   height: 16px;
 }
+// theme link area modification
+.vc-settings-theme-links.vc-settings-theme-links.vc-settings-theme-links {
+  background-color: var(--background-secondary);
+  border: 1px solid var(--deprecated-text-input-border-hover);
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.vc-settings-theme-links.vc-settings-theme-links.vc-settings-theme-links:hover {
+  background-color: var(--background-secondary-alt) !important;
+}
+.vc-settings-theme-links.vc-settings-theme-links.vc-settings-theme-links:focus {
+  background-color: var(--background-tertiary) !important;
+  border: 1px solid var(--brand-experiment);
+}
