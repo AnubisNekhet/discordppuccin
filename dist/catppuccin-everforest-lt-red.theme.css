@@ -1827,9 +1827,13 @@
   div[class*=unreadBar-] {
     color: #F0EDD8;
   }
-  div[class*=numberBadge-] {
+  div[class|=numberBadge] {
     font-weight: 700;
     color: #F0EDD8;
+  }
+  div[class|=newChannel] {
+    color: #F0EDD8;
+    background-color: #F85552;
   }
   button[class^=attachButton-] svg path[class^=attachButtonPlay-] {
     color: #899C40;

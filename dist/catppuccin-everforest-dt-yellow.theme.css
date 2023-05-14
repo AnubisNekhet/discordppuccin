@@ -1830,9 +1830,13 @@ button[class*=emojiButtonNormal] > div > div {
   div[class*=unreadBar-] {
     color: #22282C;
   }
-  div[class*=numberBadge-] {
+  div[class|=numberBadge] {
     font-weight: 700;
     color: #22282C;
+  }
+  div[class|=newChannel] {
+    color: #22282C;
+    background-color: #BF983D;
   }
   button[class^=attachButton-] svg path[class^=attachButtonPlay-] {
     color: #899C40;
