@@ -2672,7 +2672,7 @@ button[class*=emojiButtonNormal] > div > div {
     margin-left: -17px;
     margin-top: 2px;
     content: "";
-    background-color: hsla(var(--spotify-vencord-text)/1);
+    background-color: currentColor;
     position: absolute;
   }
   #vc-spotify-song-title::before {
@@ -2694,7 +2694,7 @@ button[class*=emojiButtonNormal] > div > div {
     margin-left: -17px;
     margin-top: 2px;
     content: "";
-    background-color: var(--background-primary);
+    background-color: currentColor;
     position: absolute;
   }
   .activityUserPopoutV2-3eKqzY:has([class^=timeBarUserPopoutV2-]) .contentImagesUserPopoutV2-2Mcg9w > div:first-child::before {
