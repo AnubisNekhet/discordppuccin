@@ -321,12 +321,12 @@
   --interactive-active: #{$text};
 
   //RadialStatus Variables
-  --rs-online-color: #{$green}; 
-  --rs-idle-color: #{$yellow}; 
-  --rs-dnd-color: #{$red}; 
-  --rs-offline-color: #{$surface0}; 
-  --rs-streaming-color: #{$mauve}; 
-  --rs-invisible-color: #{$surface0}; 
+  --rs-online-color: #{$green};
+  --rs-idle-color: #{$yellow};
+  --rs-dnd-color: #{$red};
+  --rs-offline-color: #{$surface0};
+  --rs-streaming-color: #{$mauve};
+  --rs-invisible-color: #{$surface0};
 
   // make tooltips that you can't hover surface0
   [class*="disabledPointerEvents"] {
@@ -344,4 +344,7 @@
     }
   }
 }
+
+::selection {
+  background-color: #{rgba($brand, 0.6)};
 }
