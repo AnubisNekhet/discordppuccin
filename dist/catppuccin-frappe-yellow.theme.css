@@ -1888,6 +1888,8 @@
   [class*=premiumFeatureBorder-],
   [class*=emojiSection-] > [class*=shinyButton-],
   [aria-label="Send a gift"],
+  a[href="/activities"],
+  a[href="/store"],
   [aria-label="Open sticker picker"] {
     display: none;
   }
