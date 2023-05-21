@@ -16,7 +16,8 @@
 [class*="emojiSection-"] > [class*="shinyButton-"],
 [aria-label="Send a gift"],  //Gift nitro button
 a[href="/activities"], // stupid nitro activities promotion
-a[href="/store"], // nitro store
+a[href="/store"], // nitro store,
+[aria-label="Add Super Reaction"], //super reaction button
 [aria-label="Open sticker picker"] { //sticker button
   display: none;
 }
