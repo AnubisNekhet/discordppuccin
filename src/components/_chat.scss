@@ -507,6 +507,11 @@ div[class*="chat-"] {
   color: $base;
 }
 
+// Jump to present bar button recolor
+[class|=jumpToPresentBar] > button {
+    color: var(--background-primary);
+}
+
 // Vencord's deleted message plugin
 .messagelogger-deleted div {
   color: $red !important;
