@@ -18,6 +18,10 @@
 a[href="/activities"], // stupid nitro activities promotion
 a[href="/store"], // nitro store,
 [aria-label="Add Super Reaction"], //super reaction button
+[class*="container-"][class*="stickerIconOffset-"], //sticker suggestion
+section[class*="chatContent-"] form [class*="container-"], //sticker suggestion,
+img[role="presentation"], // vencord image
+.vc-settings-card.vc-settings-donate, //vencord donate button
 [aria-label="Open sticker picker"] { //sticker button
   display: none;
 }
