@@ -510,10 +510,10 @@
   .vc-spotify-album.vc-spotify-album, .vc-spotify-time-right, .vc-spotify-time-left  {
     color: hsla(var(--spotify-vencord-text)/1);
   }
-  &#vc-spotify-player [class*="bar-"] {
+  &#vc-spotify-player [class^="bar-"] {
     background: hsla(var(--spotify-vencord-text)/0.3);
   }
-  &#vc-spotify-player [class*="barFill"] {
+  &#vc-spotify-player [class^="barFill"] {
     background: hsla(var(--spotify-vencord-text)/0.7);
   }
   #vc-spotify-progress-bar>[class^=slider] [class^=grabber][class^=grabber] {
@@ -546,17 +546,17 @@
     color: hsla(var(--spotify-vencord-text)/1);
   }
 }
-[class*=wrapper-]:not(:empty) + #vc-spotify-player {
+[class^=wrapper-]:not(:empty) + #vc-spotify-player {
   margin-top: 27px;
 }
-[class*=panels-] [class*=wrapper-] [class*=container-] {
+[class^=panels-] [class^=wrapper-] [class^=container-] {
   border-bottom: none;
 }
-#vc-spotify-player + [class*=container-] {
+#vc-spotify-player + [class^=container-] {
   background: var(--spotify-vencord-color);
-  [class*=button-][class*=button-][class*=button-],
-  [class*=title-][class*=title-][class*=title-] {
-    color: hsla(var(--spotify-vencord-text)/1);
+  [class^=button-][class^=button-][class^=button-],
+  [class*=title-] {
+    color: hsla(var(--spotify-vencord-text)/1) !important;
   }
   [class*=subtext-] {
     color: hsla(var(--spotify-vencord-text)/0.7) !important;
@@ -568,7 +568,7 @@
   }
 }
 // dnd
-#vc-spotify-player + [class*=container-] {
+#vc-spotify-player + [class^=container-] {
   rect[fill="#f23f43"],
   foreignObject[mask="url(#svg-mask-status-dnd)"] > div {
     fill: hsla(var(--spotify-vencord-text)/1) !important;
@@ -615,7 +615,7 @@
     fill: hsla(var(--spotify-vencord-text)/1) !important;
   }
 }
-[class*=panels-] [class*=activityPanel-] {
+[class^=panels-] [class*=activityPanel-] {
   border-bottom: none;
 }
 [class*=listeningAlong-] {
