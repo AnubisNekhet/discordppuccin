@@ -2323,10 +2323,10 @@
   #vc-spotify-player .vc-spotify-album.vc-spotify-album, #vc-spotify-player .vc-spotify-time-right, #vc-spotify-player .vc-spotify-time-left {
     color: hsla(var(--spotify-vencord-text)/1);
   }
-  #vc-spotify-player#vc-spotify-player [class*=bar-] {
+  #vc-spotify-player#vc-spotify-player [class^=bar-] {
     background: hsla(var(--spotify-vencord-text)/0.3);
   }
-  #vc-spotify-player#vc-spotify-player [class*=barFill] {
+  #vc-spotify-player#vc-spotify-player [class^=barFill] {
     background: hsla(var(--spotify-vencord-text)/0.7);
   }
   #vc-spotify-player #vc-spotify-progress-bar > [class^=slider] [class^=grabber][class^=grabber] {
@@ -2357,65 +2357,65 @@
     background: hsla(var(--spotify-vencord-text)/0.3);
     color: hsla(var(--spotify-vencord-text)/1);
   }
-  [class*=wrapper-]:not(:empty) + #vc-spotify-player {
+  [class^=wrapper-]:not(:empty) + #vc-spotify-player {
     margin-top: 27px;
   }
-  [class*=panels-] [class*=wrapper-] [class*=container-] {
+  [class^=panels-] [class^=wrapper-] [class^=container-] {
     border-bottom: none;
   }
-  #vc-spotify-player + [class*=container-] {
+  #vc-spotify-player + [class^=container-] {
     background: var(--spotify-vencord-color);
   }
-  #vc-spotify-player + [class*=container-] [class*=button-][class*=button-][class*=button-],
-  #vc-spotify-player + [class*=container-] [class*=title-][class*=title-][class*=title-] {
-    color: hsla(var(--spotify-vencord-text)/1);
+  #vc-spotify-player + [class^=container-] [class^=button-][class^=button-][class^=button-],
+  #vc-spotify-player + [class^=container-] [class*=title-] {
+    color: hsla(var(--spotify-vencord-text)/1) !important;
   }
-  #vc-spotify-player + [class*=container-] [class*=subtext-] {
+  #vc-spotify-player + [class^=container-] [class*=subtext-] {
     color: hsla(var(--spotify-vencord-text)/0.7) !important;
   }
-  #vc-spotify-player + [class*=container-] [class*=withTagAsButton-]:hover,
-  #vc-spotify-player + [class*=container-] [class*=withTagless]:hover,
-  #vc-spotify-player + [class*=container-] [class*=button-][class*=enabled-]:hover {
+  #vc-spotify-player + [class^=container-] [class*=withTagAsButton-]:hover,
+  #vc-spotify-player + [class^=container-] [class*=withTagless]:hover,
+  #vc-spotify-player + [class^=container-] [class*=button-][class*=enabled-]:hover {
     background-color: hsla(var(--spotify-vencord-text)/0.2);
   }
-  #vc-spotify-player + [class*=container-] rect[fill="#f23f43"],
-  #vc-spotify-player + [class*=container-] foreignObject[mask="url(#svg-mask-status-dnd)"] > div {
+  #vc-spotify-player + [class^=container-] rect[fill="#f23f43"],
+  #vc-spotify-player + [class^=container-] foreignObject[mask="url(#svg-mask-status-dnd)"] > div {
     fill: hsla(var(--spotify-vencord-text)/1) !important;
     background-color: hsla(var(--spotify-vencord-text)/1) !important;
   }
-  #vc-spotify-player + [class*=container-] rect[fill="rgba(242, 63, 67, 1)"] {
+  #vc-spotify-player + [class^=container-] rect[fill="rgba(242, 63, 67, 1)"] {
     fill: hsla(var(--spotify-vencord-text)/1) !important;
   }
-  #vc-spotify-player + [class*=container-] rect[fill="#23a55a"],
-  #vc-spotify-player + [class*=container-] foreignObject[mask="url(#svg-mask-status-online)"] > div,
-  #vc-spotify-player + [class*=container-] div[class^=dotOnline],
-  #vc-spotify-player + [class*=container-] i[class^=statusOnline-] {
-    fill: hsla(var(--spotify-vencord-text)/1) !important;
-    background-color: hsla(var(--spotify-vencord-text)/1) !important;
-  }
-  #vc-spotify-player + [class*=container-] rect[fill="rgba(35, 165, 90, 1)"] {
-    fill: hsla(var(--spotify-vencord-text)/1) !important;
-  }
-  #vc-spotify-player + [class*=container-] rect[fill="#f0b232"],
-  #vc-spotify-player + [class*=container-] foreignObject[mask="url(#svg-mask-status-idle)"] > div {
+  #vc-spotify-player + [class^=container-] rect[fill="#23a55a"],
+  #vc-spotify-player + [class^=container-] foreignObject[mask="url(#svg-mask-status-online)"] > div,
+  #vc-spotify-player + [class^=container-] div[class^=dotOnline],
+  #vc-spotify-player + [class^=container-] i[class^=statusOnline-] {
     fill: hsla(var(--spotify-vencord-text)/1) !important;
     background-color: hsla(var(--spotify-vencord-text)/1) !important;
   }
-  #vc-spotify-player + [class*=container-] rect[fill="rgba(240, 178, 50, 1)"] {
+  #vc-spotify-player + [class^=container-] rect[fill="rgba(35, 165, 90, 1)"] {
     fill: hsla(var(--spotify-vencord-text)/1) !important;
   }
-  #vc-spotify-player + [class*=container-] rect[fill="#82858f"],
-  #vc-spotify-player + [class*=container-] foreignObject[mask="url(#svg-mask-status-offline)"] > div,
-  #vc-spotify-player + [class*=container-] foreignObject[mask="url(#svg-mask-status-offline)"] > rect,
-  #vc-spotify-player + [class*=container-] div[class^=dotOffline],
-  #vc-spotify-player + [class*=container-] i[class^=statusOffline-] {
+  #vc-spotify-player + [class^=container-] rect[fill="#f0b232"],
+  #vc-spotify-player + [class^=container-] foreignObject[mask="url(#svg-mask-status-idle)"] > div {
     fill: hsla(var(--spotify-vencord-text)/1) !important;
     background-color: hsla(var(--spotify-vencord-text)/1) !important;
   }
-  #vc-spotify-player + [class*=container-] rect[fill="rgba(130, 133, 143, 1)"] {
+  #vc-spotify-player + [class^=container-] rect[fill="rgba(240, 178, 50, 1)"] {
     fill: hsla(var(--spotify-vencord-text)/1) !important;
   }
-  [class*=panels-] [class*=activityPanel-] {
+  #vc-spotify-player + [class^=container-] rect[fill="#82858f"],
+  #vc-spotify-player + [class^=container-] foreignObject[mask="url(#svg-mask-status-offline)"] > div,
+  #vc-spotify-player + [class^=container-] foreignObject[mask="url(#svg-mask-status-offline)"] > rect,
+  #vc-spotify-player + [class^=container-] div[class^=dotOffline],
+  #vc-spotify-player + [class^=container-] i[class^=statusOffline-] {
+    fill: hsla(var(--spotify-vencord-text)/1) !important;
+    background-color: hsla(var(--spotify-vencord-text)/1) !important;
+  }
+  #vc-spotify-player + [class^=container-] rect[fill="rgba(130, 133, 143, 1)"] {
+    fill: hsla(var(--spotify-vencord-text)/1) !important;
+  }
+  [class^=panels-] [class*=activityPanel-] {
     border-bottom: none;
   }
   [class*=listeningAlong-] {
