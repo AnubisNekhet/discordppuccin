@@ -1909,6 +1909,12 @@ button[class*=emojiButtonNormal] > div > div {
   [aria-label="Open sticker picker"] {
     display: none;
   }
+  .reaction-3vwAF2.shakeReaction-h226gy {
+    -webkit-animation: none !important;
+    animation: none !important;
+    -webkit-animation-iteration-count: none !important;
+    animation-iteration-count: none !important;
+  }
   /* Credit to https://github.com/Comfy-Themes/Discord */
   [class*=userPopoutOuter-] [class*=activity-] {
     --listening: #56949F;
