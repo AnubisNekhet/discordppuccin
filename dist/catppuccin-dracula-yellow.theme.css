@@ -2317,6 +2317,9 @@ button[class*=emojiButtonNormal] > div > div {
     animation-delay: 0s;
     opacity: 1;
   }
+  #vc-spotify-player:has(.vc-spotify-play)::before {
+    animation-play-state: paused;
+  }
   #vc-spotify-player#vc-spotify-player {
     background: var(--spotify-vencord-color);
     border-bottom: none;
