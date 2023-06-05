@@ -1004,7 +1004,8 @@
   [class^=chatContent] div[class*=isBurstReactionPicker-] {
     box-shadow: 0 0 0 2px #ca9ee6, 0 0 16px #babbf1;
   }
-  [class^=chatContent] div[class^=navButtonSuperReactActive-], [class^=chatContent] div[class^=navButtonSuperReactActive-]:hover {
+  [class^=chatContent] div[class^=navButtonSuperReactActive-],
+  [class^=chatContent] div[class^=navButtonSuperReactActive-]:hover {
     background: linear-gradient(270deg, #f4b8e4, #babbf1 33.63%, #ca9ee6);
     color: #232634;
   }
@@ -1012,7 +1013,8 @@
     background: var(--brand-experiment) !important;
     color: #232634;
   }
-  [class^=chatContent] button[class*=navButtonActive-], [class^=chatContent] button[class*=navButtonActive-]:hover {
+  [class^=chatContent] button[class*=navButtonActive-],
+  [class^=chatContent] button[class*=navButtonActive-]:hover {
     color: #232634;
   }
   [class^=chatContent] div[class*=colorPremiumGradient-][class*=focused-] {
@@ -1059,27 +1061,27 @@
   main[class^=chatContent] div[id^=message-content-] svg[class^=icon-] > path[d="M2 4.83V7.17L4 9.17L6 7.17V4.83L4 2.83L2 4.83Z"] {
     color: #f4b8e4;
   }
-  .theme-dark span[class^=spoilerText],
-  .theme-dark div[class^=spoilerText] {
+  .theme-dark span[class|=spoilerContent],
+  .theme-dark div[class|=spoilerContent] {
     background-color: #414559;
   }
-  .theme-dark span[class^=spoilerText][class*=hidden],
-  .theme-dark div[class^=spoilerText][class*=hidden] {
+  .theme-dark span[class|=spoilerContent][class*=hidden],
+  .theme-dark div[class|=spoilerContent][class*=hidden] {
     background-color: #626880;
   }
-  .theme-dark span[class^=spoilerText][class*=hidden]:hover,
-  .theme-dark div[class^=spoilerText][class*=hidden]:hover {
+  .theme-dark span[class|=spoilerContent][class*=hidden]:hover,
+  .theme-dark div[class|=spoilerContent][class*=hidden]:hover {
     background-color: #6d748e;
   }
-  .theme-dark div[class^=spoilerContainer-] div[class^=spoilerWarning-] {
+  .theme-dark div[class|=spoilerContainer] div[class|=spoilerWarning] {
     color: #c6d0f5;
     background-color: rgba(35, 38, 52, 0.7);
   }
-  .theme-dark div[class^=spoilerContainer-]:hover div[class^=spoilerWarning-] {
+  .theme-dark div[class|=spoilerContainer]:hover div[class|=spoilerWarning] {
     color: #c6d0f5;
     background-color: #232634;
   }
-  .theme-dark div[class^=spoilerContainer-] article[class*=embedFull-] {
+  .theme-dark div[class|=spoilerContainer] article[class*=embedFull-] {
     border-color: #626880;
   }
   div[class^=cooldownWrapper-] {
@@ -1106,10 +1108,13 @@
   div[class^=channelTextArea-] button[class*=emojiButton-] {
     background: transparent !important;
   }
-  [class*=uploadDropModal-] div[class^=inner] {
+  [class|=uploadDropModal][class*=error] {
+    background-color: #e78284;
+  }
+  [class|=uploadDropModal] div[class^=inner] {
     border-color: #232634;
   }
-  [class*=uploadDropModal-] div[class^=inner] * {
+  [class|=uploadDropModal] div[class^=inner] * {
     color: #232634 !important;
   }
   div[class^=chat] > div[class^=content-] > div[class^=container-] {
@@ -1149,11 +1154,20 @@
     background-color: #ef9f76;
     color: #232634;
   }
+  div[class|=applicationCommand] span[class*=selectedPill-] {
+    border-color: #ef9f76 !important;
+  }
+  div[class|=applicationCommand] span[class*=erroredPill-] {
+    border-color: #e78284 !important;
+  }
   div[class^=chat] > div[class^=content-] main[class^=chatContent-] + div[class^=container-] {
     background-color: var(--background-secondary);
   }
   [class*=channelTextAreaInnerError-] {
-    border: 1px solid #f38ba8 !important;
+    border: 1px solid #e78284 !important;
+  }
+  [class*=barButtonBase-] {
+    color: #232634 !important;
   }
   div[class^=callContainer-] [class*=controlIcon-] {
     color: #b5bfe2;
@@ -1519,7 +1533,8 @@
   }
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=modal-],
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=modalSize-],
-  div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=uploadModal-] {
+  div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=uploadModal-],
+  div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class|=contentWrapper] {
     background-color: #292c3c;
   }
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=modal-] li,
@@ -1530,7 +1545,10 @@
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=modalSize-] span,
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=uploadModal-] li,
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=uploadModal-] p,
-  div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=uploadModal-] span {
+  div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=uploadModal-] span,
+  div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class|=contentWrapper] li,
+  div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class|=contentWrapper] p,
+  div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class|=contentWrapper] span {
     color: #c6d0f5;
   }
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class*=footer] {
@@ -1767,6 +1785,9 @@
   .vc-user-connection [src="/assets/eaeac24163b35f7526704a3d9b3c7722.svg"] {
     padding: 16px;
   }
+  #vencordthemes-tab [class*=input-]:focus {
+    border-color: #ef9f76 !important;
+  }
   svg[class^=cursorDefault-] svg[class^=dots-] circle {
     fill: #303446 !important;
   }
@@ -1842,6 +1863,9 @@
   div[class|=botTag] {
     background-color: #ef9f76;
   }
+  div[class|=addFriendInputWrapper]:focus-within {
+    border-color: #ef9f76;
+  }
   button[class^=attachButton-] svg path[class^=attachButtonPlay-] {
     color: #a6d189;
     fill: #a6d189;
@@ -1872,8 +1896,7 @@
     color: #232634;
   }
   span[class*=channelMention]:hover,
-  [class*=mention]:not([class*=mentionButton-],
-  [class*=mentionIcon-]):hover {
+  [class*=mention]:not([class*=mentionButton-], [class*=mentionIcon-]):hover {
     color: #232634;
   }
   #vc-spotify-album-image:hover {

@@ -1007,7 +1007,8 @@ button[class*=emojiButtonNormal] > div > div {
   [class^=chatContent] div[class*=isBurstReactionPicker-] {
     box-shadow: 0 0 0 2px #B48EAD, 0 0 16px #C0A7BB;
   }
-  [class^=chatContent] div[class^=navButtonSuperReactActive-], [class^=chatContent] div[class^=navButtonSuperReactActive-]:hover {
+  [class^=chatContent] div[class^=navButtonSuperReactActive-],
+  [class^=chatContent] div[class^=navButtonSuperReactActive-]:hover {
     background: linear-gradient(270deg, #D6A3DE, #C0A7BB 33.63%, #B48EAD);
     color: #2E3440;
   }
@@ -1015,7 +1016,8 @@ button[class*=emojiButtonNormal] > div > div {
     background: var(--brand-experiment) !important;
     color: #2E3440;
   }
-  [class^=chatContent] button[class*=navButtonActive-], [class^=chatContent] button[class*=navButtonActive-]:hover {
+  [class^=chatContent] button[class*=navButtonActive-],
+  [class^=chatContent] button[class*=navButtonActive-]:hover {
     color: #2E3440;
   }
   [class^=chatContent] div[class*=colorPremiumGradient-][class*=focused-] {
@@ -1062,27 +1064,27 @@ button[class*=emojiButtonNormal] > div > div {
   main[class^=chatContent] div[id^=message-content-] svg[class^=icon-] > path[d="M2 4.83V7.17L4 9.17L6 7.17V4.83L4 2.83L2 4.83Z"] {
     color: #D6A3DE;
   }
-  .theme-dark span[class^=spoilerText],
-  .theme-dark div[class^=spoilerText] {
+  .theme-dark span[class|=spoilerContent],
+  .theme-dark div[class|=spoilerContent] {
     background-color: #4D576A;
   }
-  .theme-dark span[class^=spoilerText][class*=hidden],
-  .theme-dark div[class^=spoilerText][class*=hidden] {
+  .theme-dark span[class|=spoilerContent][class*=hidden],
+  .theme-dark div[class|=spoilerContent][class*=hidden] {
     background-color: #7D89A1;
   }
-  .theme-dark span[class^=spoilerText][class*=hidden]:hover,
-  .theme-dark div[class^=spoilerText][class*=hidden]:hover {
+  .theme-dark span[class|=spoilerContent][class*=hidden]:hover,
+  .theme-dark div[class|=spoilerContent][class*=hidden]:hover {
     background-color: #8c96ac;
   }
-  .theme-dark div[class^=spoilerContainer-] div[class^=spoilerWarning-] {
+  .theme-dark div[class|=spoilerContainer] div[class|=spoilerWarning] {
     color: #ECEFF4;
     background-color: rgba(46, 52, 64, 0.7);
   }
-  .theme-dark div[class^=spoilerContainer-]:hover div[class^=spoilerWarning-] {
+  .theme-dark div[class|=spoilerContainer]:hover div[class|=spoilerWarning] {
     color: #ECEFF4;
     background-color: #2E3440;
   }
-  .theme-dark div[class^=spoilerContainer-] article[class*=embedFull-] {
+  .theme-dark div[class|=spoilerContainer] article[class*=embedFull-] {
     border-color: #7D89A1;
   }
   div[class^=cooldownWrapper-] {
@@ -1109,10 +1111,13 @@ button[class*=emojiButtonNormal] > div > div {
   div[class^=channelTextArea-] button[class*=emojiButton-] {
     background: transparent !important;
   }
-  [class*=uploadDropModal-] div[class^=inner] {
+  [class|=uploadDropModal][class*=error] {
+    background-color: #BF616A;
+  }
+  [class|=uploadDropModal] div[class^=inner] {
     border-color: #2E3440;
   }
-  [class*=uploadDropModal-] div[class^=inner] * {
+  [class|=uploadDropModal] div[class^=inner] * {
     color: #2E3440 !important;
   }
   div[class^=chat] > div[class^=content-] > div[class^=container-] {
@@ -1152,11 +1157,20 @@ button[class*=emojiButtonNormal] > div > div {
     background-color: #E2BFA9;
     color: #2E3440;
   }
+  div[class|=applicationCommand] span[class*=selectedPill-] {
+    border-color: #E2BFA9 !important;
+  }
+  div[class|=applicationCommand] span[class*=erroredPill-] {
+    border-color: #BF616A !important;
+  }
   div[class^=chat] > div[class^=content-] main[class^=chatContent-] + div[class^=container-] {
     background-color: var(--background-secondary);
   }
   [class*=channelTextAreaInnerError-] {
-    border: 1px solid #f38ba8 !important;
+    border: 1px solid #BF616A !important;
+  }
+  [class*=barButtonBase-] {
+    color: #2E3440 !important;
   }
   div[class^=callContainer-] [class*=controlIcon-] {
     color: #E5E9F0;
@@ -1522,7 +1536,8 @@ button[class*=emojiButtonNormal] > div > div {
   }
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=modal-],
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=modalSize-],
-  div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=uploadModal-] {
+  div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=uploadModal-],
+  div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class|=contentWrapper] {
     background-color: #3B4252;
   }
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=modal-] li,
@@ -1533,7 +1548,10 @@ button[class*=emojiButtonNormal] > div > div {
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=modalSize-] span,
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=uploadModal-] li,
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=uploadModal-] p,
-  div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=uploadModal-] span {
+  div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=uploadModal-] span,
+  div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class|=contentWrapper] li,
+  div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class|=contentWrapper] p,
+  div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class|=contentWrapper] span {
     color: #ECEFF4;
   }
   div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class*=footer] {
@@ -1770,6 +1788,9 @@ button[class*=emojiButtonNormal] > div > div {
   .vc-user-connection [src="/assets/eaeac24163b35f7526704a3d9b3c7722.svg"] {
     padding: 16px;
   }
+  #vencordthemes-tab [class*=input-]:focus {
+    border-color: #E2BFA9 !important;
+  }
   svg[class^=cursorDefault-] svg[class^=dots-] circle {
     fill: #434C5E !important;
   }
@@ -1845,6 +1866,9 @@ button[class*=emojiButtonNormal] > div > div {
   div[class|=botTag] {
     background-color: #E2BFA9;
   }
+  div[class|=addFriendInputWrapper]:focus-within {
+    border-color: #E2BFA9;
+  }
   button[class^=attachButton-] svg path[class^=attachButtonPlay-] {
     color: #A3BE8C;
     fill: #A3BE8C;
@@ -1875,8 +1899,7 @@ button[class*=emojiButtonNormal] > div > div {
     color: #2E3440;
   }
   span[class*=channelMention]:hover,
-  [class*=mention]:not([class*=mentionButton-],
-  [class*=mentionIcon-]):hover {
+  [class*=mention]:not([class*=mentionButton-], [class*=mentionIcon-]):hover {
     color: #2E3440;
   }
   #vc-spotify-album-image:hover {
