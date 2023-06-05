@@ -91,6 +91,11 @@ rect[fill="#593695"] {
   padding: 16px;
 }
 
+// Vencord theme input border should use accent
+#vencordthemes-tab [class*="input-"]:focus {
+  border-color: $brand !important;
+}
+
 // dots in typing
 svg[class^="cursorDefault-"] svg[class^="dots-"] circle {
   fill: $base !important;
@@ -120,9 +125,7 @@ div[class*="flowerStarContainer-"] {
   }
 
   &[class*="iconBackgroundTierOne-"],
-  &[class*="iconBackgroundTierTwo-"]:not(
-      [class*="boostedGuildTierIconBackgroundWithVisibleBanner"]
-    ) {
+  &[class*="iconBackgroundTierTwo-"]:not([class*="boostedGuildTierIconBackgroundWithVisibleBanner"]) {
     svg[class*="flowerStar-"] * {
       fill: $surface2;
     }
@@ -213,6 +216,11 @@ div[class|="botTag"] {
   background-color: $brand;
 }
 
+// Add Friend text box border on selection should use accent
+div[class|="addFriendInputWrapper"]:focus-within {
+  border-color: $brand;
+}
+
 // spotify button on text area
 button[class^="attachButton-"] {
   svg path[class^="attachButtonPlay-"] {
@@ -263,9 +271,6 @@ div[class*="tryItOutBadge-"] {
 }
 
 span[class*="channelMention"]:hover,
-[class*="mention"]:not(
-    [class*="mentionButton-"],
-    [class*="mentionIcon-"]
-  ):hover {
+[class*="mention"]:not([class*="mentionButton-"], [class*="mentionIcon-"]):hover {
   color: $crust;
 }
