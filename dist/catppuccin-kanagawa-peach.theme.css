@@ -1721,6 +1721,9 @@ button[class*=emojiButtonNormal] > div > div {
   [class*=layerContainer-] div[id=sort-and-view] div[id=sort-and-view-reset-all] [style="color: var(--text-normal);"]:hover {
     color: #0B0B0F !important;
   }
+  [class|=layerContainer] [class|=quickswitcher] [class*=badge-] {
+    color: #0B0B0F;
+  }
   rect[fill="#23a55a"],
   foreignObject[mask="url(#svg-mask-status-online)"] > div,
   div[class^=dotOnline],

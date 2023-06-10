@@ -1718,6 +1718,9 @@
   [class*=layerContainer-] div[id=sort-and-view] div[id=sort-and-view-reset-all] [style="color: var(--text-normal);"]:hover {
     color: #F0EDD8 !important;
   }
+  [class|=layerContainer] [class|=quickswitcher] [class*=badge-] {
+    color: #F0EDD8;
+  }
   rect[fill="#23a55a"],
   foreignObject[mask="url(#svg-mask-status-online)"] > div,
   div[class^=dotOnline],
