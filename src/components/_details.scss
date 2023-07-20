@@ -208,7 +208,7 @@ div[class|="numberBadge"] {
 // Channel and role badge
 div[class|="newChannel"] {
   color: $crust;
-  background-color: $brand;
+  background-color: $brand !important;
 }
 
 // Clyde AI Bot tag
@@ -268,6 +268,11 @@ div[class*="profileBadges-"] {
 div[class*="newBadge-"],
 div[class*="tryItOutBadge-"] {
   color: $crust;
+}
+
+// Pending Friend Request alert badge
+[class|="tabBar"] [class|="badge"] {
+  color: #11111b;
 }
 
 span[class*="channelMention"]:hover,
