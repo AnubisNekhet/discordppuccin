@@ -2230,6 +2230,10 @@ img[role=presentation],
   --header-primary: #303446;
 }
 
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .profilebadges-2pitdr {
+  right: 10px;
+}
+
 :root .bannerSVGWrapper-2CLfzN mask {
   display: none;
 }

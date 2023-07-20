@@ -2234,6 +2234,10 @@ img[role=presentation],
   --header-primary: #eff1f5;
 }
 
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .profilebadges-2pitdr {
+  right: 10px;
+}
+
 :root .bannerSVGWrapper-2CLfzN mask {
   display: none;
 }

@@ -2229,6 +2229,10 @@ img[role=presentation],
   --header-primary: hsl(344deg, 29%, 10%);
 }
 
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .profilebadges-2pitdr {
+  right: 10px;
+}
+
 :root .bannerSVGWrapper-2CLfzN mask {
   display: none;
 }
