@@ -2023,7 +2023,7 @@ div[class|=numberBadge] {
 
 div[class|=newChannel] {
   color: #11111b;
-  background-color: #b4befe;
+  background-color: #b4befe !important;
 }
 
 div[class|=botTag] {
@@ -2067,6 +2067,10 @@ div[class*=profileBadges-] div[aria-label="Supports Commands"] img {
 
 div[class*=newBadge-],
 div[class*=tryItOutBadge-] {
+  color: #11111b;
+}
+
+[class|=tabBar] [class|=badge] {
   color: #11111b;
 }
 

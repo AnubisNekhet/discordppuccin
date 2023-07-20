@@ -2018,7 +2018,7 @@ div[class|=numberBadge] {
 
 div[class|=newChannel] {
   color: hsl(190deg, 30%, 3%);
-  background-color: #F9E2AF;
+  background-color: #F9E2AF !important;
 }
 
 div[class|=botTag] {
@@ -2063,6 +2063,10 @@ div[class*=profileBadges-] div[aria-label="Supports Commands"] img {
 div[class*=newBadge-],
 div[class*=tryItOutBadge-] {
   color: hsl(190deg, 30%, 3%);
+}
+
+[class|=tabBar] [class|=badge] {
+  color: #11111b;
 }
 
 span[class*=channelMention]:hover,
