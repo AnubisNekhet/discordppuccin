@@ -1290,6 +1290,12 @@ div[class^=callContainer-] button[class*=participantsButton-] {
   background-color: #4C464E;
   color: #FADAC3;
 }
+div[class^=callContainer-] div[class|=indicators] div[class|=liveQualityIndicator] {
+  background-color: #EA9F9F !important;
+}
+div[class^=callContainer-] div[class|=indicators] div[class|=liveQualityIndicator] svg[class|=premiumStreamIcon] {
+  color: #26252D;
+}
 div[class^=callContainer-] div[class^=videoControls-] div[class^=children-] div[class*=playingText-] {
   color: #F7CCAC;
 }

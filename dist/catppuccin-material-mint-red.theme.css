@@ -1286,6 +1286,12 @@ div[class^=callContainer-] button[class*=participantsButton-] {
   background-color: hsl(190deg, 30%, 16%);
   color: hsl(190deg, 30%, 80%);
 }
+div[class^=callContainer-] div[class|=indicators] div[class|=liveQualityIndicator] {
+  background-color: #F38BA8 !important;
+}
+div[class^=callContainer-] div[class|=indicators] div[class|=liveQualityIndicator] svg[class|=premiumStreamIcon] {
+  color: hsl(190deg, 30%, 3%);
+}
 div[class^=callContainer-] div[class^=videoControls-] div[class^=children-] div[class*=playingText-] {
   color: hsl(190deg, 30%, 72%);
 }
