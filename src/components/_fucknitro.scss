@@ -1,34 +1,35 @@
 :root {
   --discpp-avatar-deco: none;
 }
-[class*="hideEmoji-"][class*="hideEmoji-"][class*="hideEmoji-"] {
-    opacity: 1;
+[class*="hideEmoji"][class*="hideEmoji"][class*="hideEmoji"] {
+  opacity: 1;
 }
 /* Hide avatar decorations outside of personal DMs and profiles */
-[class^="avatarDecoration-"] {
-    display: var(--discpp-avatar-deco);
+[class^="avatarDecoration"] {
+  display: var(--discpp-avatar-deco);
 }
 // Various nitro cleanups
 [class*=effectsWrapper], // Fuck Super Reactions
-[class*="userPopoutInner-"] > [class*="wrapper-"],
-[class^="premiumTier0Badge-"],
-[class*="premiumFeatureBorder-"],
-[class*="emojiSection-"] > [class*="shinyButton-"],
+[class*="userPopoutInner"] > [class*="wrapper"],
+[class^="premiumTier0Badge"],
+[class*="premiumFeatureBorder"],
+[class*="emojiSection"] > [class*="shinyButton"],
 [aria-label="Send a gift"],  //Gift nitro button
 a[href="/activities"], // stupid nitro activities promotion
 a[href="/store"], // nitro store,
 [aria-label="Add Super Reaction"], //super reaction button
-[class*="container-"][class*="stickerIconOffset-"], //sticker suggestion
-section[class*="chatContent-"] form [class*="container-"], //sticker suggestion,
+[class*="container"][class*="stickerIconOffset"], //sticker suggestion
+section[class*="chatContent"] form [class*="container"], //sticker suggestion,
 img[role="presentation"], // vencord image
 .vc-settings-card.vc-settings-donate, //vencord donate button
-[aria-label="Open sticker picker"] { //sticker button
+[aria-label="Open sticker picker"] {
+  //sticker button
   display: none;
 }
 //reaction shake
 .reaction-3vwAF2.shakeReaction-h226gy {
-    -webkit-animation: none !important;
-    animation: none !important;
-    -webkit-animation-iteration-count: none !important;
-    animation-iteration-count: none !important;
+  -webkit-animation: none !important;
+  animation: none !important;
+  -webkit-animation-iteration-count: none !important;
+  animation-iteration-count: none !important;
 }
